@@ -5,7 +5,7 @@
 
 ## Instruções:
 
-1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usada no processamento de linguagem natural(PNL) posteriormente. 
+1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usadas no processamento de linguagem natural(PNL) posteriormente. 
 
 2. Extrair as entidades das 5 notícias mineradas anteriormente(entity recognition).
 
