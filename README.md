@@ -4,7 +4,7 @@
 
 ## Instruções:
 
-1. Minerar 5 notícias sobre ações da B3. importante salvar para ser usada no processamento de linguagem natural(PNL) posteriormente. 
+1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usada no processamento de linguagem natural(PNL) posteriormente. 
 
 2. Extrair as entidades das 5 notícias mineradas anteriormente(entity recognition).
 
@@ -49,7 +49,7 @@ Criar uma api com dois end-points para:
 * Utilizar Scrapy;
 
 
-* **Importante:** Usamos o mesmo teste para todos os níveis de front: **junior**, **pleno** ou **senior**, mas procuramos adequar nossa exigência na avaliação com cada um desses níveis sem, por exemplo, exigir excelência de quem está começando :-)
+* **Importante:** Usamos o mesmo teste para todos os níveis de desenvolvedor, **junior**, **pleno** ou **senior**, mas procuramos adequar nossa exigência na avaliação com cada um desses níveis sem, por exemplo, exigir excelência de quem está começando :-)
 
 ## Submissão
 
