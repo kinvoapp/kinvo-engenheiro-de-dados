@@ -2,6 +2,7 @@
 
 # Teste para candidatos à vaga de Desenvolvedor Python (com foco em IA - inteligencia Artificial)  
 
+
 ## Instruções:
 
 1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usada no processamento de linguagem natural(PNL) posteriormente. 
