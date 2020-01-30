@@ -6,30 +6,10 @@
 ## Instruções:
 
 1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usadas no processamento de linguagem natural(PNL) posteriormente. 
+	 - https://financenews.com.br/feed/
+	 - https://www.ultimoinstante.com.br/feed/
 
 2. Extrair as entidades das 5 notícias mineradas anteriormente(entity recognition).
-
-3. Extrair entidades customizada das notícias(entity recognition).
-
-
-```
-Exemplo 1 de extração customizada:
-
-"Randon (RAPT3 e RAPT4) registrou lucro de R$ 49.99 milhões no 4º trimestre de 2018"
-
-Após executar o entity recognition(customizado) seguem abaixo os dados extraídos:
-Events: registrou, lucro
-Org: Random
-Product: RAPT3, RAPT4
-
-Exemplo 2 de extração customizada:
-
-"Ibovespa registra queda pressionado pela petrobrás"
-
-Após executar o entity recognition(customizado) seguem abaixo os dados extraídos:
-Events: registra, queda
-Org: Ibovespa, petrobrás
-Product: ""
 
 
 Criar uma api com dois end-points para:
@@ -39,7 +19,7 @@ Criar uma api com dois end-points para:
 
   ```
 
-4. Após terminar seu teste submeta um pull request e aguarde seu feedback.
+3. Após terminar seu teste submeta um pull request e aguarde seu feedback.
 
 
 ### Pré-requisitos:
