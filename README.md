@@ -12,7 +12,7 @@
 2. Extrair as entidades das 5 notícias mineradas anteriormente(entity recognition).
 
 
-Criar uma api com dois end-points para.
+Criar uma api com dois end-points para:
 
 	- minerar e salvar as noticías;
 	- extrair as entidades das notícias mineradas(entity recognition);
