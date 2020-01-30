@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<main role="main" class="inner cover">
+  <h1 class="cover-heading">Objetivos</h1>
+  <p class="lead">Criar uma api com dois end-points para:
+<li>Minerar e salvar as noticías da B3</li>
+<li>Extrair as entidades das notícias mineradas(entity recognition)</li></p>
+
+
+  <p class="lead">
+    <a href="{{ url_for('minerar') }}" class="btn btn-lg btn-secondary">Começar</a>
+  </p>
+</main>
+{% endblock %}
