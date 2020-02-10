@@ -61,6 +61,6 @@ Se você apenas clonar o repositório não vai conseguir fazer push e depois vai
 
 ## Utilização da solução proposta
 
-run.py  - lança a api da solução proposta
-news.json - Contêm as noticias extraidas da B3 (URL: http://www.b3.com.br/pt_br/noticias/)
-train_ner.py - script para treinar novo modelo de processamento das noticias. Lançar com seguinte comando : (python train_ner.py -m pt_core_news_sm -o model_lucas) Importante aumentar o volume de dados para um treinamento mais eficiente
+**run.py**  - lança a api da solução proposta
+**news.json** - Contêm as noticias extraidas da B3 (URL: http://www.b3.com.br/pt_br/noticias/).
+**train_ner.py** - script para treinar novo modelo de processamento das noticias. Lançar com seguinte comando : (python train_ner.py -m pt_core_news_sm -o model_lucas) Importante aumentar o volume de dados para um treinamento mais eficiente.
