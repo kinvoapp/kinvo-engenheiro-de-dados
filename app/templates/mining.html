@@ -1,8 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
 <main role="main" class="inner cover">
+  {% for table in tables %}
+  {{ table|safe }}
+  {% endfor %}
   <p class="lead">
-    <a href="#" class="btn btn-lg btn-secondary">Minerar</a>
+    <a href="{{ url_for('extrair') }}" class="btn btn-lg btn-secondary">Extrair Entities</a>
   </p>
 </main>
 {% endblock %}
