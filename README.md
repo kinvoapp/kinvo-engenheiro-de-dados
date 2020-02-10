@@ -5,7 +5,7 @@
 
 ## Instruções:
 
-1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usadas no processamento de linguagem natural(PNL) posteriormente. 
+1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usadas no processamento de linguagem natural(PNL) posteriormente.
 
 2. Extrair as entidades das 5 notícias mineradas anteriormente(entity recognition).
 
@@ -58,3 +58,9 @@ Para iniciar o teste, faça um fork deste repositório, crie uma branch com o se
 Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
 
 **Sucesso!**
+
+## Utilização da solução proposta
+
+run.py  - lança a api da solução proposta
+news.json - Contêm as noticias extraidas da B3 (URL: http://www.b3.com.br/pt_br/noticias/)
+train_ner.py - script para treinar novo modelo de processamento das noticias. Lançar com seguinte comando : (python train_ner.py -m pt_core_news_sm -o model_lucas) Importante aumentar o volume de dados para um treinamento mais eficiente

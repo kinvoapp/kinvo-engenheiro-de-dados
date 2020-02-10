@@ -13,6 +13,8 @@ def home():
 
 @app.route("/minerar")
 def minerar():
+    #Na mineração buscamos o arquivo news.json contendo as noticias extraidas da B3.
+    #Caso o arquivo não seja encontrado ou não exista lançamos a aranha para buscar novas noticias.
     try:
         with open('news.json', 'r') as file:
             dados_noticias = json.load(file)
@@ -30,6 +32,7 @@ def minerar():
 
 @app.route("/extrair")
 def extrair():
+    #A extração Utiliza 2 modelos. Modelo em PT da biblioteca Spacy. 2 Modelo um treino customizado utilizando algumas noticias da B3 no ano de 2019.
     with open('news.json', 'r') as file:
         dados_noticias = json.load(file)
         df=pd.DataFrame(data=dados_noticias, columns=['Data','Titulo','Noticia'])
