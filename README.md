@@ -1,41 +1,42 @@
-> ![Logo Kinvo](https://github.com/kinvoapp/kinvo-mobile-test/blob/master/logo.svg)
+- Crie um ambiente virtual em python 3
+  `virtualenv -p python3 _vv`
 
-# Teste para candidatos à vaga de Desenvolvedor Python (com foco em IA - inteligencia Artificial)  
+- Ative o ambiente:
+  `source _vv/bin/activate`
 
+- Instale os requerimentos:
+  `pip install -r requirements.txt`
 
-## Instruções:
+- Instale o modelo para o Spacy:
+  `python -m spacy download pt_core_news_sm`
 
-1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usadas no processamento de linguagem natural(PNL) posteriormente. 
-	 - https://financenews.com.br/feed/
-	 - https://www.ultimoinstante.com.br/feed/
+- Rode o app:
+  `python app.py`
 
-2. Extrair as entidades das 5 notícias mineradas anteriormente(entity recognition).
+O app vai rodar em localhost:8080.\
 
+Existem três endpoints disṕoníveis:
 
-Criar uma api com dois end-points para:
+- /api/mine_save
+  Comando via terminal: `curl -X GET localhost:8080/api/mine_save`\
+  Ao acessar esse endpoint o feed de notícias dos sites ultimoinstante e financenews é minerado tendo em vista ações da B3 e gera um arquivo que é salvo com o nome finance.jsonl na pasta files.
 
-	- minerar e salvar as noticías;
-	- extrair as entidades das notícias mineradas(entity recognition);
+- /api/extract_entities/<int:num>
+  Comando via terminal: `curl -X GET localhost:8080/api/extract_entities/5)`\
+  Esse endpoint retorna as últimas <int:num> notícias mineradas com a análise das entidades reconhecidas no título pelo Spacy.
 
+---
 
-  ```
+Observações:
 
-3. Após terminar seu teste submeta um pull request e aguarde seu feedback.
+- Para usar os endpoints é pressuposto que existem um arquivo chamado b3.csv na pasta files, contendo as informações da B3.
+  Foi criado um endpoint que realiza a extração dessas informações:
+  `curl -X GET localhost:8080/get_b3`\
 
+- Ao minerar e salvar as notícias elas são incluídas no topo do arquivo financejsonl, sem apagar as anteriores.
+- Ao extrair as notícias as mesmas são lidas a partir do topo do arquivo.
 
-### Pré-requisitos:
+\*\*\* A mineração das notícias e a extração das entidades não está 100% precisa. Para melhorar os resultados seria necessário treinar o Spacy para reconhecer as entidades da B3 e carregar o modelo já treinado.\
 
-* Utilizar Flask;
-* Utilizar Python;
-* Utilizar Spacy;
-* Utilizar Scrapy;
-
-
-* **Importante:** Usamos o mesmo teste para todos os níveis de desenvolvedor, **junior**, **pleno** ou **senior**, mas procuramos adequar nossa exigência na avaliação com cada um desses níveis sem, por exemplo, exigir excelência de quem está começando :-)
-
-## Submissão
-
-Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome e depois envie-nos o pull request.
-Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
-
-**Sucesso!**
+\*\* Foi criada uma pasta de testes. Alguns testes ainda não passam e dependem do treinamento do modelo Spacy. Para rodar os testes, deve-se executar fora da pasta testes:
+`python -m unittest tests/test_spider.py`
