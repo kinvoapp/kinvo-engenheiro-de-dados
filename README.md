@@ -22,7 +22,7 @@ Existem três endpoints disṕoníveis:
   Ao acessar esse endpoint o feed de notícias dos sites ultimoinstante e financenews é minerado tendo em vista ações da B3 e gera um arquivo que é salvo com o nome finance.jsonl na pasta files.
 
 - /api/extract_entities/<int:num> \
-  Comando via terminal: `curl -X GET localhost:8080/api/extract_entities/5
+  Comando via terminal: `curl -X GET localhost:8080/api/extract_entities/5` \
   Esse endpoint retorna as últimas <int:num> notícias mineradas com a análise das entidades reconhecidas no título pelo Spacy.
 
 ---
