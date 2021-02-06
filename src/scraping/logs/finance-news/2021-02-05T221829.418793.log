@@ -1,0 +1,154 @@
+2021-02-05 22:18:30 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/robots.txt> (referer: None)
+2021-02-05 22:18:30 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br> (referer: None)
+2021-02-05 22:18:31 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/itau-anuncia-provento-que-sera-pago-dia-12-de-marco/> (referer: https://financenews.com.br)
+2021-02-05 22:18:31 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/santander-brasil-anuncia-dividendo-banco-ira-recomprar-units/> (referer: https://financenews.com.br)
+2021-02-05 22:18:31 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/> (referer: https://financenews.com.br)
+2021-02-05 22:18:31 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/bradesco-anuncia-pagamento-de-jcp-suplementares/> (referer: https://financenews.com.br)
+2021-02-05 22:18:31 [scrapy] DEBUG: Filtered duplicate request: <GET https://financenews.com.br/category/nao-deixe-de-ler/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2021-02-05 22:18:31 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/lucro-do-itau-cai-346-em-2020-no-4t20-soma-r-538-bilhoes/> (referer: https://financenews.com.br)
+2021-02-05 22:18:31 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/bb-seguridade-bb-usiminas-as-companhias-que-divulgarao-balanco/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:31 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/a-avaliacao-do-morgan-stanley-para-o-magazine-luiza/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:31 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/2/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:31 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/atualizacao-das-15h30-ibovespa-sobe-dolar-cai-petrobras-elevada-e-outros-destaques/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:31 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/rapidas-oi-mobly-mosaico-tupy-marcopolo-e-banese/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/atualizacao-das-15h30-ibovespa-sobe-dolar-cai-petrobras-elevada-e-outros-destaques/>
+{'news': '5 de fevereiro de 2021 Os papéis da Vale (VALE3) e da Petrobras (PETR3, PETR4) impulsionam o Ibovespa. As ações da petroleira estatal passaram a subir com força depois de o presidente Jair Bolsonaro afirmar que não vai interferir na política de preços da Petrobras ('}
+2021-02-05 22:18:32 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/atualizacao-das-15h30-ibovespa-sobe-dolar-cai-petrobras-elevada-e-outros-destaques/>
+{'news': '5 de fevereiro de 2021 A CSN (CSNA3), a Usiminas (USIM5), a Gerdau (GGBR4 e a Metalúrgica Gerdau (GOAU4) estão entre as maiores altas do Ibovespa após as recentes correções nos preços desses papéis. A forte alta do minério na China ajuda na valorização principalmente da CSN, que também produz minério.'}
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/ibovespa-fecha-em-alta-de-082-dolar-comercial-cai-a-r-538/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/acoes-da-petrobras-aumentam-ganhos-apos-fala-de-bolsonaro/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/companhias-que-anunciaram-proventos-esta-semana/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/maiores-altas-e-maiores-quedas-do-ibovespa-na-semana-3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/acoes-da-petrobras-aumentam-ganhos-apos-fala-de-bolsonaro/>
+{'news': '5 de fevereiro de 2021 As ações da Petrobras (PETR3, PETR4) passaram a subir com força após uma entrevista coletiva do presidente Jair Bolsonaro e do ministro da economia, Paulo Guedes, sobre os preços praticados pela Petrobras.'}
+2021-02-05 22:18:32 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/companhias-que-anunciaram-proventos-esta-semana/>
+{'news': '5 de fevereiro de 2021 A Companhia de Gás de São Paulo – Comgás (CGAS5, CGAS3) informou que seu conselho de administração aprovou na terça, 2, o pagamento aos acionistas de proventos na forma de dividendos. Confira a seguir.'}
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/assista-a-analise-do-ibovespa-petr4-vale3-mglu3-gndi3-e-itsa4/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/ibovespa-futuro-abre-em-alta-nesta-sexta-feira-19/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/assista-a-analise-do-ibovespa-petr4-vale3-mglu3-goll4-e-bbdc4/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/oi-faz-acordo-de-exclusividade-com-btg-para-negociar-unidade-de-fibra-optica/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/ibovespa-fecha-em-queda-de-039-dolar-sobe-a-r-544/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/petrobras-nao-ha-nada-de-novo-nas-noticias-veiculadas-na-midia/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/oi-faz-acordo-de-exclusividade-com-btg-para-negociar-unidade-de-fibra-optica/>
+{'news': '4 de fevereiro de 2021 Oi (OIBR3, OIBR4) informou por meio de um fato relevante na noite desta quinta, 4, que, tendo em vista as condições da oferta vinculante para aquisição parcial da UPI InfraCo (unidade da empresa que reúne ativos de fibra óptica) apresentada conjuntamente por Globenet Cabos Submarinos, BTG Pactual Economia Real Fundo de Investimento em Participações Multiestratégia e outros fundos de investimento geridos ou controlados por sociedades integrantes do Grupo BTG, celebrou, nesta data, acordo de exclusividade com as proponentes, por um período de tempo limitado, com o objetivo de negociar exclusivamente com as proponentes os termos e condições.'}
+2021-02-05 22:18:32 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/ibovespa-fecha-em-queda-de-039-dolar-sobe-a-r-544/>
+{'news': '4 de fevereiro de 2021 Em aceno aos caminhoneiros, o presidente Jair Bolsonaro prometeu para esta sexta anunciar medidas sobre o preço dos combustíveis. Isso trouxe pressão negativa aos papéis da Petrobras (PETR3, PETR4). Também prejudicou o desempenho do índice a queda dos papéis da Vale (VALE3).'}
+2021-02-05 22:18:32 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/petrobras-nao-ha-nada-de-novo-nas-noticias-veiculadas-na-midia/>
+{'news': '5 de fevereiro de 2021 A Petrobras (PETR3, PETR4) informou em comunicado ao mercado após o pregão desta sexta-feira, 5, que, em relação às notícias veiculadas na mídia sobre os preços de combustíveis, pratica preços alinhados à paridade de importação.'}
+2021-02-05 22:18:32 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/petrobras-nao-ha-nada-de-novo-nas-noticias-veiculadas-na-midia/>
+{'news': '5 de fevereiro de 2021 À tarde, com a notícia da Reuters, reduziram os ganhos: as ações preferenciais (PETR4) subiram 0,07% a R$ 29,02 e as ordinárias (PETR3) 1,40% a R$ 29,68. Esses valores consideram o after market.'}
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/noticia-da-yduqs-tenda-e-da-dommo/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/petroleo-e-minerio-em-alta-reuniao-de-bolsonaro-e-guedes-payroll-e-outros-destaques-no-radar/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/gol-reporta-alta-na-demanda-por-voos-domesticos/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/br-distribuidora-vende-participacao-em-termeletricas-por-r-50-milhoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/tupy-conclui-emissao-de-titulos-no-valor-de-us-375-milhoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:32 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/natura-co-vai-recomprar-acoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/4/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/br-distribuidora-elege-wilson-ferreira-para-o-cargo-de-presidente/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/producao-de-minerio-da-vale-tem-queda-acordo-sobre-brumadinho-no-radar/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/noticia-da-sabesp-eletrobras-metal-leve-jbs-e-da-localiza/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/minerio-salta-na-china-petroleo-sobe-futuros-em-ny-no-positivo-vale-no-radar-e-outros-destaques/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/ibovespa-futuro-dolar-comercial-e-outras-noticias-desta-quinta/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/braskem-anuncia-o-retorno-da-producao-de-cloro-soda-em-alagoas/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/rapidas-bradesco-intelbras-copel-transmissao-paulista-e-vale/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/01/os-eventos-que-podem-impactar-a-bolsa-nesta-semana/> (referer: https://financenews.com.br)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/vale-chega-a-acordo-com-autoridades-em-mg-valor-global-e-de-r-r-376-bi/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/5/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/01/os-eventos-que-podem-impactar-a-bolsa-nesta-semana/>
+{'news': '31 de janeiro de 2021 Nesta segunda a Espaçolaser (ESPA3) começa a negociar suas ações na B3. A Intelbras (INTB3) estreia na próxima quinta e a Mosaico Ventures e Mobly lançam suas ações de forma pública na sexta.'}
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/atualizacao-das-15h-ibovespa-em-alta-dolar-comercial-tambem-sobe/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/meliuz-e-enjoei-a-avaliacao-do-bradesco-bbi/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/entenda-por-que-as-units-do-btg-pactual-disparam-nesta-quarta/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-02-05 22:18:33 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/ibovespa-fecha-em-alta-de-126-dolar-comercial-sobe-a-r-536/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-02-05 22:18:34 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/assista-a-analise-do-ibovespa-petr4-vale3-mglu3-bbas3-e-wege3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-02-05 22:18:34 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/intelbras-estreia-na-bolsa-nesta-quinta/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-02-05 22:18:34 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/bradesco-bonificacao-em-acoes-e-projecoes-para-2021/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-02-05 22:18:34 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/receita-da-azul-cargo-cresce-64-no-quarto-trimestre/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/csn-esclarece-noticia-do-valor-economico/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/petrobras-reporta-alta-de-33-na-exportacao-de-petroleo-no-4t20-houve-queda/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/comgas-vai-pagar-dividendo-intermediario-e-intercalar/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/rapidas-meliuz-enjoei-suzano-aura-minerals-santander/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/atualizacao-das-15h20-petrobras-pressiona-ibovespa-dolar-sobe-e-intelbras-salta/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/6/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/atualizacao-das-15h20-petrobras-pressiona-ibovespa-dolar-sobe-e-intelbras-salta/>
+{'news': '4 de fevereiro de 2021 Em aceno aos caminhoneiros, o presidente Jair Bolsonaro prometeu para esta sexta anunciar medidas sobre o preço dos combustíveis. Isso trouxe pressão negativa aos papéis da Petrobras (PETR3, PETR4). Como as ações têm peso de 10% na carteira teórica do Ibovespa, prejudicam o desempenho do índice. O preço do barril tipo Brent, referência para a estatal, operam em alta.'}
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/renova-copel-e-omega-interessadas-em-alto-sertao/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/ibovespa-futuro-abre-em-leve-alta-nesta-quarta-feira-7/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/renova-copel-e-omega-interessadas-em-alto-sertao/>
+{'news': '3 de fevereiro de 2021 A Renova Energia (RNEW11) informou na noite de terça, 2, que recebeu manifestações de interesse da Rio Energy, Copel (CPLE6), Omega Geração (OMGE3) e 2W Energia para participação no leilão dos direitos e ativos do projeto eólico Alto Sertão III – Fase B.'}
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/banco-do-brasil-analisa-acordao-do-tcu/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/santander-brasil-reporta-lucro-de-r-386-bilhoes-no-4t20/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/mercados-hoje-noticias-corporativas-e-outros-destaques-para-esta-quarta/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/br-distribuidora-suspende-preventivamente-comercializacao-de-gasolina-de-aviacao/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-02-05 22:18:35 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/7/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/rapidas-vale-csn-br-transmissao-paulista-itau-e-totvs/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/falas-de-lira-e-pacheco-no-radar-mercado-digere-balanco-do-itau-e-outros-destaques/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/a-avaliacao-do-credit-suisse-para-vale-csn-e-usiminas/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/rapidas-vale-csn-br-transmissao-paulista-itau-e-totvs/>
+{'news': '2 de fevereiro de 2021 Os papéis da Vale (VALE3) e da CSN (CSNA3) operam no negativo. Os preços dos contratos futuros do minério tiveram forte queda nesta terça-feira na China. A cautela predomina entre os traders antes do feriado de Ano Novo Lunar na China, que começa a partir de 11 de fevereiro.'}
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/ibovespa-futuro-abre-em-alta-nesta-terca-feira-28/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/producao-industrial-avanca-09-em-dezembro/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/petrobras-sobe-com-petroleo-entenda-a-alta-da-commodity/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/petrobras-sobe-com-petroleo-entenda-a-alta-da-commodity/>
+{'news': '2 de fevereiro de 2021 As ações da Petrobras (PETR3, PETR4) operam em forte alta nesta terça, 2.'}
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/assista-a-analise-do-ibovespa-petr4-vale3-btow3-bidi11-e-de-vvar3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/atualizacao-das-15h-petroleiras-em-alta-siderurgicas-em-baixa-e-outros-destaques/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/ibovespa-fecha-em-alta-de-061-dolar-cai-174/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/copel-sofre-ataque-cibernetico/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/8/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/atualizacao-das-15h-ibovespa-sobe-noticia-da-braskem-irb-e-outros-destaques/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/eletrobras-sobe-com-dividendo-e-rumores-sobre-ceo/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/category/nao-deixe-de-ler/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/category/nao-deixe-de-ler/page/9/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/02/rapidas-vale-csn-irb-espacolaser-3r-e-braskem/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/02/ibovespa-futuro-sobe-mais-de-1-nesta-segunda-feira-5/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/02/caminhoneiros-no-radar-resultado-do-itau-e-eleicao-na-camara-leia-os-destaques/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/02/multiplan-reabre-shoppings-em-minas/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/01/itau-concretizacao-do-evento-de-constituicao-da-xpart-condiciona-se-a-obtencao-de-manifestacao-favoravel-do-fed/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/01/os-eventos-que-podem-impactar-a-bolsa-nesta-semana/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/01/oferta-da-locaweb-noticia-da-alpargatas-sinqia-vale-e-previa-da-trisul/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/01/estudo-grafico-do-ibovespa-hapv3-gndi3-lwsa3-ngrd3-ciel3-mglu3-e-de-outros-papeis/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/01/itau-santander-e-bradesco-divulgam-resultado-na-semana-que-vem/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/01/porto-seguro-compra-participacao-em-empresa-de-solucoes-tecnologicas/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/02/itau-anuncia-provento-que-sera-pago-dia-12-de-marco/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/02/santander-brasil-anuncia-dividendo-banco-ira-recomprar-units/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/02/bradesco-anuncia-pagamento-de-jcp-suplementares/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/01/os-eventos-que-podem-impactar-a-bolsa-nesta-semana/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Ignoring link (depth > 8): https://financenews.com.br/2021/02/lucro-do-itau-cai-346-em-2020-no-4t20-soma-r-538-bilhoes/ 
+2021-02-05 22:18:36 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/standard-poors-eleva-ratings-da-cemig/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-02-05 22:18:37 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/petrobras-confirma-que-comecou-fase-de-negociacao-com-a-eneva/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-02-05 22:18:37 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/para-btg-bradesco-e-a-top-pick-entre-os-grandes-bancos-brasileiros-em-2021/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-02-05 22:18:37 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/ibovespa-fecha-em-alta-de-213-dolar-cai-e-eneva-dispara/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-02-05 22:18:37 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/btg-vai-pagar-jcp-anunciado-em-julho-e-dezembro-de-2020/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-02-05 22:18:37 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/noticia-do-banrisul-br-arezzo-aliansce-sonae-e-br-malls/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-02-05 22:18:37 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/02/petrobras-confirma-que-comecou-fase-de-negociacao-com-a-eneva/>
+{'news': '1 de fevereiro de 2021 A Petrobras (PETR3, PETR4) informou após o pregão desta segunda, 1°, que recebeu propostas vinculantes para venda da totalidade de sua participação em um conjunto de sete concessões de produção terrestres, denominado Polo Urucu, localizado na Bacia de Solimões, no estado do Amazonas.'}
+2021-02-05 22:18:37 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/02/lucro-do-bradesco-cai-em-2020-mas-cresce-no-4t20/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-02-05 22:18:37 [scrapy] INFO: Closing spider (finished)
+2021-02-05 22:18:37 [scrapy] INFO: Stored jsonlines feed (14 items) in: data/dados.json
+2021-02-05 22:18:37 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 36453,
+ 'downloader/request_count': 81,
+ 'downloader/request_method_count/GET': 81,
+ 'downloader/response_bytes': 867628,
+ 'downloader/response_count': 81,
+ 'downloader/response_status_count/200': 81,
+ 'dupefilter/filtered': 46,
+ 'elapsed_time_seconds': 8.111955,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 2, 6, 1, 18, 37, 570724),
+ 'item_scraped_count': 14,
+ 'log_count/DEBUG': 116,
+ 'log_count/INFO': 14,
+ 'request_depth_max': 8,
+ 'response_received_count': 81,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 80,
+ 'scheduler/dequeued/memory': 80,
+ 'scheduler/enqueued': 80,
+ 'scheduler/enqueued/memory': 80,
+ 'start_time': datetime.datetime(2021, 2, 6, 1, 18, 29, 458769)}
+2021-02-05 22:18:37 [scrapy] INFO: Spider closed (finished)

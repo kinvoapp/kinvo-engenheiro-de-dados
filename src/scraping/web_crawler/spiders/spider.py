@@ -1,5 +1,3 @@
-import scrapy
-
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 
@@ -28,7 +26,6 @@ class Spyder(CrawlSpider):
     custom_settings = {
         'DEPTH_LIMIT': '8',
         'FEED_EXPORT_ENCODING': 'utf-8',
-        'FEED_URI': 'data/dados.json'
     }
 
     rules = (

@@ -2,13 +2,8 @@ from flask import Flask
 
 import spacy
 import json
+import requests
 
-
-from scrapy.crawler import CrawlerProcess
-import os
-
-
-import spider.spider as spider
 
 nlp = spacy.load('pt_core_news_sm')
 app = Flask(__name__)
@@ -21,11 +16,23 @@ def home():
 
 @app.route('/minerar')
 def minerarSalvar():
-    return ''
+    params = {
+        'spider_name': 'finance-news',
+        'start_requests': True
+    }
+    response = requests.get('http://localhost:9080/crawl.json', params)
+    data = response.json()
+
+    result = data['items'][:5]
+
+    with open('data/noticias.json', 'w+', encoding='utf-8') as noticias_file:
+        json.dump(result, noticias_file, ensure_ascii=False)
+
+    return {'data': result}
 
 @app.route('/extrair')
 def extrairEntidades():
-    with open('data/dados.json', 'r', encoding='utf-8') as news_file:
+    with open('data/noticias.json', 'r', encoding='utf-8') as news_file:
         news = json.loads(news_file.read())[0:5]
     output = {}
     for new in news:
