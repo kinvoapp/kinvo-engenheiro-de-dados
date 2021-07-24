@@ -11,6 +11,9 @@ app = Flask(__name__)
 
 false_entities = ["R$","”"]
 
+# Cria diretório
+os.makedirs("noticias", exist_ok=True)
+
 # O flask vai demorar pra subir, pois demora pra carregar o Spacy. Melhor carregar aqui do que a cada requisição no endpoint.
 nlp = spacy.load("pt_core_news_sm")
 
@@ -19,8 +22,6 @@ nlp = spacy.load("pt_core_news_sm")
 @app.route("/getNews")
 def get_news():
     try:
-        # Cria diretório
-        os.makedirs("noticias", exist_ok=True)
 
         # Executa o projeto do scrapy
         subprocess.check_output(['scrapy', 'crawl', 'crawler'])
@@ -92,7 +93,7 @@ def process_news():
                 response += f"<tr><td>{entity[0]}</td><td>{entity[1]}</td></tr>"
             response += "</tbody></table><hr/>"
 
-        if response == '':
+        if len(output) == 0:
             return "<h1>Nenhuma notícia foi processada</h1>"
         else:
             return response
