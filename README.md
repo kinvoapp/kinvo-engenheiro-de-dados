@@ -1,41 +1,43 @@
-> ![Logo Kinvo](https://github.com/kinvoapp/kinvo-mobile-test/blob/master/logo.svg)
+# API Notícias
+## Essa API retorna noticias sobre a B3 e entidades
 
-# Teste para candidatos à vaga de Desenvolvedor Python (com foco em IA - inteligencia Artificial)  
+### Documentação
+#### Sites disponíveis
 
+1. Finance News: "finance"
+2. Ultimo Instante: "instante"
 
-## Instruções:
+#### End Points
 
-1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usadas no processamento de linguagem natural(PNL) posteriormente. 
-	 - https://financenews.com.br/feed/
-	 - https://www.ultimoinstante.com.br/feed/
+1. "/": Info sobre API
+2. "/website": Info sobre o RSS
+3. "/website/news": Lista de noticias sobre a B3
+4. "/website/news/entities": Entidades das noticias
 
-2. Extrair as entidades das 5 notícias mineradas anteriormente(entity recognition).
+#### Exemplo
 
+##### /finance/news
+{ "fonte": "https://financenews.com.br", "id": 1, "title": "São Martinho vai pagar dividendos" }...
 
-Criar uma api com dois end-points para:
-
-	- minerar e salvar as noticías;
-	- extrair as entidades das notícias mineradas(entity recognition);
-
-
-  ```
-
-3. Após terminar seu teste submeta um pull request e aguarde seu feedback.
-
-
-### Pré-requisitos:
-
-* Utilizar Flask;
-* Utilizar Python;
-* Utilizar Spacy;
-* Utilizar Scrapy;
+##### /finance/news/entities
+{"id": 1,
+"title": "São Martinho vai pagar dividendos",
+"entidades": [ "entidade": "B3", "tipo": "ORG" },
+{ "entidade": "Porto Seguro", "tipo": "LOC" }
+] }...
 
 
-* **Importante:** Usamos o mesmo teste para todos os níveis de desenvolvedor, **junior**, **pleno** ou **senior**, mas procuramos adequar nossa exigência na avaliação com cada um desses níveis sem, por exemplo, exigir excelência de quem está começando :-)
+## Considerações
 
-## Submissão
+1. Foram consideradas apenas as noticias encontradas no RSS dos sites(/feed)
+2. No site da Último Instante, a categoria "Bolsa de Valores" foi utilizada como parâmetro, porém nem sempre se tem noticias desta categoria no RSS
+3. Como o site da Último Instante precisa de Javascript para ser carregado, foi utilizado um headless browser(chromedriver) para retornar o código fonte da página
+4. A trained pipeline utilizada no Spacy foi a: pt-core-news-sm 
 
-Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome e depois envie-nos o pull request.
-Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
+## Instruções
 
-**Sucesso!**
+1. Basta executar o api.py 
+2. crawler.py têm as funções de mineração e entityGetter.py as do Spacy.
+3. A depender do OS a localização do chromedriver(utilizado no selenium) deve ser alterada: 
+    * crawler.py, line41: "chromedriverPath = 'chromedriver_linux/chromedriver' ou 'chromedriver_win/chromedriver.exe'
+4. A versão do Chromedriver disponibilizada na pasta são a 92 e 91, para o Windows e Linux respectivamente, é necessário que a versão do chromedriver seja a mesma que a do Chrome instalado no OS.
