@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38d3ad1d-15e0-4ab9-a879-a81dbe4e1cbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice.py" beforeDir="false" afterPath="$PROJECT_DIR$/notice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.API">
+  <component name="RunManager" selected="Python.notice">
     <configuration name="API" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.API" />
         <item itemvalue="Python.notice" />
+        <item itemvalue="Python.API" />
         <item itemvalue="Python.Notícias" />
       </list>
     </recent_temporary>
