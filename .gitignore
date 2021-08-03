@@ -1,0 +1,10 @@
+test_kinvo/*
+
+scripts/__pycache__/*
+scripts/.ipynb_checkpoints/*
+news/teste6.csv
+scripts/teste.csv
+scripts/teste2.csv
+scripts/teste3.csv
+scripts/teste4.csv
+scripts/teste5.csv
