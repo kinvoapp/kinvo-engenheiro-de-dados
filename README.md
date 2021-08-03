@@ -1,41 +1,43 @@
 > ![Logo Kinvo](https://github.com/kinvoapp/kinvo-mobile-test/blob/master/logo.svg)
 
-# Teste para candidatos à vaga de Desenvolvedor Python (com foco em IA - inteligencia Artificial)  
+# Kinvo IA test
+
+Pojeto teste para processo seletivo da Kinvo em back-end, com foco em inteligência artificial.
+Para realizá-lo, foi orientado que é necessário minerar 5 notícias de sites recomendados pelos mesmos, sobre ações da B3. Foi salientada a importância de salvar para serem usadas no processamento de linguagem natural(PNL) posteriormente;
+Extrair as entidades das notícias mineradas anteriormente e, por fim, criar uma API com dois end-points, sendo eles:
+    
+    -minerar e salvar notícias;
+    -extrair as entidades das notícias mineradas.
+
+Além de ser um projeto em python, as ferramentas solicitadas foram Flask, Spacy e Scrapy. 
+
+## Como clonar o repositório
+
+Faça o clone deste repositório
+
+```sh
+git clone  https://github.com/Beatrizdacruz/kinvo-ia-test.git
+```
+
+Entre na pasta clonada
+
+```sh
+cd kinvo-ia-test
+```
+
+Mude a branch
+
+```sh
+git checkout beatriz-cruz
+```
 
 
-## Instruções:
+## Como rodar o projeto
 
-1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usadas no processamento de linguagem natural(PNL) posteriormente. 
-	 - https://financenews.com.br/feed/
-	 - https://www.ultimoinstante.com.br/feed/
-
-2. Extrair as entidades das 5 notícias mineradas anteriormente(entity recognition).
-
-
-Criar uma api com dois end-points para:
-
-	- minerar e salvar as noticías;
-	- extrair as entidades das notícias mineradas(entity recognition);
-
-
-  ```
-
-3. Após terminar seu teste submeta um pull request e aguarde seu feedback.
-
-
-### Pré-requisitos:
-
-* Utilizar Flask;
-* Utilizar Python;
-* Utilizar Spacy;
-* Utilizar Scrapy;
-
-
-* **Importante:** Usamos o mesmo teste para todos os níveis de desenvolvedor, **junior**, **pleno** ou **senior**, mas procuramos adequar nossa exigência na avaliação com cada um desses níveis sem, por exemplo, exigir excelência de quem está começando :-)
-
-## Submissão
-
-Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome e depois envie-nos o pull request.
-Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
-
-**Sucesso!**
+Antes de rodar o projeto em sua máquina, é importante lembrar que é preciso importar as bibliotecas utilizadas nos códigos no terminal do editor de código.
+    
+    1- No arquivo notice.py há o código necessário para minerar as notícias do site recomendado, ao qual foi gerado um novo arquivo (news.csv) para guardar as informações;
+    
+    2- No arquivo PLN.py há o código necessário para extrair as entidades das notícias mineradas;
+    
+    3- Por fim, o arquivo main.py, dentro da pasta new-api> templates, há a API, que, combinada ao arquivo html index.html, gera um microframework.
