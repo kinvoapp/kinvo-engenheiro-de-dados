@@ -2,10 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 
 site = requests.get("https://financenews.com.br").content
-# objetos site recebe o conteúdo da requisição.
+# "site" object receives the order content.
 
 soup = BeautifulSoup(site, 'html.parser')
-# soup baixa do site o html.
+# soup download from the site the html.
 
 news = soup.find_all('div', class_="manchete manchete3 light")
 
