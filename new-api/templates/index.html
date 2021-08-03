@@ -2,17 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Title</title>
+    <style>
+    ul > li {
+    list-style: none
+    }
+
+    </style>
 </head>
 <body>
 <center>
     <h1>Finance news</h1>
- {% if envio %}
- {% for envio in envio%}
-<li>{{ envio }}</li>
- {% endfor %}
- {% endif %}
-<Br>
-    </center>
+    {% if list_news %}
+
+    <ul>
+        {%for news in list_news%}
+
+        <li>{{ news }}</li>
+
+        {% endfor %}
+    </ul>
+
+    {% endif %}
+</center>
 </body>
 </html>
