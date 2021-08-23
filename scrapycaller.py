@@ -1,4 +1,4 @@
-import os
+from os import path
 from subprocess import check_output
 
 class ScrapyCaller(object):
@@ -7,7 +7,7 @@ class ScrapyCaller(object):
     call_string = 'scrapy crawl finance-news --nolog --output -:json'
 
     def __init__(self):
-        self.working_dir = os.path.join(os.path.dirname(__file__), self.scrapy_folder, '')
+        self.working_dir = path.join(path.dirname(__file__), self.scrapy_folder, '')
         print(self.working_dir)
 
     def get_scrapy_output(self):
