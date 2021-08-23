@@ -1,0 +1,1 @@
+scrapy crawl feedspider -L WARNING -o feedspider.json
