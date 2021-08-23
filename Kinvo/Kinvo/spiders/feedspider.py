@@ -26,4 +26,5 @@ class FeedSpider(scrapy.Spider):
     def parse_financenews(self, response, info):
         post_content = " ".join(response.css(
             'div.page-post').css('span::text').getall())
-        yield {**info, "content": post_content}
+        yield {**info, 'content': post_content}
+       

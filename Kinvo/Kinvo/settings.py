@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-
-# Scrapy settings for Kinvo project
+# Scrapy settings for rsscheck project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,17 +7,25 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Kinvo'
+# from shutil import which
 
-SPIDER_MODULES = ['Kinvo.spiders']
-NEWSPIDER_MODULE = 'Kinvo.spiders'
+# SELENIUM_DRIVER_NAME = 'firefox'
+# SELENIUM_DRIVER_EXECUTABLE_PATH = which('geckodriver')
+# SELENIUM_DRIVER_ARGUMENTS=['-headless']  # '--headless' if using chrome instead of firefox
+
+BOT_NAME = 'rsscheck'
+
+SPIDER_MODULES = ['rsscheck.spiders']
+NEWSPIDER_MODULE = 'rsscheck.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'Kinvo (+http://www.yourdomain.com)'
+#USER_AGENT = 'rsscheck (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
+FEED_EXPORT_ENCODING = 'utf-8'
+
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -47,13 +53,14 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'Kinvo.middlewares.KinvoSpiderMiddleware': 543,
+#    'rsscheck.middlewares.RsscheckSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'Kinvo.middlewares.KinvoDownloaderMiddleware': 543,
+   'rsscheck.middlewares.RsscheckDownloaderMiddleware': 543,
+   # 'scrapy_selenium.SeleniumMiddleware': 800
 }
 
 # Enable or disable extensions
@@ -65,7 +72,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'Kinvo.pipelines.KinvoPipeline': 300,
+#    'rsscheck.pipelines.RsscheckPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
