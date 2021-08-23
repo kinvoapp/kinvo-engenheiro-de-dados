@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scraping</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Teste Kinvo</h1>
+      <p class="subtitle">Extraindo entidades das <strong>Noticias</strong></p>
+
+      <table border="1">
+      <tr>
+      <th>Trexo</th>
+      <th>Entidade</th>
+      </tr>
+      {% for d in data %}
+      <tr>
+      <td>{{d.trexo}}</td>
+      <td>{{d.entidade}}</td>
+      {% endfor %}
+
+      </table>
+      
+    </div>
+  </section>
+  </body>
+</html>
