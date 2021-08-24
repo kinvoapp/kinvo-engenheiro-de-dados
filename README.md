@@ -33,4 +33,6 @@ flask run
 
 Observações:
 
+Na pasta "Content", se encontra o modelo de NLP utilizado na aplicação.
+
 O modelo de NLP utilizado foi o pt_core_news_md, com a adição de três labels, uma para identificar o código das ações encontradas na notícia, uma para identificar preços e outra para identificar textos contendo porcentagem. As outras labels já existentes no modelo também foram treinadas em conjunto com as novas labels. As informações contendo os dados utilizados para treinar o modelo, bem como todo código envolvido podem ser encontradas no arquivo "trainingModel.py".
