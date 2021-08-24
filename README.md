@@ -12,7 +12,6 @@ Como executar o projeto:
   python -m spacy download pt_core_news_md
   pip install scrapy
   pip install scrapyrt
-  
   ```
 2 - Após a instalação, acesse o diretório onde está spider para executar o scrapyrt
 
