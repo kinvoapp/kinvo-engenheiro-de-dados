@@ -464,7 +464,7 @@ TRAIN_DATA = [
 ]
 #Inicio do treinamento, declaro quais pipes não serão utilizados, estabeleço um número de iterações, dou um "shuffle" a cada iteração.
 with nlp.disable_pipes(*other_pipes):
-    for itn in range(150):
+    for itn in range(300):
         print(itn)
         random.shuffle(TRAIN_DATA)
         losses = {}

@@ -44,6 +44,8 @@ def tablenews():
     response = requests.get('http://127.0.0.1:5000/minerar', headers={"content-type":"application/json;charset=UTF-8"})
     data = response.json()
     return render_template("tablenews.html", data = data, fileExists = False)  
-
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 if __name__ == '__main__':
     app.run(debug=True) 
