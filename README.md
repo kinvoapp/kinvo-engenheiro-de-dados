@@ -5,14 +5,17 @@
 
 Como executar o projeto:
 
-1 - Primeiro, instale os módulos necessários
+1 - Primeiro, instale os módulos necessários (Para evitar conflitos entre módulos, é preferível que tais comandos sejam executando em um ambiente virtual, como venv ou conda)
   ```
   pip install flask
   pip install spacy
-  python -m spacy download pt_core_news_md (talvez esse passo só seja necessário se o usuário quiser retreinar o modelo, testar antes de enviar)
   pip install scrapy
   pip install scrapyrt
   ```
+(Opcional) Caso queira modificar o treinamento do modelo NLP, será necessário fazer o download do modelo base com o seguinte comando
+```
+python -m spacy download pt_core_news_md
+```
 2 - Após a instalação, acesse o diretório onde está spider para executar o scrapyrt
 
 ```
@@ -26,7 +29,7 @@ cd webapp
 flask run
 ```
 
-4 - Pronto! Agora navegue até as páginas /minerar para minerar as notícias, e /processar para processar as mesmas. Também foram adicionadas outras páginas para facilitar a visualização das informações.
+4 - Pronto! Agora navegue até a página http://127.0.0.1:5000/ , onde estão localizadas os menus de navegação, bem como os dois end-points da API.
 
 Observações:
 
