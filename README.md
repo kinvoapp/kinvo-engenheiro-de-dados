@@ -9,7 +9,7 @@ Como executar o projeto:
   ```
   pip install flask
   pip install spacy
-  python -m spacy download pt_core_news_md
+  python -m spacy download pt_core_news_md (talvez esse passo só seja necessário se o usuário quiser retreinar o modelo, testar antes de enviar)
   pip install scrapy
   pip install scrapyrt
   ```
