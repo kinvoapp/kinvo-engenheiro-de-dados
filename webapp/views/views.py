@@ -3,6 +3,7 @@ import json
 import requests
 from nlp import nlp_processing
 
+#Funçãoq que faz uma requisição para o crawler iniciar a mineração, também faz o get dessas informações
 def mine_and_get():    
     params = {
         'spider_name' : 'news',
@@ -15,6 +16,7 @@ def mine_and_get():
         json.dump(data['items'],f, ensure_ascii=False, indent=4)
     return jsonify({'data' : data})
 
+#Função que envia os dados das notiícas mineradas para outro arquivo, o qual processar tais informações e devolve um dict
 def nlp_api():
     return_dict = {"News" : []}
     processed_data = nlp_processing()

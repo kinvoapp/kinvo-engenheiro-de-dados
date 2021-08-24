@@ -4,12 +4,15 @@ from pathlib import Path
 
 NER_dir = Path('./content/')
 nlp = spacy.load(NER_dir)
+#Cria dicionário
 def createDict(noticia, url, nlp):
     return {
         "News" : noticia,
         "URL" : url,
         "Entidades" : nlp
-    }            
+    }
+
+#Realiza o reconhecimento de entidades nas notícias       
 def nlp_processing():
     all_dicts = []
     try:
