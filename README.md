@@ -3,39 +3,33 @@
 # Teste para candidatos à vaga de Desenvolvedor Python (com foco em IA - inteligencia Artificial)  
 
 
-## Instruções:
+Como executar o projeto:
 
-1. Minerar 5 notícias sobre ações da B3. Importante salvar para ser usadas no processamento de linguagem natural(PNL) posteriormente. 
-	 - https://financenews.com.br/feed/
-	 - https://www.ultimoinstante.com.br/feed/
-
-2. Extrair as entidades das 5 notícias mineradas anteriormente(entity recognition).
-
-
-Criar uma api com dois end-points para:
-
-	- minerar e salvar as noticías;
-	- extrair as entidades das notícias mineradas(entity recognition);
-
-
+1 - Primeiro, instale os módulos necessários
   ```
+  pip install flask
+  pip install spacy
+  python -m spacy download pt_core_news_md
+  pip install scrapy
+  pip install scrapyrt
+  
+  ```
+2 - Após a instalação, acesse o diretório onde está spider para executar o scrapyrt
 
-3. Após terminar seu teste submeta um pull request e aguarde seu feedback.
+```
+cd crawler
+cd spiders
+scrapyrt
+```
+3 - Com o scrapyrt rodando, abra outro terminal e acesse o diretório da aplicação web, e inicie a mesma.
 
+```
+cd webapp
+flask run
+```
 
-### Pré-requisitos:
+4 - Pronto! Agora navegue até as páginas /minerar para minerar as notícias, e /processar para processar as mesmas. Também foram adicionadas outras páginas para facilitar a visualização das informações.
 
-* Utilizar Flask;
-* Utilizar Python;
-* Utilizar Spacy;
-* Utilizar Scrapy;
+Observações:
 
-
-* **Importante:** Usamos o mesmo teste para todos os níveis de desenvolvedor, **junior**, **pleno** ou **senior**, mas procuramos adequar nossa exigência na avaliação com cada um desses níveis sem, por exemplo, exigir excelência de quem está começando :-)
-
-## Submissão
-
-Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome e depois envie-nos o pull request.
-Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
-
-**Sucesso!**
+O modelo de NLP utilizado foi o pt_core_news_md, com a adição de três labels, uma para identificar o código das ações encontradas na notícia, uma para identificar preços e outra para identificar textos contendo porcentagem. As outras labels já existentes no modelo também foram treinadas em conjunto com as novas labels. As informações contendo os dados utilizados para treinar o modelo, bem como todo código envolvido podem ser encontradas no arquivo "trainingModel.py".
