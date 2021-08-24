@@ -5,12 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Index</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='index.css') }}">
+  <title>Kinvo!</title>
 </head>
 
 <body>
-  <h1 style="color: blue">Index</h1>
-  <p>This is an HTML file served up by Flask</p>
+  {% include 'nav.html' %}
+  <main>
+    <h1>Olá!</h1>
+    <p>Para minerar as notícias, basta navegar até o menu <b>"Minerar"</b>, onde será retornado um arquivo JSON.</p>
+    <p>Se preferir visualizar as informações mineradas, navegue até o menu <b>"Visualizar dados minerados"</b>.</p>
+    <p>Para realizar o reconhecimento de entidades nas notícias mineradas, navegue até o menu <b>"Processar</b>, onde será retornado um arquivo JSON</b>.</p>
+    <p>Se preferir visualizar as entidades reconhecidas de cada notícia, navegue até o menu <b>"Visualizar dados processados"</b>.</p>
+  </main>
 </body>
 
 </html>

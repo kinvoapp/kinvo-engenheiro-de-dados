@@ -5,15 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Index</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='table.css') }}">
+  <title>Entidades</title>
 </head>
 
 <body>
+{% include 'nav.html' %}
+<main>
+  <table>
+  <tr>
+    <th>News</th>
+    <th>Entidades</th>
+    <th>URL</th>
+  </tr>
   {% for item in data['data']['News']%}
-        <p>{{item['News']}}</p>
-        <p>{{item['Entidades']}}</p>
-        <p>{{item['URL']}}</p>
+    <tr>
+      <td>{{item['News']}}</td>
+      <td>{{item['Entidades']|join(', ')}}</td>
+      <td>{{item['URL']}}</td>
+    </tr>
    {% endfor %}
+   </table>
+</main>
 </body>
 
 </html>

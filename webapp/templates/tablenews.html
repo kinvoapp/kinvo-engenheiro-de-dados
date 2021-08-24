@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static',filename='table.css') }}">
+  <title>Notícias</title>
+</head>
+
+<body>
+{% include 'nav.html' %}
+<main>
+  <table>
+  <tr>
+    <th>Notícia</th>
+    <th>Conteúdo</th>
+    <th>URL</th>
+  </tr>
+  {% if fileExists %}
+    {% for item in data%}
+        <tr>
+        <td>{{item['News']}}</td>
+        <td>{{item['Conteudo']}}</td>
+        <td>{{item['URL']}}</td>
+        </tr>
+    {% endfor %}
+  {% else %}
+    {% for item in data['data']['items']%}
+        <tr>
+        <td>{{item['title']}}</td>
+        <td>{{item['conteudo']}}</td>
+        <td>{{item['url']}}</td>
+        </tr>
+    {% endfor %}
+   {% endif %}
+   </table>
+</main>
+</body>
+
+</html>

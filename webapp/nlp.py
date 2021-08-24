@@ -4,16 +4,6 @@ from pathlib import Path
 
 NER_dir = Path('./content/')
 nlp = spacy.load(NER_dir)
-'''
-with open('data.json', 'r', encoding="utf8") as all_news:
-    news = json.load(all_news)
-    for noticia in news:
-        conteudo = noticia['conteudo']
-        text = nlp(conteudo)
-        for word in text.ents:
-            print(word.text, word.label_)
-'''
-
 def createDict(noticia, url, nlp):
     return {
         "News" : noticia,

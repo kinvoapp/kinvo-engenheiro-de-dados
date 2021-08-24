@@ -13,7 +13,7 @@ def mine_and_get():
     data = json.loads(response.text)
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(data['items'],f, ensure_ascii=False, indent=4)
-    return '<h1>Carregado!</h1>'
+    return jsonify({'data' : data})
 
 def nlp_api():
     return_dict = {"News" : []}

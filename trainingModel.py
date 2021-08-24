@@ -5,13 +5,15 @@ from pathlib import Path
 model = "pt_core_news_md"
 nlp = spacy.load(model)
 print(f"Loaded model {model}")
-
+#Caso o modelo por algum motivo não tiver "pipe" de NER
 if 'ner' not in nlp.pipe_names:
     ner = nlp.create_pipe('ner')
     nlp.add_pipe(ner, last=True)
 else:
   ner = nlp.get_pipe("ner")
+#Para não afetar outros pipes
 other_pipes = [pipe for pipe in nlp.pipe_names if pipe != 'ner']
+#Definição das labels
 LABEL = "AÇÃO"
 LABEL_PESSOA = 'PER'
 LABEL_ORG = 'ORG'
@@ -23,6 +25,7 @@ ner.add_label(LABEL_PRECO)
 ner.add_label(LABEL_PERCENT)
 optimizer = nlp.resume_training()
 
+#Data usada para treinar o modelo
 TRAIN_DATA = [
     (
         "O BTG tem recomendação de “compra” para a ação CYRE3 com preço-alvo de R$ 37",
@@ -301,8 +304,9 @@ TRAIN_DATA = [
         {"entities": [(9, 14, LABEL), (2, 7, LABEL_ORG)]},
     ),
     (
-        "China (Shanghai Comp.): +0,44% (pregão encerrado)Japão (Nikkei 225): -0,64% (pregão encerrado)Alemanha (DAX): +0,12%Londres (FTSE 100): +0,34%Petróleo Brent: +0,35% (US$ 76,46). O brent é referência para a Petrobras.Petróleo WTI: +0,37% (US$ 75,44).O contrato futuro mais líquido do minério de ferro negociado na bolsa de Dalian, na China, fechou em alta de 5,51% cotado em 1225 iuanes (US$ 189,6). A cotação em Dalian pode impactar os papéis da brasileira Vale (VALE3), CSN (CSNA3) e CSN Mineração (CMIN3)",
-        {"entities": [(463, 468, LABEL), (476, 481, LABEL), (500,505, LABEL), (0,5, LABEL_LOCAL), (24, 30, LABEL_PERCENT), (49, 54, LABEL_LOCAL), (69, 75, LABEL_PERCENT), (94, 102, LABEL_LOCAL), (110, 116, LABEL_PERCENT)]},
+        "China (Shanghai Comp.): +0,44% (pregão encerrado)Japão (Nikkei 225): -0,64% (pregão encerrado)Alemanha (DAX): +0,12% Londres (FTSE 100): +0,34% Petróleo Brent: +0,35% (US$ 76,46). O brent é referência para a Petrobras.Petróleo WTI: +0,37% (US$ 75,44).O contrato futuro mais líquido do minério de ferro negociado na bolsa de Dalian, na China, fechou em alta de 5,51% cotado em 1225 iuanes (US$ 189,6). A cotação em Dalian pode impactar os papéis da brasileira Vale (VALE3), CSN (CSNA3) e CSN Mineração (CMIN3)",
+        {"entities": [(0,5, LABEL_LOCAL), (24, 30, LABEL_PERCENT), (69, 75, LABEL_PERCENT), (110,116, LABEL_PERCENT), (137, 143, LABEL_PERCENT), (160, 166, LABEL_PERCENT),
+                      (168, 177, LABEL_PRECO), (232, 238, LABEL_PERCENT)]},
     ),
     (
         "O Banco BMG (BMGB4) divulgou depois do fechamento do mercado nesta sexta-feira, 2, que fez um acordo de investimentos para a aquisição de participação acionária",
@@ -383,11 +387,84 @@ TRAIN_DATA = [
     (
         "O Magazine Luiza (MGLU3) informou após o fechamento do mercado nesta quarta-feira, 7, que concluiu a aquisição da empresa Juni Marketing Digital",
         {"entities": [(18, 23, LABEL), (2, 16, LABEL_ORG), (122, 144, LABEL_ORG)]},
+    ),
+    (
+        "O Magazine Luiza (MGLU3) confirmou que iniciou os investimentos para abrir 50 lojas no Rio de Janeiro este ano, sendo 23 delas no início de julho",
+        {"entities": [(18,23, LABEL), (2, 16, LABEL_ORG), (87, 101, LABEL_ORG)]}
+    ),
+    (
+        "A Telefônica Brasil (VIVT3) informou depois do pregão desta quarta-feira, 30, que os valores por ação referente aos Juros Sobre Capital Próprio",
+        {"entities": [(21,26, LABEL), (2, 19, LABEL_ORG)]}
+    ),
+    (
+        
+        "A Qualicorp (QUAL3) informou na noite desta quarta-feira, 30, que seu conselho de administração aprovou o pagamento de Juros sobre o Capital Próprio (JCP)",
+        {"entities": [(13,18, LABEL), (2, 11, LABEL_ORG)]}
+    ),
+    (
+        "Às 10h35 o Ibovespa tinha queda de 1,38% aos 124.220 pontos. A sessão é marcada pela forte aversão ao risco nas Bolsas pelo mundo",
+        {"entities": [(35,40, LABEL_PERCENT)]}
+    ),
+    (
+        "Depois de ter sido autorizada pelo Banco Central a iniciar a operação da financeira digital BNQI, a Via, novo nome da Via Varejo (VVAR3)",
+        {"entities": [(130,135, LABEL), (92, 96, LABEL_ORG), (100, 103, LABEL_ORG), (118, 128, LABEL_ORG)]}
+    ),
+    (
+        "A Petrobras Distribuidora (BRDT3) está listada pelo segundo ano consecutivo no índice FTSE4Good",
+        {"entities": [(2,25, LABEL_ORG), (27, 32, LABEL)]}
+    ),
+    (
+        "A Cemig (CMIG4) informou na noite desta segunda-feira, 19, que foi iniciada a oferta de aquisição em dinheiro, por sua controlada Cemig GT",
+        {"entities": [(2,7, LABEL_ORG), (9, 14, LABEL), (130, 138, LABEL_ORG)]}
+    ),
+    (
+        "China (Shanghai Comp.): +1,11% (pregão encerrado), Japão (Nikkei 225): +0,59% (pregão encerrado), Hong Kong (Hang Seng): +0,47% (pregão encerrado), Alemanha (DAX): -0,09%",
+        {"entities": [(0,5, LABEL_LOCAL), (24, 30, LABEL_PERCENT), (51, 56, LABEL_LOCAL), (71, 77, LABEL_PERCENT), (98, 107, LABEL_LOCAL), (121, 127, LABEL_PERCENT), (148, 156, LABEL_LOCAL), (164, 170, LABEL_PERCENT)]}
+    ),
+    (
+        "A Cemig (CMIG4) informou na noite desta segunda-feira, 19, que foi iniciada a oferta de aquisição em dinheiro, por sua controlada Cemig GT",
+        {"entities": [(2,7, LABEL_ORG), (9, 14, LABEL), (130, 138, LABEL_ORG)]}
+    ),
+    (
+        "O conselho de administração elegeu  Jayme Pinto Junior para o cargo de Diretor de Comércio Exterior e Corporate Bank e Pedro Bramont para o cargo de Diretor de Negócios Digitais.",
+        {"entities" : [(36, 54, LABEL_PESSOA), (119, 132, LABEL_PESSOA)]}
+    ),
+    (
+        "A Cielo (B3: CIEL3 / OTC Nasdaq International: CIOXY) informou na noite desta quarta-feira, 19, que Paulo Rogério Caffarelli apresentou nesta data sua carta de renúncia",
+        {"entities" : [(2, 7, LABEL_ORG), (13, 18, LABEL), (100, 124, LABEL_PESSOA)]}
+    ),
+    (
+        "Após a afirmação do presidente Jair Bolsonaro de que o novo presidente da estatal está finalizando estudos",
+        {"entities" : [(31, 45, LABEL_PESSOA)]}
+    ),
+    (
+        "A Petrobras Distribuidora (BRDT3) está listada pelo segundo ano consecutivo no índice FTSE4Good. Seu dono, Cleison Silva, está otimista.",
+        {"entities": [(2,25, LABEL_ORG), (27, 32, LABEL), (107, 120, LABEL_PESSOA)]}
+    ),
+    (
+        "O Safra iniciou a cobertura de Dasa (DASA3) com rating de “compra” e preço-alvo de R$ 78 por ação para 2021. Empresa essa cujo dono é Edmond Safra",
+        {"entities": [(37, 42, LABEL), (2, 7, LABEL_ORG), (31, 35, LABEL_ORG), (83, 88, LABEL_PRECO), (134, 146, LABEL_PESSOA)]}
+    ),
+    (
+        "O presidente Jair Bolsonaro sancionou a Medida Provisória (MP) que viabiliza a privatização da Eletrobras",
+        {"entities": [(13, 27, LABEL_PESSOA), (95, 105, LABEL_ORG)]}
+    ),
+    (
+        "Guilherme Alexandre Rossi foi eleito para o cargo de Diretor Comercial Alto Varejo e Rodrigo Mulinari para o cargo de Diretor de Tecnologia.",
+        {"entities": [(0, 25, LABEL_PESSOA), (85, 101, LABEL_PESSOA)]}
+    ),
+    (
+        "Enquanto que Thaila Ayala escolheu Francisco para o primogênito, o casal Fabiula Nascimento e Emilio Dantas escolheram Roque e Raul para os gêmeos",
+        {"entities": [(13, 25, LABEL_PESSOA), (35, 44, LABEL_PESSOA), (73, 91, LABEL_PESSOA), (94, 107, LABEL_PESSOA), (119, 124, LABEL_PESSOA), (127, 131, LABEL_PESSOA)]}
+    ),
+    (
+        "O valor do JCP complementar referente ao 2º trimestre de 2021 atualizado pela taxa Selic até 23.08.2021 (data-base) é de R$ 0,34787265629.",
+        {"entities": [(121, 137, LABEL_PRECO)]}
     )
 ]
-
+#Inicio do treinamento, declaro quais pipes não serão utilizados, estabeleço um número de iterações, dou um "shuffle" a cada iteração.
 with nlp.disable_pipes(*other_pipes):
-    for itn in range(600):
+    for itn in range(150):
         print(itn)
         random.shuffle(TRAIN_DATA)
         losses = {}
@@ -396,13 +473,8 @@ with nlp.disable_pipes(*other_pipes):
             example = Example.from_dict(doc, annotations)
             nlp.update([example], drop=0.35, sgd=optimizer, losses=losses)
         print(losses)
-        
-test_text = 'Depois da forte queda da véspera, as ações Vale (VALE3) operavam no positivo neste começo de pregão. As ações da Google (GOGL34) são boas! A amazon (AMZO34) registrou um bom lucro. A netfix NFLX34, é uma boa ação. O minério teve leve alta em Dalian, na China.Com relação à Gerdau(GGBR4), o mercado repercute a notícia de que a siderúrgica O Itaú BBA elevou a classificação do Burger King Brasil (BKBR3) de ‘market perform’ para ‘outperform’ (projeção de valorização acima da média do mercado). A alteração ocorre depois da correção recente de preços. O preço-alvo para 2022 é de R$ 12,5. A Eternit (ETER3) disse que “está envidando todos os esforços necessários” para reverter a decisão que determinou a suspensão imediata da exploração de amianto crisotila em Minaçu, Goiás.A companhia afirmou que vai demonstrar a “regularidade” da sua operação. O Ministério Público Federal entrou na Justiça após a Eternit, empresa responsável pela mineradora Sama, retomar as atividades na região.A As ações caíam 0,95% às 10h34.As ações da Petrobras (PETR4) tinham queda com o barril do Brent operando em baixa. A petroleira estatal esclareceu nesta sexta, 20, que sua participação na Braskem (BRKM5) faz parte dos ativos contemplados em sua gestão de portfólio e que, conforme divulgado em 09/08/2021, contratou o JP Morgan para assessoramento financeiro da eventual e futura transação referente à sua participação na Braskem. A companhia reafirmou que ainda não há qualquer definição ou decisão sobre o assunto.Às 10h35 o Ibovespa tinha queda de 0,70% aos 116.420 pontos.  O avanço da variante delta do coronavírus, que ameaça a retomada da economia no mundo e pressiona as commodities, a pressão regulatória do governo da China e as incertezas associadas, e o risco fiscal em meio à ruídos políticos no Brasil, são alguns dos fatores que levam a baixa do principal índice acionário da B3. '
-doc = nlp(test_text)
-print("Entities in '%s'" % test_text)
-for ent in doc.ents:
-  print(ent)
 
+#Salvo o modelo na posta content.
 output_dir=Path('./content/')
 if not output_dir.exists():
   output_dir.mkdir()
