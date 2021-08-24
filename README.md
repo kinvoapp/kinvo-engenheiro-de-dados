@@ -17,7 +17,6 @@ Como executar o projeto:
 
 ```
 cd crawler
-cd spiders
 scrapyrt
 ```
 3 - Com o scrapyrt rodando, abra outro terminal e acesse o diretório da aplicação web, e inicie a mesma.
