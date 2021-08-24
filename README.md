@@ -5,7 +5,7 @@
 
 Como executar o projeto:
 
-1 - Primeiro, instale os módulos necessários
+1 - Primeiro, instale os módulos necessários (Para evitar conflitos entre módulos, é preferível que tais comandos sejam executando em um ambiente virtual, como venv ou conda)
   ```
   pip install flask
   pip install spacy
