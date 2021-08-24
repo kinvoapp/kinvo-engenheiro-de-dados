@@ -1,0 +1,359 @@
+2021-08-23 11:26:47 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/robots.txt> (referer: None)
+2021-08-23 11:26:48 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/> (referer: None)
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Filtered duplicate request: <GET https://financenews.com.br/2021/08/eventos-no-radar-do-mercado-nesta-semana-7/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/eventos-no-radar-do-mercado-nesta-semana-7/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/irb-aprova-pagamento-de-jcp-relativo-ao-exercicio-social-de-2019/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/eventos-no-radar-do-mercado-nesta-semana-7/>
+{'conteudo': 'O presidente do banco central dos EUA, Jerome Powell, fala '
+             'durante o tradicional simpósio de Jackson Hole, encontro '
+             'realizado anualmente. O discurso é na sexta-feira, às 11h.Powell '
+             'pode fornecer novas sinalizações sobre a redução das compras de '
+             'títulos. Alguns analistas esperam que sejam anunciados planos '
+             'para desacelerar o programa de compra de ativos do Banco Central '
+             'americano. O discurso pode mexer com o mercado de ações.O '
+             'mercado monitora o embate institucional entre o presidente Jair '
+             'Bolsonaro e o Poder Judiciário. As incertezas quanto ao avanço '
+             'da reforma tributária e da PEC dos Precatórios também estão no '
+             'radar de analistas e grandes players.O relator da reforma '
+             'administrativa, deputado Arthur Maia (DEM-BA), deve apresentar '
+             'entre quarta-feira e sexta-feira o parecer à proposta de emenda '
+             'constitucional. A intenção é votar a PEC na primeira semana de '
+             'setembro na comissão especial e então levá-la ao plenário da '
+             'Câmara.As discussões sobre a reforma do Imposto de Renda, que '
+             'enfrenta fortes resistências até da base do governo, também '
+             'recebem atenção especial do mercado.   Às 9h30 de quinta, 26, '
+             'será divulgada a segunda estimativa do Produto Interno Bruto '
+             '(PIB) do segundo trimestre dos EUA. Analistas ouvidos pela '
+             'Refinitiv projetam de alta de 6,7%. Na quarta-feira, 25, às 9h, '
+             'o IBGE divulga o IPCA-15, índice considerado uma prévia da '
+             'inflação. A pressão inflacionária e seus impactos na economia '
+             'tem recebido atenção especial do mercado. Veja o estudo do '
+             'gráfico do Ibovespa, Cvcb3, Engi11, Cple6, Hapv3, Jbss3, Taee11, '
+             'Vale3, Petr4, Ggbr4, Goau4, Csna3, Usim5 e de Qual3.      ',
+ 'title': 'Eventos no radar do mercado nesta semana',
+ 'url': 'https://financenews.com.br/2021/08/eventos-no-radar-do-mercado-nesta-semana-7/'}
+2021-08-23 11:26:49 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/irb-aprova-pagamento-de-jcp-relativo-ao-exercicio-social-de-2019/>
+{'conteudo': '   O conselho de administração do IRB (IRBR3) aprovou o '
+             'pagamento aos acionistas de Juros sobre Capital Próprio '
+             'referentes ao exercício social findo em 31 de dezembro de 2019.A '
+             'informação foi divulgada no fim da noite desta segunda-feira, '
+             '16.O total é de R$ 27.276.432,54. O valor por ação bruto é de R$ '
+             '0,02953635375. O valor líquido atualizado (atualizado de '
+             '31/12/2019 até 16/08/21 pela taxa Selic) é de R$ '
+             '0,03091745378.Tem direito os acionistas detentores de ações de '
+             'emissão da companhia com base na posição acionária existente no '
+             'fechamento do pregão da B3 no dia 14 de agosto de 2020 (record '
+             'date).O pagamento correspondente aos Juros sobre Capital Próprio '
+             'será efetuado no dia 8 de setembro de 2021.O IRB (IRBR3) '
+             'divulgou na noite desta segunda-feira, 16, o resultado do '
+             'segundo trimestre de 2021.No 2T21 a companhia reportou prejuízo '
+             'líquido de R$ 206,9 milhões, frente a um prejuízo líquido de R$ '
+             '656,7 milhões no 2T20, o que representa uma redução de 68,5% no '
+             'período.Segundo o IRB, o prejuízo líquido no 2T21 foi '
+             'negativamente impactado pelos negócios descontinuados (run-off), '
+             'com efeito de R$ 190,3 milhões, parcialmente compensado pelo '
+             'efeito não recorrentes (one-offs) na ordem de R$ 14,4 milhões '
+             '(despesa de tributos e administrativas que foram compensadas por '
+             'crédito em impostos).“Ao excluirmos tais efeitos run-off e '
+             'one-off, a companhia teria apresentado um prejuízo líquido menor '
+             'de R$ 31,0 milhões no 2T21”, destacou o IRB.No segundo trimestre '
+             'de 2021 a companhia apresentou uma geração de Caixa operacional '
+             'positiva de R$352 milhões.Esse é o quarto trimestre consecutivo '
+             'em que a Companhia gera caixa operacional.   ',
+ 'title': 'IRB aprova pagamento de JCP relativo ao exercício social de 2019',
+ 'url': 'https://financenews.com.br/2021/08/irb-aprova-pagamento-de-jcp-relativo-ao-exercicio-social-de-2019/'}
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/irb-tem-prejuizo-de-r-2069-milhoes-no-2t21/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/10-perguntas-e-respostas-sobre-a-queda-da-bolsa/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-mercados-hoje-e-noticias-corporativas/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/irb-tem-prejuizo-de-r-2069-milhoes-no-2t21/>
+{'conteudo': 'No 2T21 a companhia reportou prejuízo líquido de R$ 206,9 '
+             'milhões, frente a um prejuízo líquido de R$ 656,7 milhões no '
+             '2T20, o que representa uma redução de 68,5% no período. Segundo '
+             'o IRB, o prejuízo líquido no 2T21 foi negativamente impactado '
+             'pelos negócios descontinuados (run-off), com efeito de R$ 190,3 '
+             'milhões, parcialmente compensado pelo efeito não recorrentes '
+             '(one-offs) na ordem de R$ 14,4 milhões (despesa de tributos e '
+             'administrativas que foram compensadas por crédito em impostos). '
+             '“Ao excluirmos tais efeitos run-off e one-off, a companhia teria '
+             'apresentado um prejuízo líquido menor de R$ 31,0 milhões no '
+             '2T21”, destacou o IRB.No segundo trimestre de 2021 a companhia '
+             'apresentou uma geração de Caixa operacional positiva de R$352 '
+             'milhões. Esse é o quarto trimestre consecutivo em que a '
+             'Companhia gera caixa operacional.    O IRB (IRBR3) divulgou na '
+             'noite desta segunda-feira, 16, o resultado do segundo trimestre '
+             'de 2021.O conselho de administração do IRB (IRBR3) aprovou o '
+             'pagamento aos acionistas de Juros sobre Capital Próprio '
+             'referentes ao exercício social findo em 31 de dezembro de 2019.A '
+             'informação foi divulgada no fim da noite desta segunda-feira, '
+             '16.O total é de R$ 27.276.432,54. O valor por ação bruto é de R$ '
+             '0,02953635375. O valor líquido atualizado (atualizado de '
+             '31/12/2019 até 16/08/21 pela taxa Selic) é de R$ '
+             '0,03091745378.Tem direito os acionistas detentores de ações de '
+             'emissão da companhia com base na posição acionária existente no '
+             'fechamento do pregão da B3 no dia 14 de agosto de 2020 (record '
+             'date).O pagamento correspondente aos Juros sobre Capital Próprio '
+             'será efetuado no dia 8 de setembro de 2021. Veja mais detalhes '
+             'do resultado na tabela a seguir. Para acessar a íntegra do '
+             'release com os resultados do 2T21,   ',
+ 'title': 'IRB tem prejuízo de R$ 206,9 milhões no 2T21',
+ 'url': 'https://financenews.com.br/2021/08/irb-tem-prejuizo-de-r-2069-milhoes-no-2t21/'}
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-noticias-corporativas-e-mercados-nesta-sexta/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/oceanpact-contrata-bancos-para-captacao-de-ate-r-420-milhoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/10-perguntas-e-respostas-sobre-a-queda-da-bolsa/>
+{'conteudo': 'A queda ocorre devido a fatores externos e internos. Entre os '
+             'fatores externos estão o avanço da variante delta do '
+             'coronavírus, que ameaça a retomada da economia no mundo e '
+             'pressiona as commodities, como petróleo e minério de ferro. A '
+             'pressão regulatória do governo da China também ajuda a derrubar '
+             'o preço do minério e do aço. Entre os fatores internos estão '
+             'aumento do risco fiscal em meio a ruídos políticos no Brasil '
+             '(tensão entre os Poderes); alta dos juros, e estimativa de '
+             'redução da atividade econômica para 2022. Além disso, não foi '
+             'bem recebida a proposta de reforma do Imposto de Renda, o que '
+             'penalizou empresas boa pagadoras de proventos. No momento, '
+             'analistas avaliam que, com a alta persistente da inflação, o '
+             'governo será obrigado a gastar ainda mais do que se previa. Isso '
+             'em meio ao risco de ter que pagar precatórios bilionários e às '
+             'vésperas de um ano eleitoral, quando as chances de medidas '
+             'populistas aumentam. A percepção do risco de que seja furado o '
+             'teto de gastos se eleva. Vale lembrar que o teto é a barreira '
+             'constitucional que limita o endividamento federal de longo '
+             'prazo.Tudo isso se traduz em algo que grandes players do mercado '
+             'não gostam: incerteza.Quanto maior a incerteza, maior é o prêmio '
+             'exigido pelo mercado para investir. Ou seja: maior é o juro '
+             'exigido. Por isso que a taxa de juros pré-fixada de 10 anos teve '
+             'forte alta nas últimas semanas no Brasil, o que não vem '
+             'ocorrendo com outros países emergentes.Para se ter uma ideia, a '
+             'taxa de um título do tesouro chamado de NTN-B 2050 se aproxima '
+             'do patamar registrado no pior momento da pandemia, isto é, '
+             'quando houve um momento de grande incerteza.Os analistas ouvidos '
+             'pelo Finance News apontam que nosso país é um dos poucos a ver '
+             'uma elevação acentuada do juro de longo prazo. Isso tem um '
+             'impacto direto em ativos de risco, como é o caso das ações. '
+             'Nesse cenário, grandes investidores tendem a mirar mais em '
+             'ativos atrelados a juros e ter menor exposição à Bolsa.A '
+             'elevação dos gastos no Brasil sem uma contrapartida e a retirada '
+             'dos estímulos pelo Banco Central americano são citados como os '
+             'principais, além de outros. A redução dos estímulos, importantes '
+             'durante a crise provocada pela pandemia, pelo Banco Central '
+             'americano leva à redução da liquidez pelo mundo. Menos dinheiro '
+             'à disposição tende a gerar um movimento de busca por locais mais '
+             'seguros para investir, como países ricos. O capital especulativo '
+             'de sobra inflou o preço de muitas ações na Bolsa brasileira e na '
+             'de muitos países.É importante também entender outra medida do '
+             'Banco Central dos EUA que pode impactar nosso mercado: a '
+             'elevação dos juros americanos. Embora ainda não seja uma '
+             'preocupação de agora (o mercado está mais atento à redução dos '
+             'estímulos), esse tema deve ganhar relevância nos próximos '
+             'trimestres. A alta dos juros americanos retira dinheiro dos '
+             'emergentes, faz o dólar subir e provoca alta da inflação.De '
+             'fato, os resultados do segundo trimestre deste ano mostraram que '
+             'muitas empresas com ações negociadas na B3 voltaram a ter bons '
+             'níveis de rentabilidade, o que acaba tornando indicadores '
+             'financeiros e operacionais das suas ações ainda interessantes.No '
+             'entanto, entre as sinalizações dos balanços do segundo trimestre '
+             'das companhias e as projeções do que está por vir, o mercado, '
+             'nesse momento, tem dado maior ênfase nos próximos trimestres, '
+             'precificando agora um cenário mais adverso nos próximos '
+             'trimestres.Analistas afirmam ainda que é preciso entender que a '
+             'base de comparação ajudou muitas empresas. Houve companhias que '
+             'reverteram o prejuízo em relação ao 2T20. Só que no segundo '
+             'trimestre de 2020, vale lembrar, a grande maioria das empresas '
+             'sofreu com o impacto do fechamento da economia devido à '
+             'pandemia.Nesse ponto especialistas se dividem. Alguns acreditam '
+             'que as ações estão baratas e a queda do Ibovespa é uma '
+             'oportunidade para comprar papéis de companhias com bons '
+             'fundamentos, boa gestão e de setores promissores. Outros '
+             'acreditam que muitos papéis podem cair mais já que subiram em '
+             'função de uma estimativa de crescimento da economia bem maior do '
+             'que as projeções atuais. Todos são unânimes em afirmar que os '
+             'investidores agora terão que ser mais seletivos e estar '
+             'posicionados em companhias com boas perspectivas de resultados '
+             'mesmo diante do cenário mais desafiador e resilientes ao cenário '
+             'macroeconômico.Gráfico semanal do Ibovespa   Analistas ressaltam '
+             'que o cenário mais pessimista não significa que o investimento '
+             'em ações se torne ruim. Mas sinaliza que é preciso reforçar o '
+             'manejo do risco para quem opera no curto prazo. Já para aqueles '
+             'que gostam que comprar ações para o longo prazo (anos) é '
+             'necessário adotar avaliações mais profundas sobre as empresas em '
+             'que pretende investir.     ',
+ 'title': '10 perguntas (e respostas) sobre a queda da Bolsa\xa0',
+ 'url': 'https://financenews.com.br/2021/08/10-perguntas-e-respostas-sobre-a-queda-da-bolsa/'}
+2021-08-23 11:26:49 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-mercados-hoje-e-noticias-corporativas/>
+{'conteudo': 'China (Shanghai Comp.): +1,45% (pregão encerrado)Japão (Nikkei '
+             '225): +1,78% (pregão encerrado)Hong Kong (Hang Seng): +1,05% '
+             '(pregão encerrado)Alemanha (DAX): +0,23%Londres (FTSE 100): '
+             '+0,48%Petróleo Brent: +3,14% (US$ 66,78). O brent é referência '
+             'para a Petrobras.Petróleo WTI: +2,99% (US$ 64,03).Bitcoin '
+             'futuro: +3,31% (US$ 50.275)O contrato futuro mais líquido do '
+             'minério de ferro negociado na bolsa de Dalian, na China, teve '
+             'queda de 1% cotado em 757 iuanes (US$ 116,6). A cotação em '
+             'Dalian pode impactar os papéis da brasileira Vale (VALE3), CSN '
+             '(CSNA3) e CSN Mineração (CMIN3). Esse dado foi obtido no link: '
+             'Às 7h55 em Wall Street, o Dow Jones futuro operava em alta de '
+             '0,43% e o S&P 500 futuro com valorização de 0,30%. Nasdaq futuro '
+             'subia 0,24%.   O presidente do banco central dos EUA, Jerome '
+             'Powell, fala durante o tradicional simpósio de Jackson Hole, '
+             'encontro realizado anualmente. O discurso é na sexta-feira, às '
+             '11h.Powell pode fornecer novas sinalizações sobre a redução das '
+             'compras de títulos. Alguns analistas esperam que sejam '
+             'anunciados planos para desacelerar o programa de compra de '
+             'ativos do Banco Central americano. O discurso pode mexer com o '
+             'mercado de ações.O mercado monitora o embate institucional entre '
+             'o presidente Jair Bolsonaro e o Poder Judiciário. As incertezas '
+             'quanto ao avanço da reforma tributária e da PEC dos Precatórios '
+             'também estão no radar de analistas e grandes players.O relator '
+             'da reforma administrativa, deputado Arthur Maia (DEM-BA), deve '
+             'apresentar entre quarta-feira e sexta-feira o parecer à proposta '
+             'de emenda constitucional. A intenção é votar a PEC na primeira '
+             'semana de setembro na comissão especial e então levá-la ao '
+             'plenário da Câmara.As discussões sobre a reforma do Imposto de '
+             'Renda, que enfrenta fortes resistências até da base do governo, '
+             'também recebem atenção especial do mercado.Às 9h30 de quinta, '
+             '26, será divulgada a segunda estimativa do Produto Interno Bruto '
+             '(PIB) do segundo trimestre dos EUA. Analistas ouvidos pela '
+             'Refinitiv projetam de alta de 6,7%.Na quarta-feira, 25, às 9h, o '
+             'IBGE divulga o IPCA-15, índice considerado uma prévia da '
+             'inflação. A pressão inflacionária e seus impactos na economia '
+             'tem recebido atenção especial do mercado.    ',
+ 'title': 'Petróleo, minério bitcoin, mercados hoje e notícias corporativas',
+ 'url': 'https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-mercados-hoje-e-noticias-corporativas/'}
+2021-08-23 11:26:49 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-noticias-corporativas-e-mercados-nesta-sexta/>
+{'conteudo': 'China (Shanghai Comp.): -1,10% (pregão encerrado)Japão (Nikkei '
+             '225): -0,98% (pregão encerrado)Hong Kong (Hang Seng): -1,84% '
+             '(pregão encerrado)Alemanha (DAX): -0,45%Londres (FTSE 100): '
+             '-0,17%Petróleo Brent: -0,63% (US$ 66,02). O brent é referência '
+             'para a Petrobras.Petróleo WTI: -0,65% (US$ 63,09).Bitcoin '
+             'futuro: +1,23% (US$ 47.245)O contrato futuro mais líquido do '
+             'minério de ferro negociado na bolsa de Dalian, na China, teve '
+             'alta de 0,25% cotado em 777 iuanes (US$ 119,6). A cotação em '
+             'Dalian pode impactar os papéis da brasileira Vale (VALE3), CSN '
+             '(CSNA3) e CSN Mineração (CMIN3). Esse dado foi obtido no link: '
+             'Às 7h48 em Wall Street, o Dow Jones futuro operava em queda de '
+             '0,40% e o S&P 500 futuro com desvalorização de 0,36%. Nasdaq '
+             'futuro caía 0,22%.     ',
+ 'title': 'Petróleo, minério, bitcoin, notícias corporativas e mercados nesta '
+          'sexta',
+ 'url': 'https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-noticias-corporativas-e-mercados-nesta-sexta/'}
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/2/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/oceanpact-contrata-bancos-para-captacao-de-ate-r-420-milhoes/>
+{'conteudo': 'A Oceanpact Serviços Marítimos (OPCT3) informou na noite desta '
+             'sexta, 20, que engajou o Banco Itaú BBA, o Banco Bradesco BBI, o '
+             'Banco ABC Brasil e o Banco Votorantim para atuarem, em conjunto, '
+             'como coordenadores, sendo o Itaú BBA o coordenador líder da '
+             'operação, no âmbito de potencial captação de recursos no mercado '
+             'local de renda fixa no valor total de até R$ 420 milhões. “Caso '
+             'a potencial captação seja realizada, esta será conduzida em '
+             'conformidade com a legislação e a regulamentação aplicáveis e os '
+             'recursos obtidos poderão ser aplicados da seguinte forma: a '
+             'compra de embarcação e robôs submarinos; e a otimização da '
+             'estrutura de capital da companhia, incluindo o pré-pagamento de '
+             'dívida existente”, explicou a Oceanpact em um fato relevante.  A '
+             'empresa afirmou que a potencial captação, caso concluída, poderá '
+             'ser garantida por bens e/ou ativos de sua propriedade. A '
+             'operação está sujeita, ainda, às condições do mercado de '
+             'capitais brasileiro, às aprovações societárias necessárias da '
+             'Companhia, à celebração dos contratos definitivos, à conclusão '
+             'satisfatória dos procedimentos usuais em operações análogas, ao '
+             'cumprimento de demais condições precedentes da operação, dentre '
+             'outros fatores alheios à vontade da companhia.     ',
+ 'title': 'Oceanpact contrata bancos para captação de até R$ 420 milhões',
+ 'url': 'https://financenews.com.br/2021/08/oceanpact-contrata-bancos-para-captacao-de-ate-r-420-milhoes/'}
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/7-links-com-analises-de-empresas-da-bolsa/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/minerio-petroleo-bitcoin-mercados-hoje-e-noticias-corporativas-3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:49 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/mercado-eleva-projecao-de-inflacao-e-reduz-a-do-pib-para-este-ano-e-2022/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:50 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/ibovespa-futuro-dolar-e-outros-destaques-69/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:50 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/movida-podera-recomprar-ate-123-milhoes-de-acoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:50 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/minerio-petroleo-bitcoin-mercados-hoje-e-noticias-corporativas-3/>
+{'conteudo': 'Os d.Nesta quarta-feira, o Banco Central americano (Federal '
+             'Reserve) divulga às 15h a ata da sua mais recente reunião. '
+             'Analistas buscam no documento sinais que permitam deduzir quando '
+             'vai começar a desaceleração das compras mensais de títulos, além '
+             'de perspectivas quanto à inflação e emprego.China (Shanghai '
+             'Comp.): +1,11% (pregão encerrado)Japão (Nikkei 225): +0,59% '
+             '(pregão encerrado)Hong Kong (Hang Seng): +0,47% (pregão '
+             'encerrado)Alemanha (DAX): -0,09%Londres (FTSE 100): '
+             '-0,27%Petróleo Brent: +1,13% (US$ 69,82). O brent é referência '
+             'para a Petrobras.Petróleo WTI: +0,90% (US$ 67,01).Bitcoin: '
+             '-0,46% (US$ 45.320)O contrato futuro mais líquido do minério de '
+             'ferro negociado na bolsa de Dalian, na China, teve queda de 3,7% '
+             'cotado em 813 iuanes (US$ 125,4). A cotação em Dalian pode '
+             'impactar os papéis da brasileira Vale (VALE3), CSN (CSNA3) e CSN '
+             'Mineração (CMIN3). Esse dado foi obtido no link: Às 7h55 em Wall '
+             'Street, o Dow Jones futuro operava em queda de 0,18% e o S&P 500 '
+             'futuro com desvalorização de 0,03%. Nasdaq subia 0,16%.      ',
+ 'title': 'Minério, petróleo, bitcoin, mercados hoje e notícias corporativas',
+ 'url': 'https://financenews.com.br/2021/08/minerio-petroleo-bitcoin-mercados-hoje-e-noticias-corporativas-3/'}
+2021-08-23 11:26:50 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/btg-eleva-participacao-na-mosaico/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:50 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/rapidas-sabesp-cba-smart-fit-siderurgicas-vale-petrobras/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-23 11:26:50 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/ibovespa-futuro-dolar-e-outros-destaques-69/>
+{'conteudo': 'O Ibovespa futuro (INDV21 – contrato com vencimento para 13 de '
+             'outubro/21) abriu em alta nesta segunda-feira, 23. Às 9h07 subia '
+             '0,34% aos 119.295 pontos.Embora considerado um indicador de como '
+             'poderá se comportar o mercado, esse índice nem sempre antecipa '
+             'as informações que vão condicionar o pregão a partir das 10h.  '
+             'Às 9h06 o dólar comercial tinha queda de 0,35% a R$ 5,3593 na '
+             'venda.Petróleo Brent: +3,20% (US$ 66,78). O brent é referência '
+             'para a Petrobras.Petróleo WTI: +2,99% (US$ 64,03).Bitcoin '
+             'futuro: +3,51% (US$ 50.442)O contrato futuro mais líquido do '
+             'minério de ferro negociado na bolsa de Dalian, na China, teve '
+             'queda de 1% cotado em 757 iuanes (US$ 116,6). A cotação em '
+             'Dalian pode impactar os papéis da brasileira Vale (VALE3), CSN '
+             '(CSNA3) e CSN Mineração (CMIN3). Esse dado foi obtido no link: '
+             'Às 9h01 em Wall Street, o Dow Jones futuro operava em alta de '
+             '0,44% e o S&P 500 futuro com valorização de 0,33%. Nasdaq futuro '
+             'subia 0,28%.   ',
+ 'title': 'Ibovespa futuro, dólar e outros destaques',
+ 'url': 'https://financenews.com.br/2021/08/ibovespa-futuro-dolar-e-outros-destaques-69/'}
+2021-08-23 11:26:50 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/btg-eleva-participacao-na-mosaico/>
+{'conteudo': 'A Mosaico (MOSI3) divulgou nesta segunda, 23, que recebeu '
+             'correspondência do Banco BTG Pactual, na qual informa que o BTG '
+             'Pactual adquiriu ações de emissão da companhia.Agora o BTG '
+             'passou a deter 6.751.700 ações ordinárias da Mosaico, '
+             'equivalente a, aproximadamente, 5,33 % das ações ordinárias '
+             'emitidas pela companhia. O BTG Pactual informou que detém '
+             'exposição acionária indireta em ações da Mosaico por meio de '
+             'outros veículos de investimento que, em conjunto, totaliza '
+             '16.851.700 ações ordinárias, equivalente a aproximadamente '
+             '13,31% do total de ações emitidas pela companhia.    A Mosaico é '
+             'dona do Bondfaro, Buscapé entre outras plataformas. ',
+ 'title': 'BTG eleva participação na Mosaico\xa0',
+ 'url': 'https://financenews.com.br/2021/08/btg-eleva-participacao-na-mosaico/'}
+2021-08-23 11:26:50 [scrapy] INFO: Closing spider (News counter atingido.)
+2021-08-23 11:26:50 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/morgan-stanley-reduz-participacao-na-mrv/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:50 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/sp-revisa-para-positiva-perspectiva-dos-ratings-da-iochpe-maxion/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:50 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/eztec-vai-recomprar-ate-5-milhoes-de-acoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:50 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:50 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/pf-cumpriu-mandado-de-busca-e-apreensao-em-unidade-da-minerva/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:51 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/assista-a-analise-do-ibovespa-petr4-vale3-bbas3-abev3-e-de-wege3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:51 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/armac-compra-rental-company-do-brasil/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:51 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/fundo-soberano-de-cingapura-eleva-participacao-no-banco-pan/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:51 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/noticias-corporativas-da-noite-desta-sexta-20/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:51 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/braskem-esclarece-noticia-sobre-oferta-publica-de-acoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:51 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/itau-assembleia-para-deliberar-incorporacao-da-xpart-pela-xp-sera-em-outubro/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-23 11:26:51 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10379,
+ 'downloader/request_count': 29,
+ 'downloader/request_method_count/GET': 29,
+ 'downloader/response_bytes': 650291,
+ 'downloader/response_count': 29,
+ 'downloader/response_status_count/200': 29,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 4.668318,
+ 'finish_reason': 'News counter atingido.',
+ 'finish_time': datetime.datetime(2021, 8, 23, 14, 26, 51, 943110),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 40,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 4,
+ 'response_received_count': 29,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 28,
+ 'scheduler/dequeued/memory': 28,
+ 'scheduler/enqueued': 39,
+ 'scheduler/enqueued/memory': 39,
+ 'start_time': datetime.datetime(2021, 8, 23, 14, 26, 47, 274792)}
+2021-08-23 11:26:51 [scrapy] INFO: Spider closed (News counter atingido.)

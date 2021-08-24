@@ -1,0 +1,151 @@
+2021-08-24 00:30:10 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/robots.txt> (referer: None)
+2021-08-24 00:30:11 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/> (referer: None)
+2021-08-24 00:30:11 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:11 [scrapy] DEBUG: Filtered duplicate request: <GET https://financenews.com.br/2021/08/banco-do-brasil-atualiza-valor-do-jcp-que-sera-pago-dia-31/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2021-08-24 00:30:11 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://financenews.com.br/2021/08/guararapes-inaugura-4-lojas-carters/>
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/2/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/minerio-petroleo-bitcoin-mercados-hoje-e-noticias-corporativas-3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/minerio-petroleo-bitcoin-mercados-hoje-e-noticias-corporativas-3/>
+{'conteudo': 'Os d.Nesta quarta-feira, o Banco Central americano (Federal '
+             'Reserve) divulga às 15h a ata da sua mais recente reunião. '
+             'Analistas buscam no documento sinais que permitam deduzir quando '
+             'vai começar a desaceleração das compras mensais de títulos, além '
+             'de perspectivas quanto à inflação e emprego.China (Shanghai '
+             'Comp.): +1,11% (pregão encerrado)Japão (Nikkei 225): +0,59% '
+             '(pregão encerrado)Hong Kong (Hang Seng): +0,47% (pregão '
+             'encerrado)Alemanha (DAX): -0,09%Londres (FTSE 100): '
+             '-0,27%Petróleo Brent: +1,13% (US$ 69,82). O brent é referência '
+             'para a Petrobras.Petróleo WTI: +0,90% (US$ 67,01).Bitcoin: '
+             '-0,46% (US$ 45.320)O contrato futuro mais líquido do minério de '
+             'ferro negociado na bolsa de Dalian, na China, teve queda de 3,7% '
+             'cotado em 813 iuanes (US$ 125,4). A cotação em Dalian pode '
+             'impactar os papéis da brasileira Vale (VALE3), CSN (CSNA3) e CSN '
+             'Mineração (CMIN3). Esse dado foi obtido no link: Às 7h55 em Wall '
+             'Street, o Dow Jones futuro operava em queda de 0,18% e o S&P 500 '
+             'futuro com desvalorização de 0,03%. Nasdaq subia 0,16%.      ',
+ 'title': 'Minério, petróleo, bitcoin, mercados hoje e notícias corporativas',
+ 'url': 'https://financenews.com.br/2021/08/minerio-petroleo-bitcoin-mercados-hoje-e-noticias-corporativas-3/'}
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/banco-do-brasil-atualiza-valor-do-jcp-que-sera-pago-dia-31/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/eventos-no-radar-do-mercado-nesta-semana-7/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-noticias-corporativas-e-mercados-nesta-sexta/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/eletrobras-chesf-tem-ganho-de-causa-em-acao/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/noticias-corporativas-minerio-petroleo-bitcoin-e-mercados-hoje/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/banco-do-brasil-atualiza-valor-do-jcp-que-sera-pago-dia-31/>
+{'conteudo': 'O Banco do Brasil (BBAS3) informou na noite desta segunda-feira, '
+             '23, que atualizou o valor do juro sobre o capital próprio '
+             'divulgado por meio do fato relevante de 04.08.2021.O valor do '
+             'JCP complementar referente ao 2º trimestre de 2021 atualizado '
+             'pela taxa Selic até 23.08.2021 (data-base) é de R$ '
+             '0,34787265629.Para ter direito, era necessário ter ações do '
+             'banco até o fim do pregão desta segunda, 23.As ações serão '
+             'negociadas “ex” a partir desta terça, 24 de agosto.  A data do '
+             'pagamento é o próximo dia 31 de agosto.       ',
+ 'title': 'Banco do Brasil atualiza valor do JCP que será pago dia 31',
+ 'url': 'https://financenews.com.br/2021/08/banco-do-brasil-atualiza-valor-do-jcp-que-sera-pago-dia-31/'}
+2021-08-24 00:30:12 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/eventos-no-radar-do-mercado-nesta-semana-7/>
+{'conteudo': 'O presidente do banco central dos EUA, Jerome Powell, fala '
+             'durante o tradicional simpósio de Jackson Hole, encontro '
+             'realizado anualmente. O discurso é na sexta-feira, às 11h.Powell '
+             'pode fornecer novas sinalizações sobre a redução das compras de '
+             'títulos. Alguns analistas esperam que sejam anunciados planos '
+             'para desacelerar o programa de compra de ativos do Banco Central '
+             'americano. O discurso pode mexer com o mercado de ações.O '
+             'mercado monitora o embate institucional entre o presidente Jair '
+             'Bolsonaro e o Poder Judiciário. As incertezas quanto ao avanço '
+             'da reforma tributária e da PEC dos Precatórios também estão no '
+             'radar de analistas e grandes players.O relator da reforma '
+             'administrativa, deputado Arthur Maia (DEM-BA), deve apresentar '
+             'entre quarta-feira e sexta-feira o parecer à proposta de emenda '
+             'constitucional. A intenção é votar a PEC na primeira semana de '
+             'setembro na comissão especial e então levá-la ao plenário da '
+             'Câmara.As discussões sobre a reforma do Imposto de Renda, que '
+             'enfrenta fortes resistências até da base do governo, também '
+             'recebem atenção especial do mercado.   Às 9h30 de quinta, 26, '
+             'será divulgada a segunda estimativa do Produto Interno Bruto '
+             '(PIB) do segundo trimestre dos EUA. Analistas ouvidos pela '
+             'Refinitiv projetam de alta de 6,7%. Na quarta-feira, 25, às 9h, '
+             'o IBGE divulga o IPCA-15, índice considerado uma prévia da '
+             'inflação. A pressão inflacionária e seus impactos na economia '
+             'tem recebido atenção especial do mercado. Veja o estudo do '
+             'gráfico do Ibovespa, Cvcb3, Engi11, Cple6, Hapv3, Jbss3, Taee11, '
+             'Vale3, Petr4, Ggbr4, Goau4, Csna3, Usim5 e de Qual3.      ',
+ 'title': 'Eventos no radar do mercado nesta semana',
+ 'url': 'https://financenews.com.br/2021/08/eventos-no-radar-do-mercado-nesta-semana-7/'}
+2021-08-24 00:30:12 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-noticias-corporativas-e-mercados-nesta-sexta/>
+{'conteudo': 'China (Shanghai Comp.): -1,10% (pregão encerrado)Japão (Nikkei '
+             '225): -0,98% (pregão encerrado)Hong Kong (Hang Seng): -1,84% '
+             '(pregão encerrado)Alemanha (DAX): -0,45%Londres (FTSE 100): '
+             '-0,17%Petróleo Brent: -0,63% (US$ 66,02). O brent é referência '
+             'para a Petrobras.Petróleo WTI: -0,65% (US$ 63,09).Bitcoin '
+             'futuro: +1,23% (US$ 47.245)O contrato futuro mais líquido do '
+             'minério de ferro negociado na bolsa de Dalian, na China, teve '
+             'alta de 0,25% cotado em 777 iuanes (US$ 119,6). A cotação em '
+             'Dalian pode impactar os papéis da brasileira Vale (VALE3), CSN '
+             '(CSNA3) e CSN Mineração (CMIN3). Esse dado foi obtido no link: '
+             'Às 7h48 em Wall Street, o Dow Jones futuro operava em queda de '
+             '0,40% e o S&P 500 futuro com desvalorização de 0,36%. Nasdaq '
+             'futuro caía 0,22%.     ',
+ 'title': 'Petróleo, minério, bitcoin, notícias corporativas e mercados nesta '
+          'sexta',
+ 'url': 'https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-noticias-corporativas-e-mercados-nesta-sexta/'}
+2021-08-24 00:30:12 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/eletrobras-chesf-tem-ganho-de-causa-em-acao/>
+{'conteudo': 'O Tribunal Regional Federal da 5.ª Região manteve a '
+             'improcedência de uma ação ao rejeitar o recurso proposto pelo '
+             'município de Canindé do São Francisco/SE contra a Companhia '
+             'Hidro Elétrica do São Francisco (Chesf), controlada pela '
+             'Eletrobras (ELET3) . Além da decisão de mérito, o juiz havia '
+             'alterado o valor do processo de R$ 2.925.318.050,00 (dois '
+             'bilhões, novecentos e vinte e cinco milhões, trezentos e dezoito '
+             'mil e cinquenta reais) para R$ 52.970.536,71 (cinquenta e dois '
+             'milhões, novecentos e setenta mil, quinhentos e trinta e seis '
+             'reais e setenta e um centavos). Segundo informou a Eletrobras '
+             'nesta segunda-feira, 23, o trânsito em julgado da ação ocorreu '
+             'nesta data, com ganho de causa para a controlada Chesf, não '
+             'cabendo mais recurso da outra parte.        ',
+ 'title': 'Eletrobras: Chesf tem ganho de causa',
+ 'url': 'https://financenews.com.br/2021/08/eletrobras-chesf-tem-ganho-de-causa-em-acao/'}
+2021-08-24 00:30:12 [scrapy] INFO: Closing spider (News counter atingido.)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/simpar-vai-recomprar-ate-114-milhoes-de-acoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/petrobras-inicia-operacao-do-fpso-carioca-no-campo-de-sepia/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/noticias-corporativas-da-noite-desta-segunda-23/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/banestes-lanca-plano-de-desligamento-voluntario/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/renova-energia-aumenta-capital-social-reduz-divida-concursal/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/cosan-compra-porto-de-sao-luis-e-entra-no-setor-de-minerio-de-ferro/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/fitch-reafirma-rating-da-mrv/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/mercado-eleva-projecao-de-inflacao-e-reduz-a-do-pib-para-este-ano-e-2022/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/movida-podera-recomprar-ate-123-milhoes-de-acoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-24 00:30:12 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/btg-eleva-participacao-na-mosaico/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-24 00:30:13 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/rapidas-sabesp-cba-smart-fit-siderurgicas-vale-petrobras/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-24 00:30:13 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/atualizacao-das-13h30-embraer-suzano-klabin-petroleiras-e-outros-destaques/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-24 00:30:13 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/a-avaliacao-do-bradesco-bbi-para-o-banco-pan/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-24 00:30:13 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/companhia-brasileira-de-aluminio-vale-a-pena-veja-a-analise-para-cbav3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-24 00:30:13 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/ibovespa-futuro-dolar-e-outros-destaques-69/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-24 00:30:13 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/scrapy.exceptions.IgnoreRequest': 1,
+ 'downloader/request_bytes': 8819,
+ 'downloader/request_count': 26,
+ 'downloader/request_method_count/GET': 26,
+ 'downloader/response_bytes': 289918,
+ 'downloader/response_count': 26,
+ 'downloader/response_status_count/200': 26,
+ 'dupefilter/filtered': 2,
+ 'elapsed_time_seconds': 3.126151,
+ 'finish_reason': 'News counter atingido.',
+ 'finish_time': datetime.datetime(2021, 8, 24, 3, 30, 13, 268422),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 33,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 4,
+ 'response_received_count': 26,
+ 'robotstxt/forbidden': 1,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 26,
+ 'scheduler/dequeued/memory': 26,
+ 'scheduler/enqueued': 38,
+ 'scheduler/enqueued/memory': 38,
+ 'start_time': datetime.datetime(2021, 8, 24, 3, 30, 10, 142271)}
+2021-08-24 00:30:13 [scrapy] INFO: Spider closed (News counter atingido.)

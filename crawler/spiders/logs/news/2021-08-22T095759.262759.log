@@ -1,0 +1,1113 @@
+2021-08-22 09:58:00 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/robots.txt> (referer: None)
+2021-08-22 09:58:00 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/> (referer: None)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/2/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/itau-assembleia-para-deliberar-incorporacao-da-xpart-pela-xp-sera-em-outubro/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/pf-cumpriu-mandado-de-busca-e-apreensao-em-unidade-da-minerva/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/itau-assembleia-para-deliberar-incorporacao-da-xpart-pela-xp-sera-em-outubro/>
+{'conteudo': 'O Itaú (ITUB4) informou na noite de sexta, 20, que a assembleia '
+             'para deliberar incorporação da XPart pela XP será em 1 de '
+             'outubro deste ano. A seguir leia a íntegra do comunicado do Itaú '
+             'ao mercado:',
+ 'title': 'Itaú: assembleia para deliberar incorporação da XPart pela XP será '
+          'em outubro\xa0',
+ 'url': 'https://financenews.com.br/2021/08/itau-assembleia-para-deliberar-incorporacao-da-xpart-pela-xp-sera-em-outubro/'}
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/fundo-soberano-de-cingapura-eleva-participacao-no-banco-pan/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/pf-cumpriu-mandado-de-busca-e-apreensao-em-unidade-da-minerva/>
+{'conteudo': 'A Minerva (BEEF3) informou após o pregão desta sexta-feira, 20, '
+             'que a Polícia Federal realizou procedimento na unidade '
+             'localizada em Palmeiras de Goiás, no estado de Goiás, no âmbito '
+             'da fase inicial da operação “a Posteriori”, que apura supostas '
+             'irregularidades envolvendo auditores fiscais federais '
+             'agropecuários no período de 2018 a 2019. Os agentes cumpriram '
+             'mandados de busca e apreensão.“O procedimento contou com total '
+             'cooperação dos colaboradores da Minerva e a unidade Palmeiras de '
+             'Goiás mantém suas atividades regulares”, afirmou a empresa. '
+             'Ainda segundo a Minerva, não existe indiciamento ou denúncia '
+             'contra a companhia, contra seus administradores ou qualquer de '
+             'seus empregados ou colaboradores no âmbito da operação.',
+ 'title': 'PF cumpriu mandado de busca e apreensão em unidade da Minerva',
+ 'url': 'https://financenews.com.br/2021/08/pf-cumpriu-mandado-de-busca-e-apreensao-em-unidade-da-minerva/'}
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/7-links-com-analises-de-empresas-da-bolsa/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/sp-revisa-para-positiva-perspectiva-dos-ratings-da-iochpe-maxion/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/braskem-esclarece-noticia-sobre-oferta-publica-de-acoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/armac-compra-rental-company-do-brasil/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/noticias-corporativas-da-noite-desta-sexta-20/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/10-perguntas-e-respostas-sobre-a-queda-da-bolsa/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/braskem-esclarece-noticia-sobre-oferta-publica-de-acoes/>
+{'conteudo': 'A Braskem (BRKM5) prestou esclarecimentos na noite desta '
+             'sexta-feira, 20, após notícia veiculada na mídia a respeito de '
+             'oferta pública de ações da companhia como uma possível '
+             'estratégia de saída dos acionistas.A Braskem afirmou que “não '
+             'tem conhecimento das informações constantes em referida notícia '
+             'e, conforme mencionado em outras oportunidades, não é parte de '
+             'eventuais discussões de seus acionistas sobre a venda das suas '
+             'participações acionárias”.A agência de notícias Bloomberg '
+             'informou no dia 19 de agosto que uma oferta pública de ações '
+             'está de volta como uma possível estratégia de saída dos '
+             'acionistas controladores da petroquímica. A Braskem também '
+             'informou no comunicado enviado ao mercado após o pregão desta '
+             'sexta-feira, que solicitou esclarecimentos aos seus acionistas '
+             'Novonor e Petrobras sobre a notícia.A Novonor (antiga Odebrecht) '
+             'afirmou: “a Novonor está considerando uma potencial transação '
+             'envolvendo a participação da Novonor S.A. na Braskem e, nesse '
+             'contexto está avaliando potenciais estruturas para tal '
+             'transação. No entanto, não há elementos suficientes para '
+             'assegurar a concretização de qualquer transação e tampouco foi '
+             'definida qualquer estrutura para tanto. Desta forma, no momento, '
+             'não há qualquer informação adicional a ser prestada sobre o '
+             'tema.”Já a Petrobras destacou: “a Petrobras esclarece que não há '
+             'qualquer definição ou decisão sobre a forma de alienação da sua '
+             'parte na Braskem, sendo importante ressaltar que, conforme '
+             'informado em 09/08/2021, contratou o JP Morgan para '
+             'assessoramento financeiro da eventual e futura transação '
+             'referente à sua participação na companhia.”',
+ 'title': 'Braskem esclarece notícia sobre oferta pública de ações',
+ 'url': 'https://financenews.com.br/2021/08/braskem-esclarece-noticia-sobre-oferta-publica-de-acoes/'}
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/10-perguntas-e-respostas-sobre-a-queda-da-bolsa/>
+{'conteudo': 'A queda ocorre devido a fatores externos e internos. Entre os '
+             'fatores externos estão o avanço da variante delta do '
+             'coronavírus, que ameaça a retomada da economia no mundo e '
+             'pressiona as commodities, como petróleo e minério de ferro. A '
+             'pressão regulatória do governo da China também ajuda a derrubar '
+             'o preço do minério e do aço. Entre os fatores internos estão '
+             'aumento do risco fiscal em meio a ruídos políticos no Brasil; '
+             'alta dos juros, e estimativa de redução da atividade econômica '
+             'para 2022. Além disso, não foi bem recebida a proposta de '
+             'reforma do Imposto de Renda, o que penalizou empresas boa '
+             'pagadoras de proventos. No momento, analistas avaliam que, com a '
+             'alta persistente da inflação, o governo será obrigado a gastar '
+             'ainda mais do que se previa. Isso em meio ao risco de ter que '
+             'pagar precatórios bilionários e às vésperas de um ano eleitoral, '
+             'quando as chances de medidas populistas aumentam. A percepção do '
+             'risco de que seja furado o teto de gastos se eleva. Vale lembrar '
+             'que o teto é a barreira constitucional que limita o '
+             'endividamento federal de longo prazo.Tudo isso se traduz em algo '
+             'que grandes players do mercado não gostam: incerteza.Quanto '
+             'maior a incerteza, maior é o prêmio exigido pelo mercado para '
+             'investir. Ou seja: maior é o juro exigido. Por isso que a taxa '
+             'de juros pré-fixada de 10 anos teve forte alta nas últimas '
+             'semanas no Brasil, o que não vem ocorrendo com outros países '
+             'emergentes.Para se ter uma ideia, a taxa de um título do tesouro '
+             'chamado de NTN-B 2050 se aproxima do patamar registrado no pior '
+             'momento da pandemia, isto é, quando houve um momento de grande '
+             'incerteza.Os analistas ouvidos pelo Finance News apontam que '
+             'nosso país é um dos poucos a ver uma elevação acentuada do juro '
+             'de longo prazo. Isso tem um impacto direto em ativos de risco, '
+             'como é o caso das ações. Nesse cenário, grandes investidores '
+             'tendem a mirar mais em ativos atrelados a juros e ter menor '
+             'exposição à Bolsa.A elevação dos gastos no Brasil sem uma '
+             'contrapartida e a retirada dos estímulos pelo Banco Central '
+             'americano são citados como os principais, além de outros. A '
+             'redução dos estímulos, importantes durante a crise provocada '
+             'pela pandemia, pelo Banco Central americano leva à redução da '
+             'liquidez pelo mundo. Menos dinheiro à disposição tende a gerar '
+             'um movimento de busca por locais mais seguros para investir, '
+             'como países ricos. O capital especulativo de sobra inflou o '
+             'preço de muitas ações na Bolsa brasileira e na de muitos '
+             'países.É importante também entender outra medida do Banco '
+             'Central dos EUA que pode impactar nosso mercado: a elevação dos '
+             'juros americanos. Embora ainda não seja uma preocupação de agora '
+             '(o mercado está mais atento à redução dos estímulos), esse tema '
+             'deve ganhar relevância nos próximos trimestres. A alta dos juros '
+             'americanos retira dinheiro dos emergentes, faz o dólar subir e '
+             'provoca alta da inflação.De fato, os resultados do segundo '
+             'trimestre deste ano mostraram que muitas empresas com ações '
+             'negociadas na B3 voltaram a ter bons níveis de rentabilidade, o '
+             'que acaba tornando indicadores financeiros e operacionais das '
+             'suas ações ainda interessantes.No entanto, entre as sinalizações '
+             'dos balanços do segundo trimestre das companhias e as projeções '
+             'do que está por vir, o mercado, nesse momento, tem dado maior '
+             'ênfase nos próximos trimestres, precificando agora um cenário '
+             'mais adverso.Analistas afirmam ainda que é preciso entender que '
+             'a base de comparação ajudou muitas empresas. Houve companhias '
+             'que reverteram o prejuízo em relação ao 2T20. Só que no segundo '
+             'trimestre de 2020, vale lembrar, a grande maioria das empresas '
+             'sofreu com o impacto do fechamento da economia devido à '
+             'pandemia.Nesse ponto especialistas se dividem. Alguns acreditam '
+             'que as ações estão baratas e a queda do Ibovespa é uma '
+             'oportunidade para comprar papéis de companhias com bons '
+             'fundamentos, boa gestão e em setores promissores. Outros '
+             'acreditam que muitos papéis podem cair mais já que subiram em '
+             'função de uma estimativa de crescimento da economia bem maior do '
+             'que as projeções atuais. Todos são unânimes em afirmar que os '
+             'investidores agora terão que ser mais seletivos e estar '
+             'posicionados em companhias com boas perspectivas de resultados '
+             'mesmo diante do cenário mais desafiador e resilientes ao cenário '
+             'macroeconômico.',
+ 'title': '10 perguntas (e respostas) sobre a queda da Bolsa\xa0',
+ 'url': 'https://financenews.com.br/2021/08/10-perguntas-e-respostas-sobre-a-queda-da-bolsa/'}
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/oceanpact-contrata-bancos-para-captacao-de-ate-r-420-milhoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/btg-tem-recomendacao-de-compra-para-br-malls-leia-a-analise/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/oceanpact-contrata-bancos-para-captacao-de-ate-r-420-milhoes/>
+{'conteudo': 'A Oceanpact Serviços Marítimos (OPCT3) informou na noite desta '
+             'sexta, 20, que engajou o Banco Itaú BBA, o Banco Bradesco BBI, o '
+             'Banco ABC Brasil e o Banco Votorantim para atuarem, em conjunto, '
+             'como coordenadores, sendo o Itaú BBA o coordenador líder da '
+             'operação, no âmbito de potencial captação de recursos no mercado '
+             'local de renda fixa no valor total de até R$ 420 milhões. “Caso '
+             'a potencial captação seja realizada, esta será conduzida em '
+             'conformidade com a legislação e a regulamentação aplicáveis e os '
+             'recursos obtidos poderão ser aplicados da seguinte forma: a '
+             'compra de embarcação e robôs submarinos; e a otimização da '
+             'estrutura de capital da companhia, incluindo o pré-pagamento de '
+             'dívida existente”, explicou a Oceanpact em um fato relevante.  A '
+             'empresa afirmou que a potencial captação, caso concluída, poderá '
+             'ser garantida por bens e/ou ativos de sua propriedade. A '
+             'operação está sujeita, ainda, às condições do mercado de '
+             'capitais brasileiro, às aprovações societárias necessárias da '
+             'Companhia, à celebração dos contratos definitivos, à conclusão '
+             'satisfatória dos procedimentos usuais em operações análogas, ao '
+             'cumprimento de demais condições precedentes da operação, dentre '
+             'outros fatores alheios à vontade da companhia.',
+ 'title': 'Oceanpact contrata bancos para captação de até R$ 420 milhões',
+ 'url': 'https://financenews.com.br/2021/08/oceanpact-contrata-bancos-para-captacao-de-ate-r-420-milhoes/'}
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/guide-ve-como-positiva-reestruturacao-da-gerdau-no-mexico/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/maia-assume-sabesp-dispara/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/atualizacao-das-13h20-sabesp-rede-dor-azul-e-outros-destaques/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/a-avaliacao-para-a-cyrela-eztec-trisul-tecnisa-e-lavvi/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/maiores-altas-e-quedas-do-ibovespa-na-semana-27/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/btg-tem-recomendacao-de-compra-para-br-malls-leia-a-analise/>
+{'conteudo': 'O BTG Pactual tem classificação de “compra” para a BR Malls '
+             '(BRML3). Essa recomendação deve-se, principalmente, ao '
+             '‘valuation’ da companhia.O preço-alvo é de R$ 14. A BR Malls é a '
+             'maior empresa de shoppings da américa latina, com participação '
+             'em 39 shopping centers, e foi duramente afetada pela '
+             'pandemia.Além do valuation, a equipe do banco ressalta outro '
+             'motivo para a recomendação de compra: “seu portfólio está se '
+             'recuperando praticamente em linha com seus pares – ou seja, uma '
+             'vez que as restrições às operações dos shoppings foram '
+             'atenuadas, o tráfego de pedestres e as vendas se recuperaram '
+             'bem. Isso deve continuar no 2S21 já que o Brasil finalmente está '
+             'voltando ao normal, com um ritmo de vacinação mais acelerado”, '
+             'destaca em relatório.O time de analistas avalia que os '
+             'resultados do segundo trimestre foram fracos. O Ebitda ajustado '
+             'totalizou R$ 139 milhões, 11% abaixo da previsão do BTG, com '
+             'margem fraca de 53%, 10 p.p. abaixo da estimativa, fortemente '
+             'impactado por maiores despesas com PDD (relacionadas à '
+             'inadimplência de lojistas).“O principal destaque negativo foi a '
+             'inadimplência de 18% (bem acima dos pares), que gerou altos '
+             'gastos com PDD e perda de Ebitda no 2T21”, escrevem os '
+             'analistas.Para quem quer investir na companhia é importante '
+             'ficar atento aos riscos a que está exposta. O BTG destaca '
+             'mudanças na atividade econômica, que poderiam impactar a taxa de '
+             'ocupação dos shoppings; maiores taxas de juros e menor '
+             'disponibilidade de capital; pagamento excessivo em aquisições, '
+             'entre outros. ',
+ 'title': 'BTG tem recomendação de ‘compra’ para BR Malls. Leia a análise',
+ 'url': 'https://financenews.com.br/2021/08/btg-tem-recomendacao-de-compra-para-br-malls-leia-a-analise/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/guide-ve-como-positiva-reestruturacao-da-gerdau-no-mexico/>
+{'conteudo': 'Em um relatório assinado pelo analista Luis Sales, a corretora '
+             'Guide avalia como positiva a reestruturação da Gerdau no '
+             'México.“Vemos a notícia com bons olhos pela reestruturação da '
+             'Gerdau no México, unificando três empresas em uma, o que tende a '
+             'tornar mais eficiente a gestão, através de redução de custos e '
+             'ganhos operacionais”, destaca o relatório.A reestruturação '
+             'envolve a subsidiária Sidertúl e as suas sociedades Aceros Corsa '
+             'e Gerdau Corsa em parceria com o Grupo Córdova. As três '
+             'companhias, todas localizadas no México, se fundirão e se '
+             'tornarão uma só.“Como passo preliminar à incorporação, o Grupo '
+             'Córdova adquirirá 16,84% do capital social da Sidertúl, pelo '
+             'montante de US$ 32.500 mil, a fim de equalizar sua participação '
+             'acionária no capital social da Gerdau Corsa, após a '
+             'incorporação”, explicou a Gerdau. Como resultado, a Gerdau S.A. '
+             'aumentará, indiretamente, a sua participação no capital social '
+             'da Gerdau Corsa de 70% para 75%, mantendo-se o controle '
+             'compartilhado da Gerdau Corsa com o Grupo Córdova. “A '
+             'reorganização societária reforçará o compromisso das companhias '
+             'com suas operações no México, geografia importante e estratégica '
+             'dentro da sua visão de longo prazo”, afirmou a siderúrgica. A '
+             'operação deve ser concluída no quarto trimestre de 2021, está '
+             'condicionada à aprovação dos acionistas das sociedades '
+             'envolvidas e da Comisión Federal de Competencia Económica – '
+             'COFECE (o órgão de defesa da concorrência mexicano). ',
+ 'title': 'Guide vê como positiva reestruturação da Gerdau no México',
+ 'url': 'https://financenews.com.br/2021/08/guide-ve-como-positiva-reestruturacao-da-gerdau-no-mexico/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/maia-assume-sabesp-dispara/>
+{'conteudo': 'As ações da Sabesp (SBSP3) dispararam nesta manhã e chegaram a '
+             'entrar em leilão. Às 11h45 subiam +13%.O deputado federal '
+             'Rodrigo Maia (sem partido) foi nomeado secretário de Projetos e '
+             'Ações Estratégicas do estado de São Paulo. Ao ser questionado '
+             'sobre as primeiras ações como secretário, Maia disse que ainda '
+             'está estudando a pasta, mas que pretende focar na Sabesp. Ele '
+             'ressaltou que considera simbólico organizar a privatização da '
+             'companhia.O parlamentar assumiu o cargo em cerimônia no Palácio '
+             'dos Bandeirantes, na Zona Sul da capital, na manhã desta '
+             'sexta-feira.Em junho deste ano foi divulgada a informação de que '
+             'o governo de SP pretendia contratar o International Finance '
+             'Corporation (IFC) para avaliar as duas opções de desestatização '
+             'da empresa: uma capitalização, mas sem perda de controle '
+             'acionário do governo, ou uma privatização de fato.',
+ 'title': 'Maia assume, Sabesp dispara',
+ 'url': 'https://financenews.com.br/2021/08/maia-assume-sabesp-dispara/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/atualizacao-das-13h20-sabesp-rede-dor-azul-e-outros-destaques/>
+{'conteudo': 'Às 13h10 o Ibovespa tinha alta de 0,30% aos 117.479 pontos. Na '
+             'semana, caminha para fechar com desvalorização de -3%.A queda '
+             'semanal ocorre diante do avanço da variante delta do '
+             'coronavírus, que ameaça a retomada da economia no mundo e '
+             'pressiona as commodities, a pressão regulatória do governo da '
+             'China e as incertezas associadas, e o risco fiscal em meio à '
+             'ruídos políticos no Brasil.O dólar comercial virou para queda. '
+             'Às 13h09 o dólar comercial tinha baixa de 0,47% a R$ na venda.As '
+             'ações da Azul (AZUL4) operavam no positivo neste começo de tarde '
+             'após a informação da agência Dow Jones de que a companhia está '
+             'em negociações com credores da Latam Airlines para tentar '
+             'convencer a rival a vender sua operação no Brasil. Às 13h10 '
+             'subiam mais de 2% os papéis AZUL4.As ações da Sabesp (SBSP3) '
+             'tiveram uma forte alta após às 10h40. Às 13h05 subiam +10%. O '
+             'deputado federal Rodrigo Maia (sem partido) foi nomeado '
+             'secretário de Projetos e Ações Estratégicas do estado de São '
+             'Paulo. Ao ser questionado sobre as primeiras ações como '
+             'secretário, Maia disse que ainda está estudando a pasta, mas que '
+             'pretende focar na Sabesp. Sua prioridade é a privatização da '
+             'Sabesp, ressaltou.Em junho deste ano foi divulgada a informação '
+             'de que o governo de SP pretendia contratar o International '
+             'Finance Corporation (IFC) para avaliar as duas opções de '
+             'desestatização da empresa: uma capitalização, mas sem perda de '
+             'controle acionário do governo, ou uma privatização de fato.O '
+             'mercado repercute a informação de que o  (AALR3).Para a '
+             'corretora Guide, o movimento deve diminuir significativamente a '
+             'chance da Rede D’Or (RDOR3) fazer uma outra proposta pela '
+             'Alliar, em virtude do alto valor que deveria pagar pelo '
+             'controle, após operação realizada por Nelson Tanure. “Portanto '
+             'acreditamos que o grupo hospitalar deva buscar outras '
+             'oportunidades em sua estratégia de crescimento inorgânica”, '
+             'destaca um relatório assinado pelo analista Luis Sales.A Rede '
+             'D’Or informou nesta sexta, 20, que concluiu a aquisição da '
+             'participação de 20% do capital social do Hospital Aliança, '
+             'tornando-se titular de 100% do Hospital Aliança, em Salvador.A '
+             'participação societária de 20% do Hospital Aliança foi comprada '
+             'pelo preço de R$ 350 milhões. Deste modo, o valor pago pela '
+             'totalidade das ações representativas do capital social do '
+             'Hospital Aliança foi de R$ 1,150 bilhão. A previsão de receita '
+             'para o Hospital Aliança no ano de 2022 é de R$ 700 milhões, com '
+             'um EBITDA projetado de R$ 200 milhões.O BTG Pactual tem '
+             'classificação de “compra” para a BR Malls (BRML3). Essa '
+             'recomendação deve-se, principalmente, ao ‘valuation’ da '
+             'companhia.O preço-alvo é de R$ 14. Leia a análise Depois da '
+             'forte queda da véspera, as ações Vale (VALE3) operavam em alta '
+             'de 0,5% às 13h10. O minério teve leve alta em Dalian, na China.O '
+             'Itaú BBA elevou a classificação do Burger King Brasil (BKBR3) de '
+             '‘market perform’ para ‘outperform’ (projeção de valorização '
+             'acima da média do mercado). A alteração ocorre depois da '
+             'correção recente de preços. O preço-alvo para 2022 é de R$ '
+             '12,5. ',
+ 'title': 'Atualização das 13h15: Sabesp, Rede D’or, Azul e outros destaques',
+ 'url': 'https://financenews.com.br/2021/08/atualizacao-das-13h20-sabesp-rede-dor-azul-e-outros-destaques/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/ibovespa-fecha-em-alta-de-076-na-semana-caiu-259/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/a-avaliacao-para-a-cyrela-eztec-trisul-tecnisa-e-lavvi/>
+{'conteudo': 'O BTG tem recomendação de “compra” para a ação CYRE3 com '
+             'preço-alvo de R$ 37. Em um relatório divulgado na quinta, 19, '
+             'seus analistas avaliam que os resultados da empresa no segundo '
+             'trimestre foram “muito fortes” e superaram suas expectativas '
+             'otimistas. “Embora os investidores estejam pessimistas em '
+             'relação às perspectivas macro (taxas de juros mais altas, custos '
+             'de materiais de construção em alta), a Cyrela parece muito bem '
+             'posicionada (ótimo banco de terrenos, gestão de alto nível, '
+             'operações bem administradas) para continuar apresentando '
+             'resultados impressionantes (as margens do segundo trimestre '
+             'foram prova disso)”, destaca o time de analistas do BTG no '
+             'relatório.Também na véspera o BTG também emitiu avaliações sobre '
+             'a Eztec, Trisul, Tecnisa e a Lavvi. Confira:Recomendação: '
+             '“compra”Preço-alvo: R$ 47Recomendação: “compra”Preço-alvo: R$ '
+             '15Recomendação: “compra”Preço-alvo: R$ 15Recomendação: '
+             '“compra”Preço-alvo: R$ 12',
+ 'title': 'A avaliação para a Cyrela, Eztec, Trisul, Tecnisa e Lavvi',
+ 'url': 'https://financenews.com.br/2021/08/a-avaliacao-para-a-cyrela-eztec-trisul-tecnisa-e-lavvi/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/assista-a-analise-do-ibovespa-petr4-vale3-bbas3-abev3-e-de-wege3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/ibovespa-fecha-em-alta-de-076-na-semana-caiu-259/>
+{'conteudo': 'O Ibovespa fechou em alta de 0,76% aos 118.052 pontos. O volume '
+             'financeiro negociado somou R$ 30,3 bilhões. Na semana o índice '
+             'caiu 2,59%.O destaque de alta do pregão foi a Sabesp (SBSP3), '
+             'que saltou +10% com o Rodrigo Maia, nomeado hoje secretário de '
+             'Projetos e Ações Estratégicas do estado de São Paulo, afirmando '
+             'que sua prioridade é a privatização da Sabesp.Nos EUA o Dow '
+             'Jones fechou em alta de 0,65%, o S&P 500 de +0,81% e Nasdaq de '
+             '+1,19%. ',
+ 'title': 'Ibovespa fecha em alta de 0,76%. Na semana caiu 2,59%',
+ 'url': 'https://financenews.com.br/2021/08/ibovespa-fecha-em-alta-de-076-na-semana-caiu-259/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/eztec-vai-recomprar-ate-5-milhoes-de-acoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/4/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/assista-a-analise-do-ibovespa-petr4-vale3-bbas3-abev3-e-de-wege3/>
+{'conteudo': 'Dalton Vieira faz a análise do Ibovespa, Winq21, Wdou21, Petr4, '
+             'Vale3, Bbas3, Abev3 e de Wege3.Assista:',
+ 'title': 'Assista à análise do Ibovespa, Petr4, Vale3, Bbas3, Abev3 e de '
+          'Wege3',
+ 'url': 'https://financenews.com.br/2021/08/assista-a-analise-do-ibovespa-petr4-vale3-bbas3-abev3-e-de-wege3/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/sp-eleva-rating-nacional-da-cvc/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/copasa-vai-emitir-r-750-milhoes-em-debentures/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/fras-le-lanca-fras-le-smart-composites/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/eztec-vai-recomprar-ate-5-milhoes-de-acoes/>
+{'conteudo': 'A Eztec (EZTC3) vai recomprar até 5.035.897 de ações ordinárias. '
+             'Em um fato relevante divulgado nesta sexta, 20, depois do '
+             'fechamento do mercado, a companhia anunciou que seu conselho de '
+             'administração aprovou um programa de recompra de ações. O prazo '
+             'para realização das operações começa em 23 de agosto de 2021 e o '
+             'término será em 23 de fevereiro de 2022.Atualmente a companhia '
+             'tem 100.717.936 (cem milhões, setecentas e dezessete mil, '
+             'novecentas e trinta e seis) ações ordinárias em circulação no '
+             'mercado.Com relação ao objetivo da operação, a Eztec afirmou: '
+             '“adquirir ações de emissão da companhia para manutenção em '
+             'tesouraria, com o objetivo de aplicar recursos disponíveis da '
+             'companhia para maximizar a geração de valor para os acionistas, '
+             'uma vez que, na visão da administração da companhia, o valor '
+             'atual de suas ações não reflete o real valor dos seus ativos '
+             'combinado com a perspectiva de rentabilidade e geração de '
+             'resultados futuros”.',
+ 'title': 'Eztec vai recomprar até 5 milhões de ações\xa0',
+ 'url': 'https://financenews.com.br/2021/08/eztec-vai-recomprar-ate-5-milhoes-de-acoes/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/sp-eleva-rating-nacional-da-cvc/>
+{'conteudo': 'A agência de classificação de risco S&P, uma das principais do '
+             'mundo, elevou a nota de emissor e de emissão nacional da CVC '
+             '(CVCB3) de “brB” para “brBB”.A perspectiva é “estável”. A '
+             'elevação ocorre após a operadora concluir um aumento de capital '
+             'de R$ 453,7 milhões.',
+ 'title': 'S&P eleva rating nacional da CVC',
+ 'url': 'https://financenews.com.br/2021/08/sp-eleva-rating-nacional-da-cvc/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/noticias-corporativas-da-noite-desta-quinta-19/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-noticias-corporativas-e-mercados-nesta-sexta/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/morgan-stanley-reduz-participacao-na-mrv/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/a-receita-liquida-da-randon-em-julho/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/fundo-geridos-pela-3g-elevam-participacao-na-hermes-pardini/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/ibovespa-futuro-dolar-e-outros-destaques-68/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-noticias-corporativas-e-mercados-nesta-sexta/>
+{'conteudo': 'China (Shanghai Comp.): -1,10% (pregão encerrado)Japão (Nikkei '
+             '225): -0,98% (pregão encerrado)Hong Kong (Hang Seng): -1,84% '
+             '(pregão encerrado)Alemanha (DAX): -0,45%Londres (FTSE 100): '
+             '-0,17%Petróleo Brent: -0,63% (US$ 66,02). O brent é referência '
+             'para a Petrobras.Petróleo WTI: -0,65% (US$ 63,09).Bitcoin '
+             'futuro: +1,23% (US$ 47.245)O contrato futuro mais líquido do '
+             'minério de ferro negociado na bolsa de Dalian, na China, teve '
+             'alta de 0,25% cotado em 777 iuanes (US$ 119,6). A cotação em '
+             'Dalian pode impactar os papéis da brasileira Vale (VALE3), CSN '
+             '(CSNA3) e CSN Mineração (CMIN3). Esse dado foi obtido no link: '
+             'Às 7h48 em Wall Street, o Dow Jones futuro operava em queda de '
+             '0,40% e o S&P 500 futuro com desvalorização de 0,36%. Nasdaq '
+             'futuro caía 0,22%.',
+ 'title': 'Petróleo, minério, bitcoin, notícias corporativas e mercados nesta '
+          'sexta',
+ 'url': 'https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-noticias-corporativas-e-mercados-nesta-sexta/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/morgan-stanley-reduz-participacao-na-mrv/>
+{'conteudo': 'O Morgan Stanley reduziu participação na MRV (MRVE3). A '
+             'informação foi divulgada após o pregão desta sexta, 20, pela '
+             'construtora.O conjunto de fundos administrados e/ou geridos pelo '
+             'Morgan Stanley passou a deter posição/exposição equivalente a '
+             '4,9% das ações ordinárias de emissão da MRV (MRVE3).',
+ 'title': 'Morgan Stanley reduz participação na MRV',
+ 'url': 'https://financenews.com.br/2021/08/morgan-stanley-reduz-participacao-na-mrv/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/lojas-renner-tenta-restabelecer-o-e-commerce-apos-ataque-cibernetico/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/rapidas-vale-gerdau-eternit-renner-burger-king-e-petrobras/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/5/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/lojas-renner-tenta-restabelecer-o-e-commerce-apos-ataque-cibernetico/>
+{'conteudo': 'A Lojas Renner (LREN3) informou nesta sexta-feira, 20, que as '
+             'equipes permanecem trabalhando para restabelecer o e-commerce em '
+             'breve. Na véspera a companhia informou que sofreu um ataque '
+             'cibernético. Segundo a Renner, os principais bancos de dados '
+             'permanecem preservados e as lojas físicas continuam abertas e '
+             'operando. “A companhia continua atuando de forma diligente, com '
+             'foco para mitigar os efeitos causados e manterá o mercado '
+             'informado de qualquer informação relevante relacionada a este '
+             'evento”, afirmou a Renner em um comunicado nesta manhã.',
+ 'title': 'Lojas Renner tenta restabelecer o e-commerce após ataque '
+          'cibernético',
+ 'url': 'https://financenews.com.br/2021/08/lojas-renner-tenta-restabelecer-o-e-commerce-apos-ataque-cibernetico/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/rapidas-vale-gerdau-eternit-renner-burger-king-e-petrobras/>
+{'conteudo': 'Depois da forte queda da véspera, as ações Vale (VALE3) operavam '
+             'no positivo neste começo de pregão. O minério teve leve alta em '
+             'Dalian, na China.Com relação à Gerdau (GGBR4), o mercado '
+             'repercute a notícia de que a siderúrgica O Itaú BBA elevou a '
+             'classificação do Burger King Brasil (BKBR3) de ‘market perform’ '
+             'para ‘outperform’ (projeção de valorização acima da média do '
+             'mercado). A alteração ocorre depois da correção recente de '
+             'preços. O preço-alvo para 2022 é de R$ 12,5. A Eternit (ETER3) '
+             'disse que “está envidando todos os esforços necessários” para '
+             'reverter a decisão que determinou a suspensão imediata da '
+             'exploração de amianto crisotila em Minaçu, Goiás.A companhia '
+             'afirmou que vai demonstrar a “regularidade” da sua operação. O '
+             'Ministério Público Federal entrou na Justiça após a Eternit, '
+             'empresa responsável pela mineradora Sama, retomar as atividades '
+             'na região.A As ações caíam 0,95% às 10h34.As ações da Petrobras '
+             '(PETR4) tinham queda com o barril do Brent operando em baixa. A '
+             'petroleira estatal esclareceu nesta sexta, 20, que sua '
+             'participação na Braskem (BRKM5) faz parte dos ativos '
+             'contemplados em sua gestão de portfólio e que, conforme '
+             'divulgado em 09/08/2021, contratou o JP Morgan para '
+             'assessoramento financeiro da eventual e futura transação '
+             'referente à sua participação na Braskem. A companhia reafirmou '
+             'que ainda não há qualquer definição ou decisão sobre o '
+             'assunto.Às 10h35 o Ibovespa tinha queda de 0,70% aos 116.420 '
+             'pontos.  O avanço da variante delta do coronavírus, que ameaça a '
+             'retomada da economia no mundo e pressiona as commodities, a '
+             'pressão regulatória do governo da China e as incertezas '
+             'associadas, e o risco fiscal em meio à ruídos políticos no '
+             'Brasil, são alguns dos fatores que levam a baixa do principal '
+             'índice acionário da B3. ',
+ 'title': 'Rápidas: Vale, Gerdau, Eternit, Renner, Burger King e Petrobras',
+ 'url': 'https://financenews.com.br/2021/08/rapidas-vale-gerdau-eternit-renner-burger-king-e-petrobras/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/cruzeiro-do-sul-educacional-leia-a-analise-para-acao-csed3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/atualizacao-das-15h-ibovespa-vira-para-alta/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/acoes-da-braskem-sobem-com-noticia/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/tanure-tambem-quer-a-alliar-diz-site/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/ibovespa-fecha-em-alta-de-045-dolar-vai-a-r-542/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/cruzeiro-do-sul-educacional-leia-a-analise-para-acao-csed3/>
+{'conteudo': 'O BTG Pactual tem recomendação de “compra” para a ação da '
+             'Cruzeiro do Sul Educacional (CSED3). O preço-alvo é de R$ 18. Em '
+             'um relatório divulgado no começo desta semana o time de '
+             'analistas do BTG avalia os resultados do segundo trimestre da '
+             'companhia.“Embora os resultados do 2º trimestre não tenham nos '
+             'surpreendido, eles foram muito consistentes e os resultados da '
+             'Cruzeiro do Sul foram sólidos, mostrando resiliência de margem, '
+             'expansão anual do EBITDA e um balanço patrimonial ainda '
+             'robusto”, escreve. A equipe salienta que o ciclo de admissão do '
+             'segundo semestre mostra indicadores positivos e uma recuperação '
+             'no segmento presencial. “Negociando em um valuation atraente (~ '
+             '10,5 x Preço/lucro ajustado em 2022), reiteramos nossa '
+             'recomendação de compra na Cruzeiro do Sul, nossa escolha '
+             'preferida em educação”, destaca no relatório.A Cruzeiro do Sul '
+             'reportou um lucro líquido contábil de R$ 28 milhões contra '
+             'prejuízo líquido de R$ 49 milhões no 2T20. O lucro líquido '
+             'ajustado foi de R$ 45 milhões, um pouco abaixo da projeção do '
+             'BTG de R$ 53 milhões. Antes de investir é importante entender os '
+             'riscos a que uma empresa está exposta. O time do BTG acredita '
+             'que os principais riscos para a Cruzeiro do Sul são: '
+             'concorrência no segmento de EAD; baixa liquidez das ações; '
+             'regulamentação e dependência relativamente alta de alguns '
+             'cursos.Desde que estrearam na B3, em fevereiro deste ano, as '
+             'ações da CSED3 acumulam perdas de 28%. Só neste mês de agosto, a '
+             'queda é de 25%.',
+ 'title': 'Cruzeiro do Sul educacional: leia a análise para ação CSED3',
+ 'url': 'https://financenews.com.br/2021/08/cruzeiro-do-sul-educacional-leia-a-analise-para-acao-csed3/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/lojas-renner-sofre-ataque-cibernetico/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/gerdau-aprova-reorganizacao-societaria-no-mexico/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/acoes-da-braskem-sobem-com-noticia/>
+{'conteudo': 'As ações da Braskem (BRKM5) estavam entre as maiores altas do '
+             'Ibovespa na tarde desta quinta, 19.Às 15h34 as ações subiam '
+             '4,26% cotadas em R$ 57,10.Segundo a agência Bloomberg, uma '
+             'oferta pública de ações está de volta como uma possível '
+             'estratégia de saída dos acionistas controladores. A informação '
+             'foi atribuída a “pessoas a par do assunto”.A Novonor (antiga '
+             'Odebrecht) teria contratado o Morgan Stanley para vender a '
+             'participação de 38,3% na petroquímica. Até às 15h30 a companhia '
+             'ainda não havia se manifestado sobre a informação.',
+ 'title': 'Ações da Braskem sobem com notícia',
+ 'url': 'https://financenews.com.br/2021/08/acoes-da-braskem-sobem-com-noticia/'}
+2021-08-22 09:58:02 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/tanure-tambem-quer-a-alliar-diz-site/>
+{'conteudo': 'O site informou nesta quinta, 19, que fundos de investimentos '
+             'ligados ao empresário Nelson Tanure compraram cerca de 30% da '
+             'Alliar (AALR3).O site afirmou, citando fontes, que essa '
+             'aquisição foi feita por um fundo ligado a Tanure e gerido pela '
+             'MAM. Vale lembrar que a Rede D’Or (RDOR3) divulgou no começo da '
+             'semana que seu conselho de administração aprovou uma oferta '
+             'pública de aquisição (OPA) para adquirir ações da Alliar por até '
+             'R$ 1,36 bilhão.Na quarta-feira, 18, o grupo hospitalar realizou '
+             'operações de compra no mercado de 63.000 ações ordinárias da '
+             'Alliar, com um volume total de R$ 721.959,00.Na terça, 17, a '
+             'Rede D’Or realizou operações de compra no mercado de 1.106.500 '
+             'ações ordinárias da companhia. O volume total somou R$ 12,6 '
+             'milhões.Na segunda, 16, comprou 2.538.600 ações ordinárias da '
+             'empresa. ',
+ 'title': 'Tanure também quer a Alliar, diz site\xa0',
+ 'url': 'https://financenews.com.br/2021/08/tanure-tambem-quer-a-alliar-diz-site/'}
+2021-08-22 09:58:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/jbs-ppc-fara-oferta-de-us-900-milhoes-em-notas-seniores/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:03 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/lojas-renner-sofre-ataque-cibernetico/>
+{'conteudo': 'A Lojas Renner (LREN3) informou após o fechamento do pregão '
+             'nesta quinta-feira, 19, que sofreu hoje um ataque cibernético em '
+             'seu ambiente de tecnologia da informação.O ataque resultou em '
+             'indisponibilidade em parte de seus sistemas e operação.A '
+             'companhia informou que “prontamente acionou seus protocolos de '
+             'controle e segurança para bloquear o ataque e minimizar '
+             'eventuais impactos”. Em um comunicado ao mercado, a Renner '
+             'destacou que está atuando de “forma diligente e com foco” para '
+             'mitigar os efeitos causados, com a maior parte das operações já '
+             'restabelecidas e tendo sido verificado que os principais bancos '
+             'de dados permanecem preservados. “Cabe ressaltar que em nenhum '
+             'momento as lojas físicas tiveram suas atividades interrompidas”, '
+             'afirmou a varejista. A companhia salientou ainda que faz uso de '
+             'tecnologias e padrões rígidos de segurança, e continuará '
+             'aprimorando sua infraestrutura para incorporar cada vez mais '
+             'protocolos de proteção de dados e sistemas. ',
+ 'title': 'Lojas Renner sofre ataque cibernético\xa0',
+ 'url': 'https://financenews.com.br/2021/08/lojas-renner-sofre-ataque-cibernetico/'}
+2021-08-22 09:58:03 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/gerdau-aprova-reorganizacao-societaria-no-mexico/>
+{'conteudo': 'O conselho de administração da Gerdau (GGBR4) aprovou uma '
+             'reorganização societária no México.A informação foi divulgada '
+             'pela Gerdau (GGBR4) e a Metalúrgica Gerdau (GOAU4) após o pregão '
+             'desta quinta-feira, 19.A operação envolve a incorporação das '
+             'empresas Sidertúl e Aceros Corsa pela Gerdau Corsa.Segundo a '
+             'siderúrgica, a operação está inserida no contexto do processo de '
+             'reorganização e simplificação da estrutura societária no México, '
+             'com o objetivo de fortalecer a estrutura financeira da Gerdau '
+             'Corsa, com a redução da alavancagem e das despesas financeiras; '
+             'centralizar as principais atividades do negócio, gerando uma '
+             'maior eficiência operacional das sociedades envolvidas; e '
+             'otimizar os processos internos, criando sinergia nas atividades '
+             'e economia de escala com a redução dos custos administrativos, '
+             'operacionais e tributários. “Como passo preliminar à '
+             'incorporação, o Grupo Córdova adquirirá 16,84% do capital social '
+             'da Sidertúl, pelo montante de US$ 32.500 mil, a fim de equalizar '
+             'sua participação acionária no capital social da Gerdau Corsa, '
+             'após a incorporação”, explicou a Gerdau. Como resultado, a '
+             'Gerdau S.A. aumentará, indiretamente, a sua participação no '
+             'capital social da Gerdau Corsa de 70% para 75%, mantendo-se o '
+             'controle compartilhado da Gerdau Corsa com o Grupo Córdova. “A '
+             'reorganização societária reforçará o compromisso das companhias '
+             'com suas operações no México, geografia importante e estratégica '
+             'dentro da sua visão de longo prazo”, afirmou a siderúrgica. A '
+             'operação deve ser concluída no quarto trimestre de 2021, está '
+             'condicionada à aprovação dos acionistas das sociedades '
+             'envolvidas e da Comisión Federal de Competencia Económica – '
+             'COFECE (o órgão de defesa da concorrência mexicano). ',
+ 'title': 'Gerdau aprova reorganização societária no México',
+ 'url': 'https://financenews.com.br/2021/08/gerdau-aprova-reorganizacao-societaria-no-mexico/'}
+2021-08-22 09:58:03 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/jbs-ppc-fara-oferta-de-us-900-milhoes-em-notas-seniores/>
+{'conteudo': 'A JBS (JBSS3) informou na noite desta quinta, 19, que a '
+             'Pilgrim’s Pride Corporation (PPC), sua subsidiária indireta, '
+             'ofertou ao mercado internacional US$ 900 milhões em Notas '
+             'Sêniores com remuneração de 3,50% ao ano e vencimento em 2032. A '
+             'PPC pretende utilizar os recursos da oferta juntamente com '
+             'recursos advindos de outras linhas de crédito para financiar a '
+             'aquisição previamente anunciada dos negócios de alimentos '
+             'preparados (Kerry Meats) e refeições (Kerry Meals) da Kerry '
+             'Consumer Foods no Reino Unido e na Irlanda, além de outras taxas '
+             'e despesas relacionadas à aquisição. O saldo remanescente dos '
+             'recursos será utilizado para o pagamento de linhas de crédito '
+             'rotativas garantidas e para outros propósitos corporativos. '
+             'Anteriormente à oferta, a agência de rating Standard & Poor´s '
+             '(S&P) anunciou que, devido ao recente anúncio da JBS em relação '
+             'à sua intenção de adquirir as ações remanescentes da PPC ainda '
+             'não detidas pela JBS ou suas subsidiárias, agora vê a PPC como '
+             'subsidiária substancial da Companhia. Além disso, a S&P afirmou '
+             'seu rating de crédito de emissor “BB+” para a PPC e revisou sua '
+             'perspectiva de estável para positiva, refletindo os mesmos '
+             'ratings e perspectivas da JBS. ',
+ 'title': 'JBS: PPC fará oferta de US$ 900 milhões em notas sêniores\xa0',
+ 'url': 'https://financenews.com.br/2021/08/jbs-ppc-fara-oferta-de-us-900-milhoes-em-notas-seniores/'}
+2021-08-22 09:58:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/eletrobras-atualiza-valor-do-dividendo-que-sera-pago-dia-31/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/fundo-gerido-pela-mam-de-tanure-compra-21-do-capital-total-da-alliar/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/4/)
+2021-08-22 09:58:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/6/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/sinqia-faz-parceria-com-a-techrules/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/ibovespa-futuro-dolar-e-outros-destaques-67/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:03 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/eletrobras-atualiza-valor-do-dividendo-que-sera-pago-dia-31/>
+{'conteudo': 'A Eletrobras (ELET3, ELET6) informou na noite desta '
+             'quinta-feira, 19, em complemento ao aviso aos acionistas do dia '
+             '11 de agosto de 2021, que os valores por ação atualizados pela '
+             'Taxa Selic, a partir de 01 de janeiro de 2021, para o pagamento '
+             'dos dividendos relativos ao exercício de 2020, são os '
+             'seguintes:Esses dividendos serão pagos em 31 de agosto de 2021 '
+             'às pessoas físicas e jurídicas registradas como proprietários ou '
+             'usufrutuários de ações ordinárias e preferenciais classes “A” e '
+             '“B” (“ON”, “PNA” e “PNB”, respectivamente) na data base de 27 de '
+             'abril de 2021. Vale lembrar que o dividendo é isento de Imposto '
+             'de Renda, mas sobre a atualização monetária pela taxa Selic '
+             'incide IR a ser retido na fonte.',
+ 'title': 'Eletrobras atualiza valor do dividendo que será pago dia 31',
+ 'url': 'https://financenews.com.br/2021/08/eletrobras-atualiza-valor-do-dividendo-que-sera-pago-dia-31/'}
+2021-08-22 09:58:03 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/fundo-gerido-pela-mam-de-tanure-compra-21-do-capital-total-da-alliar/>
+{'conteudo': 'A Alliar (AALR3) informou na noite desta quinta-feira, 19, que '
+             'fundos de investimentos geridos pelo Pátria venderam '
+             'aproximadamente 25 milhões de ações da companhia para o Fonte de '
+             'Saúde Fundo de Investimento em Participações Multiestratégia.A '
+             'notícia foi adiantada pelo site A MAM Asset Management, do '
+             'empresário Nelson Tanure, é que faz a gestão do Fonte de Saúde.A '
+             'parcela corresponde a cerca de 21% do capital total da Alliar, '
+             'cujas ações fecharam em alta de 5,9% nesta quinta. Uma potencial '
+             'disputa pela companhia infla os papéis. Vale lembrar que a Rede '
+             'D’Or (RDOR3) divulgou no começo da semana que seu conselho de '
+             'administração aprovou uma oferta pública de aquisição (OPA) para '
+             'adquirir ações da Alliar por até R$ 1,36 bilhão.',
+ 'title': 'Fundo gerido pela MAM, de Tanure, compra 21% do capital total da '
+          'Alliar',
+ 'url': 'https://financenews.com.br/2021/08/fundo-gerido-pela-mam-de-tanure-compra-21-do-capital-total-da-alliar/'}
+2021-08-22 09:58:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/bradespar-decisao-do-tj-do-rj-fica-sujeita-a-interposicao-de-recursos-nos-tribunais-superiores/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/vale-e-ternium-assinam-memorando-para-desenvolver-solucoes-de-descarbonizacao-para-a-siderurgia/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/3r-petroleum-compra-participacao-complementar-no-campo-de-sanhacu/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:03 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/bradespar-decisao-do-tj-do-rj-fica-sujeita-a-interposicao-de-recursos-nos-tribunais-superiores/>
+{'conteudo': 'A 17° Câmara Cível do Tribunal de Justiça do Rio de Janeiro '
+             'julgou os embargos de declaração da Bradespar (BRAP4) no âmbito '
+             'da ação de indenização que lhe é movida pela Litel '
+             'Participações.A Corte manteve a decisão objeto do acórdão '
+             'proferido no dia 27 de janeiro de 2021, exceto em relação aos '
+             'honorários advocatícios que foram reduzidos ao percentual de 2% '
+             'do valor da condenação. A Bradespar afirmou que a decisão do '
+             'Tribunal de Justiça do Rio de Janeiro fica sujeita a '
+             'interposição de recursos nos tribunais superiores.Em janeiro '
+             'deste ano a 17° Câmara Cível do Tribunal de Justiça do Rio de '
+             'Janeiro, por unaminidade, deu provimento à apelação da Litel, de '
+             'modo que a decisão de primeiro grau foi reformada para acatar o '
+             'pleito da Litel, que cobra da Bradespar a importância de R$ '
+             '1.410.000.000,00 (um bilhão quatrocentos e dez milhões de '
+             'reais), paga pela Litel à Elétron S.A., em decorrência de '
+             'litígio que envolvia o chamado “Call Citibank”. O mesmo '
+             'julgamento considerou improcedente a reconvenção apresentada '
+             'pela Bradespar contra a Litel. Em setembro de 2018 a Bradespar '
+             '(BRAP4) e a Litel celebraram uma transação com a finalidade de '
+             'encerrar os litígios judiciais promovidos pela Elétron, '
+             'companhia de Daniel Dantas.A Litel e a Bradespar pagaram à '
+             'Elétron, cada uma, o valor de R$1 bilhão quatrocentos e dez '
+             'milhões.No entanto, em novembro do mesmo ano, a Litel recorreu à '
+             'Justiça para tentar o ressarcimento dos valores desembolsados. A '
+             'ação é contra a Bradespar.Em dezembro de 2019 foi proferida '
+             'sentença julgando improcedente o pleito da Litel, que cobra da '
+             'Bradespar a importância de R$ 1.410.000.000,00 paga pela Litel à '
+             'Elétron , e que correspondeu a 50% da liquidação da sentença '
+             'arbitral em litígio que envolvia o chamado “Call Citibank”. A '
+             'mesma sentença julgou parcialmente procedente a reconvenção '
+             'apresentada pela Bradespar  contra a Litel, determinando o '
+             'pagamento, pela Litel para a Bradespar, do valor de R$ '
+             '470.094.000,00 (quatrocentos e setenta milhões e noventa e '
+             'quatro mil reais), em atenção aos contratos prévios de '
+             'indenização, que atribuíam os percentuais de responsabilidade no '
+             'litígio.',
+ 'title': 'Bradespar: decisão do TJ do RJ ‘fica sujeita a interposição de '
+          'recursos nos tribunais superiores’',
+ 'url': 'https://financenews.com.br/2021/08/bradespar-decisao-do-tj-do-rj-fica-sujeita-a-interposicao-de-recursos-nos-tribunais-superiores/'}
+2021-08-22 09:58:03 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/vale-e-ternium-assinam-memorando-para-desenvolver-solucoes-de-descarbonizacao-para-a-siderurgia/>
+{'conteudo': 'A Vale (VALE3) informou nesta quinta-feira, 19, que assinou um '
+             'Memorando de Entendimento (Memorandum of Understanding, ou MoU, '
+             'em inglês”) com a Ternium no qual ambos concordaram em buscar '
+             'oportunidades para desenvolver soluções para a siderurgia '
+             'focadas na redução das emissões de CO2. A Vale e a Ternium '
+             'pretendem desenvolver estudos de viabilidade econômica de '
+             'potenciais investimentos em uma planta de briquetes de minério '
+             'de ferro localizada nas instalações da Ternium Brasil; e plantas '
+             'para produzir metálicos com baixa emissão de carbono, utilizando '
+             'a tecnologia Tecnored, HYL e outras tecnologias para a redução '
+             'de ferro. “Esta iniciativa contribui para alcançar o compromisso '
+             'da Vale de reduzir 15% das emissões líquidas de Escopo 3 até '
+             '2035. Além disso, a Vale busca reduzir suas emissões absolutas '
+             'de Escopo 1 e 2 em 33% até 2030 e alcançar neutralidade até '
+             '2050, em linha com o Acordo de Paris, liderando o caminho em '
+             'direção à mineração de baixo carbono”, explicou a mineradora em '
+             'um comunicado ao mercado.“Este é um marco importante no nosso '
+             'caminho para fornecer soluções de baixo carbono para a indústria '
+             'siderúrgica e estamos felizes em engajarmos com a Ternium nesta '
+             'jornada”, destacou Eduardo Bartolomeo, presidente da Vale. A '
+             'Vale desenvolveu por mais de 10 anos uma tecnologia '
+             'revolucionária para briquetar produtos de minério de ferro, como '
+             'sinter feed e pellet feed, em um processo mais simples, '
+             'flexível, menos intensivo em carbono e de capital e mais '
+             'econômico. Os briquetes permitem continuar a utilização de '
+             'altos-fornos durante a transição para um processo menos '
+             'intensivo em carbono, uma vez que poderiam evitar a etapa de '
+             'sinterização, que representa cerca de 10% das emissões de '
+             'produção de aço, ou ser utilizados como carga direta, uma vez '
+             'que poderiam substituir granulados e pelotas em altos-fornos e '
+             'fornos de redução direta. A Tecnored é uma subsidiária 100% da '
+             'Vale focada no desenvolvimento de um processo de ferrogusa de '
+             'baixo carbono por meio do uso de fontes de energia, como '
+             'biomassa e gás de síntese, que emitem menos CO2 que os processos '
+             'tradicionais de produção de ferro gusa, como o carvão e o coque. '
+             'Através do uso da biomassa, o caminho para a neutralidade '
+             'econômica de carbono pode ser alcançado a médio prazo. A HYL é '
+             'uma tecnologia para redução direta de minério de ferro de baixo '
+             'carbono desenvolvida pela Ternium no México. Esta tecnologia, '
+             'atualmente operada nas instalações da Ternium em Monterrey e '
+             'Puebla, México, tem a capacidade de recuperar seletivamente o '
+             'CO2, reduzindo assim significativamente as emissões de carbono '
+             'em comparação com outras tecnologias de redução. A Ternium é a '
+             'principal produtora de aços planos da América Latina, com '
+             'operações no México, Brasil, Argentina, Colômbia, sul dos '
+             'Estados Unidos e América Central. A empresa oferece uma ampla '
+             'gama de produtos de aço de alto valor agregado para clientes das '
+             'indústrias automotiva, eletrodomésticos, HVAC, construção civil, '
+             'bens de capital, contêineres, alimentícia e energia através de '
+             'suas instalações de fabricação, centro de serviços e redes de '
+             'distribuição, e sistemas avançados de integração de clientes.',
+ 'title': 'Vale e Ternium assinam Memorando para desenvolver soluções de '
+          'descarbonização para a siderurgia',
+ 'url': 'https://financenews.com.br/2021/08/vale-e-ternium-assinam-memorando-para-desenvolver-solucoes-de-descarbonizacao-para-a-siderurgia/'}
+2021-08-22 09:58:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/rapidas-vale-bradespar-dexco-ambipar-bancos-ibovespa-e-dolar/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:04 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/rapidas-vale-bradespar-dexco-ambipar-bancos-ibovespa-e-dolar/>
+{'conteudo': 'As ações da Vale (VALE3) tinha queda de -4,15% às 10h42 com o '
+             'mercado repercutindo a decisão do Ministério Público de MG de '
+             'pedir à Justiça o arresto cautelar de bens das mineradoras Vale '
+             'e BHP. A forte queda do preço do minério de ferro na China '
+             'também impacta a mineradora.Em um relatório assinado pelo '
+             'analista Luis Sales, a corretora Guide destaca que o pedido de '
+             'arresto, no valor de R$ 50,7 bilhões, é bastante elevado, e '
+             'portanto, deve gerar volatilidade em relação aos papéis da Vale '
+             'no curto prazo. “Ressalta-se ainda que as ações da mineradora já '
+             'vêm sofrendo ultimamente em virtude da derrocada do preço do '
+             'minério de ferro, puxado pela diminuição da produção de aço na '
+             'China e dados industriais abaixo da expectativa do mercado em '
+             'relação aquele país”, afirma a corretora.As ações da Bradespar '
+             '(BRAP4), holding que detém participação relevante na Vale, caíam '
+             '-4,12% às 10h40. Além disso, o mercado repercute a informação de '
+             'que a Justiça manteve a decisão e Bradespar deverá pagar R$ 1,41 '
+             'bilhão à Litel ().A corretora Guide vê como positiva a operação '
+             'que a Ambipar fará com sua subsidiária Environmental ESG '
+             'Participações. A companhia irá realizar uma oferta pública '
+             'primária de ações (IPO) da Environmental ESG Participações '
+             '().Segundo a Guide, a operação pode destravar valor tanto para a '
+             'controladora, por permitir que ela concentre capital e esforços '
+             'em sua área de competência, ao mesmo tempo que a subsidiária '
+             'também focará em sua área de competência, além de possivelmente '
+             'formar um corpo diretivo de maior expertise no setor de soluções '
+             'ambientais relacionadas a gestão e valorização de resíduos.A '
+             'antiga Duratex, agora Dexco, muda o ticker na Bolsa de DTEX3 '
+             'para DXCO3 a partir desta quinta-feira. Às 10h40 as ações dos '
+             'grandes bancos como Itaú, Bradesco e Banco do Brasil, setor '
+             'relevante na carteira teórica do Ibovespa, operavam no '
+             'positivo.A queda das ações da Vale, que têm peso de 12% na '
+             'carteira do Ibovespa, ajuda a desvalorizar o índice. A baixa do '
+             'petróleo e do aço, impactando petroleiras e siderúrgicas também '
+             'colabora para o Ibovespa ter queda de 1,14% às 10h42.Em âmbito '
+             'externo há preocupação com a retomada do crescimento econômico '
+             'em meio à variante delta. Os mercados de ações também repercutem '
+             'a ata da última reunião do Banco Central dos EUA (o Federal '
+             'Reserve, divulgada na véspera, que sinalizou a discussão sobre a '
+             'redução do ritmo de compra de títulos ainda este ano.',
+ 'title': 'Rápidas: Vale, Bradespar, Dexco, Ambipar, bancos, Ibovespa e dólar',
+ 'url': 'https://financenews.com.br/2021/08/rapidas-vale-bradespar-dexco-ambipar-bancos-ibovespa-e-dolar/'}
+2021-08-22 09:58:04 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/petrobras-comenta-noticias-sobre-fornecimento-de-gas-natural-para-geracao-de-energia-eletrica/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:04 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/petrobras-comenta-noticias-sobre-fornecimento-de-gas-natural-para-geracao-de-energia-eletrica/>
+{'conteudo': 'A Petrobras (PETR4) emitiu um comunicado nesta quinta-feira para '
+             'esclarecer notícias veiculadas na mídia sobre o fornecimento de '
+             'gás natural para geração de energia elétrica. A companhia '
+             'afirmou que ampliou a oferta de combustíveis para térmicas, o '
+             'que permitiu aumentar, entre setembro de 2020 a junho de 2021, a '
+             'geração termelétrica de suas usinas e de clientes de cerca de 2 '
+             'mil MW para quase 8 mil MW. No mesmo período, o volume de gás '
+             'disponibilizado pela Petrobras para termelétricas aumentou de 12 '
+             'milhões para 35 milhões de m³/dia. Segundo a petroleira, o '
+             'incremento se deu por meio de uma série de medidas para '
+             'maximizar a oferta de gás natural ao mercado, entre as quais se '
+             'destacam: – ampliação da capacidade do Terminal de '
+             'Regaseificação da Baía de Guanabara, de 20 milhões para 30 '
+             'milhões de m³/dia; – posicionamento dos dois navios '
+             'regaseificadores nos Terminais da Bahia (TR-BA) e do Rio de '
+             'Janeiro; – importação de GNL (gás natural liquefeito), chegando '
+             'a mais de 14 navios por mês; – flexibilização pela ANP da '
+             'especificação do gás processado na unidade de tratamento de '
+             'Caraguatatuba e; – a interligação das Rotas 1 e 2 de escoamento '
+             'de gás do pré-sal. Além disso, a companhia continua negociando '
+             'novo contrato interruptível com a Bolívia e avaliando '
+             'alternativas para disponibilidade de um terceiro navio '
+             'regaseificador. A companhia destacou no comunicado que começou a '
+             'ofertar óleo combustível para uso por clientes termelétricos, '
+             'atingindo 183 mil toneladas e 44 mil m3 de diesel em junho de '
+             '2021. O aumento da oferta foi possível em função de otimizações '
+             'operacionais nas refinarias e importações. Em relação a parada '
+             'programada da plataforma de Mexilhão e do gasoduto Rota 1, a '
+             'companhia reforçou que a postergação para o dia 29/08 reduz o '
+             'período de impacto da parada nos contratos de venda, permitindo '
+             'um aumento na geração de energia elétrica a gás natural, em '
+             'função da disponibilidade de gás por mais dias para as usinas '
+             'Cubatão, Araucária, Linhares, Santa Cruz, William Arjona e Norte '
+             'Fluminense, além de Termopernambuco, que não mais terá parada '
+             'nesse período. A transferência do navio de Pecém para a Bahia '
+             'permite o atendimento de UTEs do Sudeste e Sul (UTEs Arjona e '
+             'Araucária, total de 650 MW), o que, juntamente à geração a '
+             'diesel na UTE Termoceará (200 MW), mais que compensa as '
+             'indisponibilidades temporárias no Nordeste (cerca de 750 MW), '
+             'provendo capacidade de cerca de 100 MW a mais durante o período '
+             'do reposicionamento. “A Petrobras, mais uma vez, reforça que '
+             'paradas como as de Mexilhão e Rota 1, dadas as suas '
+             'complexidades e abrangências, são necessariamente planejadas com '
+             'grande antecedência – por isso, programadas – considerando os '
+             'prazos normativos obrigatórios, a necessidade de contratação de '
+             'bens e serviços e a coordenação junto com os demais agentes do '
+             'setor para assegurar o atendimento dos compromissos contratuais '
+             'com o mercado”, explicou. A estatal salientou que a intervenção '
+             'é necessária para garantir a segurança e evitar acidentes, '
+             'reforçando a integridade de equipamentos e instalações de alta '
+             'complexidade, cuja inspeção e manutenção devem ser realizadas '
+             'conforme preconizam as normas e padrões técnicos. ',
+ 'title': 'Petrobras comenta notícias sobre fornecimento de gás natural para '
+          'geração de energia elétrica',
+ 'url': 'https://financenews.com.br/2021/08/petrobras-comenta-noticias-sobre-fornecimento-de-gas-natural-para-geracao-de-energia-eletrica/'}
+2021-08-22 09:58:04 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/atualizacao-das-13h30-vale-petroleiras-jbs-e-copel/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:04 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/atualizacao-das-13h30-vale-petroleiras-jbs-e-copel/>
+{'conteudo': 'O juízo da 2ª Vara Empresarial da Comarca de Belo Horizonte '
+             'negou o pedido do Ministério Público de arresto de bens das '
+             'mineradoras Vale (VALE3) e da BHP no valor dos créditos listados '
+             'pela Samarco de R$ 50,7 bilhões. A Samarco é controlada pela '
+             'Vale e a BHP.O pedido havia sido feito ontem.O juiz Adilon '
+             'Cláver de Resende também negou o pedido feito pelo Ministério '
+             'Público de Minas Gerais para suspender a ação de recuperação '
+             'judicial da Samarco.Às 13h29 as ações da Vale continuavam no '
+             'negativo: tinham desvalorização de 5,02%. O que pesa '
+             'negativamente é a forte queda do preço do minério de ferro na '
+             'China. As ações da mineradora vêm sofrendo ultimamente em '
+             'virtude da derrocada do preço do minério de ferro, puxado pela '
+             'diminuição da produção de aço na China e dados industriais '
+             'abaixo da expectativa do mercado no gigante asiático.As ações '
+             'das petroleiras Petrorecôncavo (RECV3) e PetroRio (PRIO3) '
+             'operavam no positivo em meio à queda do barril de petróleo.O '
+             'Brent tinha desvalorização de quase 3% às 13h21, cotado a 66 '
+             'dólares.A Agência Internacional de Energia cortou a previsão de '
+             'demanda petrolífera para 2021, devido a preocupações com a '
+             'disseminação da variante Delta e seu impacto na atividade '
+             'econômica e no setor de viagens.As ações da Petrobras (PETR3, '
+             'PETR4) tinham queda, assim como da Enauta (ENAT3) e da 3R '
+             '(RRRP3).As ações da Copel (CPLE6) viraram para o positivo. A Em '
+             'um relatório assinado pelo analista Luis Sales, a corretora '
+             'Guide destaca que o anúncio do programa é positivo para a '
+             'empresa, que será capaz de reduzir suas despesas operacionais '
+             'com pessoal no médio prazo. Vale lembrar que no resultado no '
+             '2T21, foi positivo, em função do crescimento de volumes na área '
+             'de distribuição e geração e da redução das despesas '
+             'operacionais.A Para a corretora Guide, a elevação da nota de '
+             'crédito pode ser vista como um reconhecimento por uma '
+             'instituição internacional renomada, de que as políticas adotadas '
+             'pela JBS nos últimos anos, mesmo realizando aquisições, têm tido '
+             'um endividamento saudável através de seu melhor controle e '
+             'gestão de risco. “Com isso a empresa brasileira se financia '
+             'através de dívida pagando um juros menor em função do menor '
+             'risco de emissão”, explica a corretora.',
+ 'title': 'Atualização das 13h30: Vale, petroleiras, JBS e Copel',
+ 'url': 'https://financenews.com.br/2021/08/atualizacao-das-13h30-vale-petroleiras-jbs-e-copel/'}
+2021-08-22 09:58:04 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/corretora-avalia-que-resultados-do-assai-devem-continuar-robustos/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:04 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/fundos-geridos-pela-squadra-aumentam-participacao-no-grupo-mateus/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:04 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/corretora-avalia-que-resultados-do-assai-devem-continuar-robustos/>
+{'conteudo': 'As ações do Assaí (ASAI3) tinham alta nesta quinta-feira, 19. Às '
+             '11h18 subiam 2,64% a R$ 17,10.O time de analistas da XP avalia '
+             'que os resultados do Assaí (ASAI3) devem continuar robustos. '
+             'Entre os motivos, a corretora aponta a recuperação do segmento '
+             'de varejo e o plano de expansão da companhia.A XP tem '
+             'recomendação de “compra” para a ação ASAI3 com preço-alvo de R$ '
+             '24 para o fim de 2021. A companhia é a preferida no setor devido '
+             'a um valuation “atrativo”, em ~13x P/L 2021. Entre os riscos, a '
+             'corretora aponta redução do auxílio emergencial, pode pressionar '
+             'os resultados de curto prazo; aumento das restrições devido à '
+             'pandemia, o que pode impactar negativamente a recuperação de '
+             'bares e restaurantes; entre outros. Já entre os riscos '
+             'positivos, o time de analistas destaca a frente de serviços '
+             'financeiros, digitalização e uma potencial entrada no atacado de '
+             'distribuição.',
+ 'title': 'Corretora avalia que resultados do Assaí devem continuar '
+          '‘robustos’\xa0',
+ 'url': 'https://financenews.com.br/2021/08/corretora-avalia-que-resultados-do-assai-devem-continuar-robustos/'}
+2021-08-22 09:58:04 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/br-distribuidora-muda-nome-agora-e-vibra-energia/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/5/)
+2021-08-22 09:58:04 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/br-distribuidora-muda-nome-agora-e-vibra-energia/>
+{'conteudo': 'A BR Distribuidora (BRDT3) informou nesta quinta-feira, 19, que '
+             'passará a adotar uma nova marca e identidade corporativa: Vibra '
+             'Energia. “A Vibra Energia tem como orientadores de sua nova '
+             'marca: orientação ao cliente; confiança que conecta; parcerias '
+             'genuínas; e evolução constante. O nome e design referem-se ao '
+             'movimento constante, necessário para impulsionar pessoas e '
+             'negócios, sem abrir mão de remeter a um Brasil que faz, realiza '
+             'e vai além”, reportou a companhia em um comunicado. A Vibra '
+             'Energia, líder no mercado brasileiro de distribuição de '
+             'combustíveis e de lubrificantes e uma das maiores empresas de '
+             'energia do país, informou que caminha para a transição '
+             'energética. “A companhia entrou em novos mercados e vem '
+             'investindo na melhoria dos seus padrões de governança e nos '
+             'temas ESG”, destacou.ESG é a sigla para Governança Ambiental, '
+             'Social e Corporativa. A Vibra energia informou que passa por um '
+             'processo de transformação organizacional e cultural baseada em '
+             'quatro pilares que refletem a visão aspiracional da nova '
+             'empresa: uma visão de negócio que tem compromisso com seus '
+             'clientes e busca a excelência em tudo o que faz; um '
+             'relacionamento com os diferentes públicos baseado em '
+             'flexibilidade e empatia; os diferenciais de proximidade e '
+             'conveniência na relação com os clientes; e finalmente uma visão '
+             'de futuro alicerçada em agilidade e inovação. A empresa conta '
+             'com um portfólio de mais de 18 mil grandes clientes '
+             'corporativos, em segmentos como aviação, transporte, comércio, '
+             'indústrias eletrointensivas, produtos químicos, supply house e '
+             'agronegócio. No mercado automotivo, a Vibra é licenciada da '
+             'marca Petrobras, e continuará com a atual identidade visual e '
+             'símbolo “BR”, formando uma rede com cerca de 8,3 mil postos de '
+             'combustíveis, em todo o país. ',
+ 'title': 'BR Distribuidora muda nome: agora é Vibra Energia\xa0',
+ 'url': 'https://financenews.com.br/2021/08/br-distribuidora-muda-nome-agora-e-vibra-energia/'}
+2021-08-22 09:58:04 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/7/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:05 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/azul-e-emirates-anunciam-acordo-de-codeshare/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:05 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/azul-e-emirates-anunciam-acordo-de-codeshare/>
+{'conteudo': 'A Azul (AZUL4) atualizou as informações sobre o início de um '
+             'acordo de codeshare com a Emirates, principal companhia aérea '
+             'dos Emirados Árabes Unidos, a partir desta quarta, 18 de agosto. '
+             'A parceria permite que os clientes tenham mais comodidade e '
+             'aproveitem a ampla conectividade da malha da Azul para chegar a '
+             'vários diversos destinos no Brasil e se conectar de e para oito '
+             'cidades atendidas pela Azul no Brasil com a malha global da '
+             'Emirates através de São Paulo. A companhia informou que os '
+             'benefícios e a conveniência de um bilhete codeshare incluem '
+             'check-in único e despacho de bagagem na origem até o destino '
+             'final. “Estamos muito felizes em anunciar este acordo com a '
+             'Emirates, que proporcionará excelentes benefícios e comodidades '
+             'para nossos clientes, além de um acesso à uma ampla malha '
+             'nacional e internacional”, afirmou Abhi Shah, Vice-presidente de '
+             'Receitas da Azul. Adnan Kazim, diretor comercial da Emirates, '
+             'ressaltou: “a Emirates tem o prazer de iniciar esta parceria com '
+             'a Azul para oferecer aos nossos clientes uma aprimorada e '
+             'conveniente conectividade entre oito cidades no Brasil de/para '
+             'Dubai e toda a nossa malha global a partir de São Paulo. O '
+             'Brasil é um importante mercado para a Emirates e o codeshare com '
+             'a Azul ressalta nosso compromisso em fortalecer nossa presença '
+             'no país e ampliar as opções para nossos clientes”. ',
+ 'title': 'Azul e Emirates anunciam acordo de codeshare\xa0',
+ 'url': 'https://financenews.com.br/2021/08/azul-e-emirates-anunciam-acordo-de-codeshare/'}
+2021-08-22 09:58:05 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/duratex-muda-nome-de-pregao-e-ticker-nesta-quinta-feira/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:05 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/light-anuncia-saida-do-diretor-de-ri/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:05 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/rede-dor-compra-mais-acoes-da-alliar/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:06 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/ambipar-pedido-de-registro-da-oferta-publica-da-environmental-esg/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:06 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/copel-anuncia-programa-de-demissao-com-potencial-reducao-de-ate-r-834-milhoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:06 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/copel-anuncia-programa-de-demissao-com-potencial-reducao-de-ate-r-834-milhoes/>
+{'conteudo': 'A Companhia Paranaense de Energia – Copel (CPLE3, CPLE6) lançou '
+             'nesta quarta-feira, 18, o novo programa de demissão incentivada '
+             '(PDI), em função da alienação da Copel Telecom. Estimado em R$ '
+             '80,6 milhões de indenizações, esse novo PDI estabelece prazo '
+             'para adesão no período de 18 a 31 de agosto de 2021 e com os '
+             'desligamentos previstos para 15 de fevereiro de 2022. '
+             'Atualmente, 350 empregados se enquadram nos requisitos de '
+             'adesão, para os quais estima-se uma redução potencial de até R$ '
+             '83,4 milhões em custos anuais a partir de 2022. “O lançamento '
+             'deste programa é parte integrante da estratégia de melhoria '
+             'contínua de eficiência e redução de custos da companhia”, '
+             'explicou a Copel em um comunicado. ',
+ 'title': 'Copel anuncia programa de demissão com potencial redução de até R$ '
+          '83,4 milhões',
+ 'url': 'https://financenews.com.br/2021/08/copel-anuncia-programa-de-demissao-com-potencial-reducao-de-ate-r-834-milhoes/'}
+2021-08-22 09:58:06 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/noticias-corporativas-da-noite-desta-quarta-feira-18/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:06 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/vale-diz-que-recebeu-com-surpresa-decisao-do-mp/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:06 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/vale-diz-que-recebeu-com-surpresa-decisao-do-mp/>
+{'conteudo': 'A Vale (VALE3) informou na noite desta quarta-feira, 18, que '
+             'recebeu com “surpresa” a notícia de que o Ministério Público do '
+             'Estado de Minas Gerais (MPMG) propôs um incidente de '
+             'desconsideração da personalidade jurídica da Samarco, no qual '
+             'requereu que suas duas sócias fossem integradas ao processo de '
+             'recuperação judicial em curso. “A desconsideração da '
+             'personalidade jurídica possui requisitos bem estabelecidos na '
+             'legislação brasileira, nenhum dos quais está presente neste '
+             'caso. A Samarco possui personalidade jurídica e autonomia '
+             'próprias, que sempre foram observadas por suas sócias, no '
+             'estrito cumprimento da lei e das melhores práticas de governança '
+             'corporativa”, afirmou a mineradora brasileira, que junto com a '
+             'BHP controla a Samarco.Em um comunicado ao mercado na noite '
+             'desta quarta-feira, a Vale ressalta: “o pedido também atenta à '
+             'letra clara dos acordos firmados entre as partes, dos quais o '
+             'MPMG é signatário, além de ameaçar as discussões e esforços em '
+             'curso para a repactuação das medidas de reparação dos danos '
+             'decorrentes do rompimento da barragem de Fundão”. A Vale '
+             'informou ainda que não foi formalmente notificada da ação, e '
+             'apresentará a sua defesa no prazo legal. O Ministério Público de '
+             'Minas Gerais apresentou à Justiça, nesta quarta-feira, um pedido '
+             'para suspender o processo de recuperação judicial da Samarco. No '
+             'documento, promotores requerem ainda o bloqueio de mais de R$ 50 '
+             'bilhões da Vale e da BH Billiton.',
+ 'title': 'Vale diz que recebeu com ‘surpresa’ decisão do MP',
+ 'url': 'https://financenews.com.br/2021/08/vale-diz-que-recebeu-com-surpresa-decisao-do-mp/'}
+2021-08-22 09:58:07 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/atualizacao-das-13h30-braskem-cielo-magalu-e-outros-destaques/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-08-22 09:58:07 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/noticias-corporativas-minerio-petroleo-bitcoin-e-mercados-hoje/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/6/)
+2021-08-22 09:58:07 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/atualizacao-das-13h30-braskem-cielo-magalu-e-outros-destaques/>
+{'conteudo': 'commodities e o risco fiscal junto a um cenário internacional '
+             'mais cauteloso impedem a alta do índice.As ações da Braskem '
+             '(BRKM5) subiam +5,20% às 13h25. A companhia anunciou nova '
+             'parceria de distribuição com a Nexeo Plastics para seus '
+             'filamentos a base de polipropileno (PP) e pellets (pequenas '
+             'pelotas) para impressão 3D e fabricação de aditivos. O acordo '
+             'irá ampliar a distribuição internacional dos produtos da Braskem '
+             'para a América do Norte e Europa.Em um relatório assinado pelo '
+             'analista Luis Sales, a corretora Guide destaca que a Cielo '
+             '(CIEL3) segue com dificuldade de recuperação na sua '
+             'rentabilidade. “Avaliamos que o fechamento de capital de fato '
+             'seria a melhor alternativa para os acionistas minoritários”, '
+             'afirma a corretora.A Guide salienta que a Cielo viu a '
+             'concorrência aumentar exponencialmente nos últimos anos, o que '
+             'tem pressionado de maneira bastante intensa os resultados da '
+             'companhia. Com relação ao lançamento da maquininha e incentivos '
+             'aos lojistas pelo Magazine Luiza, a Guide reporta que a notícia '
+             'traz maior fidelização dos sellers dentro do ecossistema de '
+             'soluções financeiras e tecnológicas da empresa.  “Observamos uma '
+             'maior competição entre as varejistas em relação a retenção de '
+             'sellers, com isso, medidas como está tendem a reforçar o vínculo '
+             'dos sellers com a Magalu”, avalia a Guide.As ações da Vale '
+             '(VALE3) tinham queda de 2,5% às 13h27. O minério de ferro, '
+             'principal produto da mineradora brasileira, caiu na China ao '
+             'menor nível em seis meses com o aumento dos estoques nos portos '
+             'chineses e em meio à piora das expectativas quanto à produção de '
+             'aço no gigante asiático.As ações da Caixa Seguridade (CXSE3) '
+             'subiam 3,92% às 13h21.O time de analistas do Itaú BBA tem a '
+             'empresa como preferida no setor de seguros. O preço-alvo é de R$ '
+             '18 ao fim de 2022.As ações da JHSF (JHSF3) operavam no positivo. '
+             'A ',
+ 'title': 'Atualização das 13h30: Braskem, Cielo, Magalu e outros destaques',
+ 'url': 'https://financenews.com.br/2021/08/atualizacao-das-13h30-braskem-cielo-magalu-e-outros-destaques/'}
+2021-08-22 09:58:07 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/noticias-corporativas-minerio-petroleo-bitcoin-e-mercados-hoje/>
+{'conteudo': 'As Bolsas da Europa recuam e as da Ásia fecharam em queda '
+             'principalmente devido à preocupação com o crescimento econômico '
+             'em meio à variante delta. Os mercados de ações também repercutem '
+             'a ata da última reunião do Banco Central dos EUA (o Federal '
+             'Reserve (Fed), divulgada na véspera, que sinalizou a discussão '
+             'sobre a redução do ritmo de compra de títulos ainda este ano.A '
+             'sessão é forte queda para o petróleo e minério de ferro.China '
+             '(Shanghai Comp.): -0,57% (pregão encerrado)Japão (Nikkei 225): '
+             '-1,10% (pregão encerrado)Hong Kong (Hang Seng): -2,13% (pregão '
+             'encerrado)Alemanha (DAX): -1,65%Londres (FTSE 100): '
+             '-1,94%Petróleo Brent: -3,24% (US$ 66,13). O brent é referência '
+             'para a Petrobras.Petróleo WTI: -3,60% (US$ 63,14).Bitcoin '
+             'futuro: -1,11% (US$ 44.345)O contrato futuro mais líquido do '
+             'minério de ferro negociado na bolsa de Dalian, na China, teve '
+             'queda de 7,1% cotado em 762 iuanes (US$ 117,4). A cotação em '
+             'Dalian pode impactar os papéis da brasileira Vale (VALE3), CSN '
+             '(CSNA3) e CSN Mineração (CMIN3). Esse dado foi obtido no link: '
+             'Às 7h55 em Wall Street, o Dow Jones futuro operava em queda de '
+             '0,81% e o S&P 500 futuro com desvalorização de 0,74%. Nasdaq '
+             'futuro caía 0,60%.',
+ 'title': 'Notícias corporativas, minério, petróleo, bitcoin e mercados hoje',
+ 'url': 'https://financenews.com.br/2021/08/noticias-corporativas-minerio-petroleo-bitcoin-e-mercados-hoje/'}
+2021-08-22 09:58:07 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/8/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-08-22 09:58:07 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/br-distribuidora-vende-participacao-na-brasil-carbonos-para-a-unimetal/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-08-22 09:58:07 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/br-distribuidora-vende-participacao-na-brasil-carbonos-para-a-unimetal/>
+{'conteudo': 'A BR Distribuidora (BRDT3) informou nesta quarta-feira, 18, que '
+             'realizou a assinatura de contrato regulando a venda da '
+             'totalidade de sua participação acionária na empresa Brasil '
+             'Carbonos para a Unimetal Indústria. O valor total da venda da '
+             'participação da BR, já considerando o caixa da empresa, foi de '
+             'R$ 18.881.949,00. A Brasil Carbonos é uma Sociedade de Propósito '
+             'Específico com 51% de participação do Grupo Unimetal e 49% de '
+             'participação da BR, especializada em processos industriais que '
+             'agregam valor ao Coque Verde de Petróleo. A Unimetal Indústria é '
+             'uma sociedade empresária limitada fundada em 1984, com sede no '
+             'Município de Sorocaba/SP, especializada em agregar valor ao '
+             'Coque Verde de Petróleo (CVP), transformando-o em um produto com '
+             'diversas aplicações nos segmentos siderúrgicos, fundições, '
+             'alumínio, ferro ligas, entre outros, com posição de destaque nos '
+             'mercados em que atua. O fechamento da operação está sujeito à '
+             'aprovação pelo Conselho Administrativo de Defesa Econômica '
+             '(CADE). “Esta decisão está alinhada à nossa iniciativa de Gestão '
+             'de Portfólio que busca garantir o foco da companhia e a '
+             'maximização da criação de valor para os acionistas”, afirmou a '
+             'BR em um fato relevante. ',
+ 'title': 'BR Distribuidora vende participação na Brasil Carbonos para a '
+          'Unimetal\xa0\xa0',
+ 'url': 'https://financenews.com.br/2021/08/br-distribuidora-vende-participacao-na-brasil-carbonos-para-a-unimetal/'}
+2021-08-22 09:58:07 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/ibovespa-futuro-dolar-e-outros-destaques-66/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-08-22 09:58:07 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/rapidas-cielo-jhsf-locaweb-unidas-caixa-seguridade-vale-rede-dor/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/7/)
+2021-08-22 09:58:07 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/rapidas-cielo-jhsf-locaweb-unidas-caixa-seguridade-vale-rede-dor/>
+{'conteudo': 'O , o site de negócios do Valor Econômico, informou na véspera '
+             'que um anúncio de fechamento de capital da Cielo pode estar mais '
+             'perto de acontecer.A Cielo respondeu dizendo que a notícia é '
+             '“inverídica”. “O tema veiculado na referida matéria, fechamento '
+             'de capital, não foi discutido no âmbito de seu conselho de '
+             'administração”, destacou a companhia.As ações da Vale (VALE3) '
+             'tinham queda. O minério de ferro em Dalian na China fechou com '
+             'desvalorização.As ações da JHSF (JHSF3) operavam com alta de '
+             '2,45% às 10h19. A O jornal Valor Econômico informou que a fusão '
+             'entre a Localiza (RENT3) e Unidas (LCAM3) tem grandes chances de '
+             'ser rejeitada pelo Conselho Administrativo de Defesa Econômica '
+             '(Cade).O time de analistas do Itaú BBA tem como preferida no '
+             'setor de seguros a Caixa Seguridade (CXSE3). O preço-alvo é de '
+             'R$ 18 ao fim de 2022.O banco salienta que os resultados da Caixa '
+             'Seguridade e da BB Seguridade (BBSE3) foram duramente afetados '
+             'no segundo trimestre em função da pandemia.Às 10h19 as ações da '
+             'A Rede D’Or (RDOR3) realizou operações de compra no mercado de '
+             '1.106.500 ações ordinárias da Alliar (AALR3) na terça, 17. O '
+             'volume total somou R$ 12,6 milhões.Na segunda, 16, a Rede D’Or '
+             'comprou 2.538.600 ações ordinárias da Alliar. A Rede D’Or '
+             'divulgou no começo da semana que seu conselho de administração '
+             'aprovou uma oferta pública de aquisição (OPA) para adquirir '
+             'ações da Alliar por até R$ 1,36 bilhão.Fábio Aylton Casal De Rey '
+             'encaminhou carta aos membros do conselho de administração e a '
+             'diretoria renunciando as suas funções de presidente do conselho '
+             'de administração da JB Duarte (JBDU3). Segundo o executivo, foi '
+             'por “razões de ordem pessoal”. O mercado segue cauteloso com a '
+             'variante delta e seu potencial de impactar o ritmo de retomada '
+             'da economia global.Em âmbito doméstico, o novo adiamento da '
+             'votação da reforma do Imposto de Renda na Câmara dos Deputados '
+             'também aumenta as incertezas.',
+ 'title': 'Rápidas: Cielo, JHSF, Locaweb, Unidas, Caixa Seguridade, Vale, Rede '
+          'D’or',
+ 'url': 'https://financenews.com.br/2021/08/rapidas-cielo-jhsf-locaweb-unidas-caixa-seguridade-vale-rede-dor/'}

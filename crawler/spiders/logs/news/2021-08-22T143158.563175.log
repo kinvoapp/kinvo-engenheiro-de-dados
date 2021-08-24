@@ -1,0 +1,150 @@
+2021-08-22 14:31:59 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/robots.txt> (referer: None)
+2021-08-22 14:31:59 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/> (referer: None)
+2021-08-22 14:32:00 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/2/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:00 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/braskem-esclarece-noticia-sobre-oferta-publica-de-acoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:00 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/sp-revisa-para-positiva-perspectiva-dos-ratings-da-iochpe-maxion/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:00 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/itau-assembleia-para-deliberar-incorporacao-da-xpart-pela-xp-sera-em-outubro/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:00 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/armac-compra-rental-company-do-brasil/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:00 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/braskem-esclarece-noticia-sobre-oferta-publica-de-acoes/>
+{'conteudo': 'A Braskem (BRKM5) prestou esclarecimentos na noite desta '
+             'sexta-feira, 20, após notícia veiculada na mídia a respeito de '
+             'oferta pública de ações da companhia como uma possível '
+             'estratégia de saída dos acionistas.A Braskem afirmou que “não '
+             'tem conhecimento das informações constantes em referida notícia '
+             'e, conforme mencionado em outras oportunidades, não é parte de '
+             'eventuais discussões de seus acionistas sobre a venda das suas '
+             'participações acionárias”.A agência de notícias Bloomberg '
+             'informou no dia 19 de agosto que uma oferta pública de ações '
+             'está de volta como uma possível estratégia de saída dos '
+             'acionistas controladores da petroquímica. A Braskem também '
+             'informou no comunicado enviado ao mercado após o pregão desta '
+             'sexta-feira, que solicitou esclarecimentos aos seus acionistas '
+             'Novonor e Petrobras sobre a notícia.A Novonor (antiga Odebrecht) '
+             'afirmou: “a Novonor está considerando uma potencial transação '
+             'envolvendo a participação da Novonor S.A. na Braskem e, nesse '
+             'contexto está avaliando potenciais estruturas para tal '
+             'transação. No entanto, não há elementos suficientes para '
+             'assegurar a concretização de qualquer transação e tampouco foi '
+             'definida qualquer estrutura para tanto. Desta forma, no momento, '
+             'não há qualquer informação adicional a ser prestada sobre o '
+             'tema.”Já a Petrobras destacou: “a Petrobras esclarece que não há '
+             'qualquer definição ou decisão sobre a forma de alienação da sua '
+             'parte na Braskem, sendo importante ressaltar que, conforme '
+             'informado em 09/08/2021, contratou o JP Morgan para '
+             'assessoramento financeiro da eventual e futura transação '
+             'referente à sua participação na companhia.”',
+ 'title': 'Braskem esclarece notícia sobre oferta pública de ações',
+ 'url': 'https://financenews.com.br/2021/08/braskem-esclarece-noticia-sobre-oferta-publica-de-acoes/'}
+2021-08-22 14:32:00 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/itau-assembleia-para-deliberar-incorporacao-da-xpart-pela-xp-sera-em-outubro/>
+{'conteudo': 'O Itaú (ITUB4) informou na noite de sexta, 20, que a assembleia '
+             'para deliberar incorporação da XPart pela XP será em 1 de '
+             'outubro deste ano. A seguir leia a íntegra do comunicado do Itaú '
+             'ao mercado:',
+ 'title': 'Itaú: assembleia para deliberar incorporação da XPart pela XP será '
+          'em outubro\xa0',
+ 'url': 'https://financenews.com.br/2021/08/itau-assembleia-para-deliberar-incorporacao-da-xpart-pela-xp-sera-em-outubro/'}
+2021-08-22 14:32:00 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/pf-cumpriu-mandado-de-busca-e-apreensao-em-unidade-da-minerva/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:00 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/fundo-soberano-de-cingapura-eleva-participacao-no-banco-pan/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/pf-cumpriu-mandado-de-busca-e-apreensao-em-unidade-da-minerva/>
+{'conteudo': 'A Minerva (BEEF3) informou após o pregão desta sexta-feira, 20, '
+             'que a Polícia Federal realizou procedimento na unidade '
+             'localizada em Palmeiras de Goiás, no estado de Goiás, no âmbito '
+             'da fase inicial da operação “a Posteriori”, que apura supostas '
+             'irregularidades envolvendo auditores fiscais federais '
+             'agropecuários no período de 2018 a 2019. Os agentes cumpriram '
+             'mandados de busca e apreensão.“O procedimento contou com total '
+             'cooperação dos colaboradores da Minerva e a unidade Palmeiras de '
+             'Goiás mantém suas atividades regulares”, afirmou a empresa. '
+             'Ainda segundo a Minerva, não existe indiciamento ou denúncia '
+             'contra a companhia, contra seus administradores ou qualquer de '
+             'seus empregados ou colaboradores no âmbito da operação.',
+ 'title': 'PF cumpriu mandado de busca e apreensão em unidade da Minerva',
+ 'url': 'https://financenews.com.br/2021/08/pf-cumpriu-mandado-de-busca-e-apreensao-em-unidade-da-minerva/'}
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/oceanpact-contrata-bancos-para-captacao-de-ate-r-420-milhoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/noticias-corporativas-da-noite-desta-sexta-20/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/oceanpact-contrata-bancos-para-captacao-de-ate-r-420-milhoes/>
+{'conteudo': 'A Oceanpact Serviços Marítimos (OPCT3) informou na noite desta '
+             'sexta, 20, que engajou o Banco Itaú BBA, o Banco Bradesco BBI, o '
+             'Banco ABC Brasil e o Banco Votorantim para atuarem, em conjunto, '
+             'como coordenadores, sendo o Itaú BBA o coordenador líder da '
+             'operação, no âmbito de potencial captação de recursos no mercado '
+             'local de renda fixa no valor total de até R$ 420 milhões. “Caso '
+             'a potencial captação seja realizada, esta será conduzida em '
+             'conformidade com a legislação e a regulamentação aplicáveis e os '
+             'recursos obtidos poderão ser aplicados da seguinte forma: a '
+             'compra de embarcação e robôs submarinos; e a otimização da '
+             'estrutura de capital da companhia, incluindo o pré-pagamento de '
+             'dívida existente”, explicou a Oceanpact em um fato relevante.  A '
+             'empresa afirmou que a potencial captação, caso concluída, poderá '
+             'ser garantida por bens e/ou ativos de sua propriedade. A '
+             'operação está sujeita, ainda, às condições do mercado de '
+             'capitais brasileiro, às aprovações societárias necessárias da '
+             'Companhia, à celebração dos contratos definitivos, à conclusão '
+             'satisfatória dos procedimentos usuais em operações análogas, ao '
+             'cumprimento de demais condições precedentes da operação, dentre '
+             'outros fatores alheios à vontade da companhia.',
+ 'title': 'Oceanpact contrata bancos para captação de até R$ 420 milhões',
+ 'url': 'https://financenews.com.br/2021/08/oceanpact-contrata-bancos-para-captacao-de-ate-r-420-milhoes/'}
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/maia-assume-sabesp-dispara/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Scraped from <200 https://financenews.com.br/2021/08/maia-assume-sabesp-dispara/>
+{'conteudo': 'As ações da Sabesp (SBSP3) dispararam nesta manhã e chegaram a '
+             'entrar em leilão. Às 11h45 subiam +13%.O deputado federal '
+             'Rodrigo Maia (sem partido) foi nomeado secretário de Projetos e '
+             'Ações Estratégicas do estado de São Paulo. Ao ser questionado '
+             'sobre as primeiras ações como secretário, Maia disse que ainda '
+             'está estudando a pasta, mas que pretende focar na Sabesp. Ele '
+             'ressaltou que considera simbólico organizar a privatização da '
+             'companhia.O parlamentar assumiu o cargo em cerimônia no Palácio '
+             'dos Bandeirantes, na Zona Sul da capital, na manhã desta '
+             'sexta-feira.Em junho deste ano foi divulgada a informação de que '
+             'o governo de SP pretendia contratar o International Finance '
+             'Corporation (IFC) para avaliar as duas opções de desestatização '
+             'da empresa: uma capitalização, mas sem perda de controle '
+             'acionário do governo, ou uma privatização de fato.',
+ 'title': 'Maia assume, Sabesp dispara',
+ 'url': 'https://financenews.com.br/2021/08/maia-assume-sabesp-dispara/'}
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/10-perguntas-e-respostas-sobre-a-queda-da-bolsa/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/a-avaliacao-para-a-cyrela-eztec-trisul-tecnisa-e-lavvi/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/7-links-com-analises-de-empresas-da-bolsa/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/)
+2021-08-22 14:32:01 [scrapy] INFO: Closing spider (1000 news)
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/btg-tem-recomendacao-de-compra-para-br-malls-leia-a-analise/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/guide-ve-como-positiva-reestruturacao-da-gerdau-no-mexico/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/morgan-stanley-reduz-participacao-na-mrv/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/atualizacao-das-13h20-sabesp-rede-dor-azul-e-outros-destaques/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:01 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/maiores-altas-e-quedas-do-ibovespa-na-semana-27/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/category/nao-deixe-de-ler/page/4/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 14:32:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/assista-a-analise-do-ibovespa-petr4-vale3-bbas3-abev3-e-de-wege3/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/ibovespa-fecha-em-alta-de-076-na-semana-caiu-259/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/eztec-vai-recomprar-ate-5-milhoes-de-acoes/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/2/)
+2021-08-22 14:32:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/sp-eleva-rating-nacional-da-cvc/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 14:32:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/fundo-geridos-pela-3g-elevam-participacao-na-hermes-pardini/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 14:32:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/copasa-vai-emitir-r-750-milhoes-em-debentures/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 14:32:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/petroleo-minerio-bitcoin-noticias-corporativas-e-mercados-nesta-sexta/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 14:32:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/fras-le-lanca-fras-le-smart-composites/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 14:32:02 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/a-receita-liquida-da-randon-em-julho/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 14:32:03 [scrapy] DEBUG: Crawled (200) <GET https://financenews.com.br/2021/08/noticias-corporativas-da-noite-desta-quinta-19/> (referer: https://financenews.com.br/category/nao-deixe-de-ler/page/3/)
+2021-08-22 14:32:03 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 11454,
+ 'downloader/request_count': 32,
+ 'downloader/request_method_count/GET': 32,
+ 'downloader/response_bytes': 715776,
+ 'downloader/response_count': 32,
+ 'downloader/response_status_count/200': 32,
+ 'elapsed_time_seconds': 4.583804,
+ 'finish_reason': '1000 news',
+ 'finish_time': datetime.datetime(2021, 8, 22, 17, 32, 3, 146979),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 37,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 4,
+ 'response_received_count': 32,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 31,
+ 'scheduler/dequeued/memory': 31,
+ 'scheduler/enqueued': 45,
+ 'scheduler/enqueued/memory': 45,
+ 'start_time': datetime.datetime(2021, 8, 22, 17, 31, 58, 563175)}
+2021-08-22 14:32:03 [scrapy] INFO: Spider closed (1000 news)
