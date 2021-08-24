@@ -10,4 +10,4 @@ class ScrapyCaller(object):
         self.working_dir = path.join(path.dirname(__file__), self.scrapy_folder, '')
 
     def get_scrapy_output(self):
-        return check_output(self.call_string.split(), cwd=self.working_dir).decode('unicode_escape')
+        return check_output(self.call_string.split(), cwd=self.working_dir).decode('unicode_escape').replace('\xa0', '')
