@@ -3,7 +3,7 @@
 # Teste para candidatos à vaga de Desenvolvedor Python (com foco em IA - inteligencia Artificial)  
 
 
-Como executar o projeto:
+## Como executar o projeto:
 
 1 - Primeiro, instale os módulos necessários (Para evitar conflitos entre módulos, é preferível que tais comandos sejam executando em um ambiente virtual, como venv ou conda)
   ```
@@ -31,7 +31,17 @@ flask run
 
 4 - Pronto! Agora navegue até a página http://127.0.0.1:5000/ , onde estão localizadas os menus de navegação, bem como os dois end-points da API.
 
-Observações:
+## Navegação
+
+#### A url http://127.0.0.1:5000/ é o index da aplicação, onde se encontram algumas instruções para a navegação, bem como uma barra de navegação para facilitar.
+#### A url http://127.0.0.1:5000/minerar irá minerar as notícias
+#### A url http://127.0.0.1:5000/processar vai retornar as entidades reconhecidas nas notícias
+#### A url http://127.0.0.1:5000/tabelanews vai gerar uma tabela, afim de facilitar a visualização das notícias
+#### A url http://127.0.0.1:5000/tabelanlp vai gerar uma tabela, afim de facilitar a visualização das entidades reconhecidas
+
+
+
+## Observações:
 
 O site utilizado foi o https://financenews.com.br/. Para contornar a sua estrutura foram estabelicidos alguns parâmetros, por exemplo, para encontrar notícias sobre ações da B3, o scraper primeiro análisa dois casos, o primeiro e se o nome de umas das empresas listadas na B3 ou o código da ação listada na bolsa se encontra em algum paragráfo da notícia, caso encontrado, se inicia a busca por algumas palavras chaves que são comuns em notícias do ramo, afim de evitar falsos-positivos.
 A obtenção dessa lista de nomes de empresas bem como os seus respectivos códigos de suas ações também podem ser coletados de forma automática, basta executar a spider "getCod".
