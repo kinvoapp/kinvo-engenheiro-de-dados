@@ -1,0 +1,6 @@
+Flask
+Spacy
+Scrapy
+autopep8
+ipykernel
+beautifulsoup4
