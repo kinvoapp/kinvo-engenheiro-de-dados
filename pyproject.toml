@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "kivo-ai-test"
+version = "0.1.0"
+description = "Python Developer Job Candidate Test (focused on AI - Artificial Intelligence)"
+authors = ["João Paulo Canário <jopacanario@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = {version = "^2.0.1", extras = ["async"]}
+gunicorn = {version = "^20.1.0", extras = ["gevent"]}
+loguru = "^0.5.3"
+Scrapy = "^2.5.0"
+spacy = "^3.1.2"
+crochet = "^2.0.0"
+marshmallow-sqlalchemy = "^0.26.1"
+pydantic = "^1.8.2"
+alembic = "^1.7.1"
+SQLAlchemy = "^1.4.23"
+psycopg2-binary = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
