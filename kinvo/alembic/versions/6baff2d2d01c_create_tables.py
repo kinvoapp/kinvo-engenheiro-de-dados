@@ -21,8 +21,7 @@ def upgrade():
     inspector = sa.engine.reflection.Inspector.from_engine(conn)
     tables = inspector.get_table_names()
 
-    if 'breeds' not in tables:
-
+    if 'news' not in tables:
         op.create_table(
             'news',
             sa.Column('id', sa.Integer, primary_key=True, index=True),
@@ -30,16 +29,6 @@ def upgrade():
             sa.Column('link', sa.Text, unique=True, nullable=False),
             sa.Column('content', sa.Text, nullable=False),
             sa.Column('pub_date', sa.DateTime, nullable=False),
-        )
-
-    if 'features' not in tables:
-        op.create_table(
-            'entities',
-            sa.Column('id', sa.Integer, primary_key=True, index=True),
-            sa.Column('text', sa.String(50), nullable=False),
-            sa.Column('entity', sa.String(10), nullable=False),
-
-            sa.Column('news_id', sa.Integer, sa.ForeignKey("news.id")),
         )
 
 
