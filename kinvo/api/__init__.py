@@ -12,7 +12,7 @@ routesbp = Blueprint("routesbp", __name__)
 
 
 @routesbp.route('/entities', methods=['GET'])
-def entities(self):
+def entities():
     all_news = crud.get_news()
 
     response = []
@@ -30,7 +30,7 @@ def entities(self):
 
 
 @routesbp.route('/news', methods=['POST'])
-async def crawl():
+async def news():
     if 'crawl' not in session:
         task = mining.finance_news()
         session['crawl'] = task.stash()
@@ -53,6 +53,6 @@ async def crawl():
     all_news = crud.get_news()
     all_news = [news.as_dict() for news in all_news]
 
-    logger.info(f"Stored news: {all_news}")
+    logger.info(f"Response news ({len(all_news)}): {all_news}")
 
     return jsonify(all_news), 202
