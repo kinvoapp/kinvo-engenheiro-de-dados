@@ -30,7 +30,7 @@ def entities():
 
 
 @routesbp.route('/news', methods=['POST'])
-async def news():
+def news():
     if 'crawl' not in session:
         task = mining.finance_news()
         session['crawl'] = task.stash()
