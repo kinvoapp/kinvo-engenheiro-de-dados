@@ -8,7 +8,8 @@ from . import models, SessionLocal
 
 def get_news(skip: int = 0, limit: int = 5) -> List[models.News]:
     with SessionLocal() as db:
-        result = db.query(models.News).offset(skip).limit(limit).all()
+        result = db.query(models.News).order_by(models.News.id.desc())\
+            .offset(skip).limit(limit).all()
 
     return result
 
