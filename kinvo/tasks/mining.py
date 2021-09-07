@@ -1,5 +1,4 @@
 import crochet
-from flask import current_app as app
 
 from scrapy import signals
 from scrapy.crawler import CrawlerRunner
