@@ -1,31 +1,12 @@
 import datetime
 import pydantic
 
-from typing import List
-
 
 MONTHS = {'jan': 1, 'fev': 2, 'mar': 3, 'abr': 4,  'mai': 5,  'jun': 6,
           'jul': 7, 'ago': 8, 'set': 9, 'out': 10, 'nov': 11, 'dez': 12}
 FULL_MONTHS = {'janeiro': 1,  'fevereiro': 2, u'março': 3,    'abril': 4,
                'maio': 5,     'junho': 6,     'julho': 7,     'agosto': 8,
                'setembro': 9, 'outubro': 10,  'novembro': 11, 'dezembro': 12}
-
-
-class EntityCreate(pydantic.BaseModel):
-    text: str
-    entity: str
-    news_id: int
-
-
-class Entity(pydantic.BaseModel):
-    id: int
-    text: str
-    entity: str
-
-    news_id: int
-
-    class Config:
-        orm_mode = True
 
 
 class NewsBase(pydantic.BaseModel):
@@ -61,14 +42,14 @@ class NewsBase(pydantic.BaseModel):
             hours = int(offset[1:3])
             minutes = int(offset[3:5])
             seconds = signal * (hours * 3600 + minutes * 60)
-            
+
             offset = seconds / (3600.0 * 24)
 
             month = MONTHS[month]
 
             datetime_iso = (f'{year}-{month:02d}-{int(day):02d}'
                             f'T{hour_minute_second}')
-            
+
             datetime_object = datetime.datetime.\
                 strptime(datetime_iso, '%Y-%m-%dT%H:%M:%S')
 
@@ -81,7 +62,6 @@ class NewsCreate(NewsBase):
 
 class News(NewsBase):
     id: int
-    entities: List[Entity] = []
 
     class Config:
         orm_mode = True
