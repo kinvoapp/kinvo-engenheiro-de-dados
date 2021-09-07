@@ -13,4 +13,5 @@ class News(Base):
     pub_date = Column(DateTime, nullable=False)
 
     def as_dict(self):
-        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns
+                if not str(c.name) == 'id'}
