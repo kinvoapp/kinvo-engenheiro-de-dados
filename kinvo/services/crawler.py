@@ -15,6 +15,8 @@ class FinanceSpider(scrapy.Spider):
     def parse(self, response):
         if 'financenews.com.br' in response.url:
             self.parse_finance(response)
+        else:
+            self.parse_instant(response)
 
     def parse_instant(self, response):
         stocks_kw = ['ibovespa', 'ações', 'B3']
