@@ -7,21 +7,21 @@ from kinvo.logger import logger
 
 
 class FinanceSpider(scrapy.Spider):
-    name = 'financenews'
-    allowed_domains = ['financenews.com.br']
+    name = 'news'
+    allowed_domains = ['financenews.com.br', 'ultimoinstante.com.br']
     start_urls = ["https://financenews.com.br/feed/",
                   "https://ultimoinstante.com.br/feed/"]
 
     def parse(self, response):
-        if 'financenews.com.br' in response.url:
-            self.parse_finance(response)
-        else:
-            self.parse_instant(response)
+        logger.info(f"Parsing {response.url}")
+
+        next_call = self.parse_finance if 'financenews.com.br' in response.url \
+            else self.parse_instant
+            
+        yield scrapy.Request(url=response.url, callback=next_call)
 
     def parse_instant(self, response):
         stocks_kw = ['ibovespa', 'ações', 'B3']
-
-        logger.info(f"Parsing {response.url}")
 
         for item in response.css('item'):
             categories = item.css('category::text').getall()
@@ -44,8 +44,6 @@ class FinanceSpider(scrapy.Spider):
         stock_regex = r"[A-Za-z]{4}\d{1,2}"
         stocks_kw = ['ibovespa', 'ações', 'B3']
         reject_kw = ['notícias corporativas']
-
-        logger.info(f"Parsing {response.url}")
 
         for item in response.css('item'):
             url = item.css('link::text').get()

@@ -26,7 +26,10 @@ def add_item(item, response, spider):
         news = schemas.NewsCreate(**item)
         logger.info(f"Add item: {news}")
 
-        news = crud.create_news(news=news)
-        logger.info(f"Data commited {news.id}")
+        if not crud.get_news_by_link(news.link):
+            news = crud.create_news(news=news)
+            logger.info(f"Data commited {news.id}")
+        else:
+            logger.info(f"Data already exists")
     except Exception as e:
         logger.error(f"Something goes wrong: {e}")
