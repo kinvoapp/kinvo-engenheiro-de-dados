@@ -12,21 +12,55 @@ Powered by [Logo Kinvo](https://github.com/kinvoapp/kinvo-mobile-test/blob/maste
    - Mining and save the news;
    - Extrat the entities from the crawled news (entity recognition);
 4. Finally, make a pull request on github of your solution and wait for your feedback (please follow instrunctions on the (Submission Process)[#submission-process]).
+5. Test requirements:
+   - Flask;
+   - Python;
+   - Spacy;
+   - Scrapy;
 
-## Project Requirements
+## Basic commands
 
-*Use Flask, Python, Spacy, and Scrapy;
+- To run on *Dev mode* and execute the project locally, uses the command `make dev`.
+- For running this project through a docker container please uses the `make run` command.
+- Run on your terminal `make help` to check all commands available.
 
-> **Important Note:** We use the same test for all levels of developer, **junior**, **middle**, or **senior**, but we try to adjust our requirement in the assessment with each of these levels without, for example, demanding excellence from those it's starting. :-)
+_Note: The project was developed using `Poetry` for Python dependency management. Thus, to run on dev mode it required the installation of Poetry first. To doing so, please follow the instructions on the [Poetry's page](https://python-poetry.org/). Finally, the dependency list is available on the `pyproject.toml` file._
 
-## Submission Process
+After startup the app (using `make dev` or `make run` commands), open the following URL on your preferred browser: [http://0.0.0.0:6500/](http://0.0.0.0:6500/).
 
-To start the test:
+## API Information
 
-1. Fork this repo;
-2. Create a branch with your name on it;
-3. Make the pull request when it is finished.
+Available endpoints:
 
-Note: Cloning the repo and make a pull request isn't allowed.
+- POST [http://0.0.0.0:6500/api/v1/news](http://0.0.0.0:6500/api/v1/news): Crawl news to save on database;
+- GET [http://0.0.0.0:6500/api/v1/entities](http://0.0.0.0:6500/api/v1/entities): Recognize the text entities;
 
-**Success!**
+## App Folder Structure
+
+The app was developed using the stack described on item 5 of the test instructions section and the code is strucutred as follow:
+
+```sh
+- kinvo                  >> app root
+  - alembic              >> alembic database migration scripts
+  - api                  >> REST api routes
+  - core                 >> app core structure (config)
+  - database             >> database structure (access, crud, models, and schemas)
+  - frontend             >> frontend content (static assets and html templates)
+  - services             >> app services (news spiders)
+  - tasks                >> app tasks (data mining)
+  - logger.py            >> app logger
+  - main.py              >> app main
+
+- .dockerignore          >> list of files and folders ignored by docker
+- .gitignore             >> list of files and folders ignored by git
+- alembic.ini            >> alembic config file
+- docker-compose.yml     >> docker ignore file
+- Dockerfile             >> docker file with instructions to assemble an docker image.
+- entrypoint.sh          >> docker entrypoint file to startup the app correctly
+- Makefile               >> project makefile to easy run the basic commands
+- postgresql.conf        >> postgresql config file
+- pyproject.toml         >> project dependcies file
+- README.md              >> this file
+- scrapy.cfg             >> scrapy config file
+- wsgi.py                >> wsgi file to run the app through gunicorn
+```
