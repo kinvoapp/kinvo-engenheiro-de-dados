@@ -24,6 +24,6 @@ ROBOTSTXT_OBEY = True
 
 SECRET_KEY = secrets.token_urlsafe(16)
 SPIDER_MODULES = ['kinvo.services']
-STATIC_FOLDER = "frontend/static"
+STATIC_FOLDER = "static"
 
-TEMPLATE_FOLDER = f"{os.getenv('WORKDIR', '.')}/frontend/templates"
+TEMPLATE_FOLDER = "templates"
