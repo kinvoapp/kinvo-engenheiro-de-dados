@@ -1,8 +1,9 @@
 version: "3.8"
 
 services:
-  db:
-    container_name: db
+  postgres:
+    container_name: postgres
+    hostname: postgres
     image: postgres:latest
     restart: "unless-stopped"
     volumes:
@@ -19,10 +20,10 @@ services:
       interval: 5s
       timeout: 5s
       retries: 7
-    network_mode: "bridge"
 
-  api:
+  kinvo:
     container_name: kinvo
+    hostname: kinvo
     build:
       context: .
       dockerfile: Dockerfile
@@ -33,10 +34,9 @@ services:
     stop_grace_period: "3s"
     environment:
       - WORKDIR=/code
-      - DATABASE_URL=postgresql://postgres:postgres@172.17.0.1:5432/postgres
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/postgres
     depends_on:
-      - db
-    network_mode: "bridge"
+      - postgres
 
 volumes:
   postgres_data:

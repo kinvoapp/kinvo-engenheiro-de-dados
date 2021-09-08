@@ -1,4 +1,4 @@
-.PHONY : help clean dropdb install migrations run
+.PHONY : help clean dev install migrations run
 
 help:
 	@echo ""
@@ -6,14 +6,13 @@ help:
 	@echo ""
 	@echo ""
 	@echo "Available commands:"
-	@echo "    clear \t\t Clean deployment assets and remove created database"
+	@echo "    clean \t\t Clean deployment assets and remove created database"
 	@echo "    dev \t\t Run app on development mode"
 	@echo "    install \t\t Install project dependencies"
 	@echo "    migrations \t\t Run database migrations"
 	@echo "    run \t\t Run project through docker containers"
-	@echo "    testapp \t\t Run unit tests"
 
-clear:
+clean:
 	@echo ""
 	@echo "Cleaning generated files during deployment"
 	@docker-compose down --rmi all -v
@@ -38,14 +37,9 @@ migrations:
 	@echo ""
 	@poetry run alembic upgrade head
 
-run: clear
+run: clean
 	@echo ""
 	@echo "Building and runing docker container"
 	@echo ""
-	@docker-compose up
-
-testapp:
-	@echo ""
-	@echo "Runing Application Unit Test"
-	@echo ""
-	@poetry run pytest tests -vv --disable-warnings
+	@docker-compose up -d postgres
+	@docker-compose up kinvo

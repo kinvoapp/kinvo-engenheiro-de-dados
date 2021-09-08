@@ -7,7 +7,6 @@ API_PREFIX = "/api/v1"
 BOT_NAME = 'kinvo'
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./test.db")
-
 DEPTH_LIMIT = 10
 DOWNLOAD_TIMEOUT = 540
 DOWNLOAD_DELAY = 3
@@ -20,7 +19,11 @@ EXTENSIONS = {
 FEED_EXPORT_ENCODING = 'utf-8'
 
 NEWSPIDER_MODULE = 'kinvo.services'
+
 ROBOTSTXT_OBEY = True
-SPIDER_MODULES = ['kinvo.services']
 
 SECRET_KEY = secrets.token_urlsafe(16)
+SPIDER_MODULES = ['kinvo.services']
+STATIC_FOLDER = "frontend/static"
+
+TEMPLATE_FOLDER = f"{os.getenv('WORKDIR', '.')}/frontend/templates"

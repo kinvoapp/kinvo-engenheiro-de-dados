@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Kinvo</title>
+    <link
+      href="{{ url_for('static', filename='/css/style.css') }}"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="header">
+          <p class="header-emoji">🤖</p>
+          <h1 class="header-title">Kinvo</h1>
+          <p class="header-description">
+            Python Developer Job Candidate Test (AI focused)
+          </p>
+        </div>
+      </header>
+      <div class="menu">
+        <div class="menu-option">
+          <div>
+            <form
+              id="news"
+              method="POST"
+              action="/api/v1/news"
+              class="form-style"
+            >
+              <button id="breed-enroll" type="submit" class="btn-submit">
+                <i class="fas fa-spider fa-xs"></i> Search News
+              </button>
+            </form>
+          </div>
+          <div>
+            <form
+              id="entities"
+              method="GET"
+              action="/api/v1/entities"
+              class="form-style"
+            >
+              <button id="breed-predict" type="submit" class="btn-submit">
+                <i class="fas fa-search fa-xs"></i> Find Entities
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div id="ouput" class="output">
+          <div id="content"></div>
+        </div>
+      </div>
+    </div>
+    <div id="lock-modal"></div>
+    <div id="loading">
+      <div id="loading-circle"></div>
+      <h3>Getting coffee... wait a second!</h3>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/79b075e15b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
+    <script src="{{ url_for('static', filename='/js/main.js') }}"></script>
+  </body>
+</html>

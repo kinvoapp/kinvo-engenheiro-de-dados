@@ -17,12 +17,12 @@ def entities():
 
     response = []
 
-    for news in all_news:
-        entities = current_app.nlp_model(news.content).ents
+    for n in all_news:
+        entities = current_app.nlp_model(n.content).ents
         entities = {"entities": [{'entity': e.text, 'label': e.label_}
                     for e in entities]}
 
-        response.append({**news.as_dict(), **entities})
+        response.append({'url': n.link, **entities})
 
     logger.info(f"Entites response: {response}")
 
@@ -51,7 +51,8 @@ def news():
                       f"{r.original_failure().getTraceback()}"))
 
     all_news = crud.get_news()
-    all_news = [news.as_dict() for news in all_news]
+    all_news = [{'title': n.title, 'pubdate': n.pub_date, 'url': n.link}
+                for n in all_news]
 
     logger.info(f"Response news ({len(all_news)}): {all_news}")
 

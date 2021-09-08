@@ -11,6 +11,7 @@ COPY . .
 RUN pip install --upgrade pip && \
     pip install --no-cache-dir wheel 'poetry==1.1.8' && \
     poetry config virtualenvs.create false && \
-    poetry install --no-dev --no-interaction --no-ansi
+    poetry install --no-dev --no-interaction --no-ansi && \
+    chmod +x entrypoint.sh
 
 ENTRYPOINT ["/code/entrypoint.sh"]

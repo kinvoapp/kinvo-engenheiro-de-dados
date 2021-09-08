@@ -1,6 +1,6 @@
 import spacy
 
-from flask import Flask
+from flask import Flask, render_template
 
 from kinvo.api import routesbp
 from kinvo.core import config
@@ -10,7 +10,9 @@ from kinvo.logger import logger
 def create_app():
     logger.info(f'Starting app')
 
-    app = Flask(__name__)
+    app = Flask(__name__,
+                static_folder=config.STATIC_FOLDER,
+                template_folder=config.TEMPLATE_FOLDER)
 
     app.config['SQLALCHEMY_DATABASE_URI'] = config.DATABASE_URL
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -23,8 +25,8 @@ def create_app():
 
     # Define a hello world page
     @ app.route('/')
-    def hello_world():
-        return '<h1>Hello, World!</h1>'
+    def root():
+        return render_template('index.html')
 
     logger.info(f'App is ready!')
 

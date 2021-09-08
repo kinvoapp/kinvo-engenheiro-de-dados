@@ -1,0 +1,233 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+.header {
+  background-color: #222222;
+  height: 288px;
+  padding: 16px 0 0 0;
+}
+
+.header-emoji {
+  font-size: 48px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header-description {
+  color: #cfcfcf;
+  margin: 4px auto;
+  text-align: center;
+  max-width: 384px;
+}
+
+.wrapper {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 32px;
+}
+
+.card {
+  margin-bottom: 24px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.menu {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: -120px auto 0 auto;
+}
+
+.menu-option {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 24px;
+  height: 60px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-option::before {
+  content: "";
+}
+
+.menu-option::after {
+  content: "";
+}
+
+.btn-submit {
+  white-space: nowrap;
+  /* margin-left: -3px; */
+  margin-top: 30px;
+  text-align: center;
+  line-height: 25px;
+  width: 100%;
+  padding: 10px 16px;
+  line-height: 25px;
+  font-size: 28px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  color: #fff;
+  border: 1px solid #222222;
+  background: #222222;
+}
+
+.menu-option > div > button:hover {
+  border: 1px solid #404040;
+  background: #404040;
+}
+
+#lock-modal {
+  visibility: hidden;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  height: 100%;
+}
+
+#loading {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#loading-circle {
+  position: absolute;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 0.6s ease-in infinite;
+}
+
+#loading > h3 {
+  margin-top: 150px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.output {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 44px;
+  text-align: center;
+}
+
+.output > div > p {
+  text-align: center;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+}
+
+table {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  border-collapse: collapse;
+  border: none;
+}
+
+thead {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+thead > tr > th {
+  color: white;
+  background-color: #222222;
+  padding: 8px;
+}
+
+tbody > tr > td {
+  padding: 8px;
+}
+
+tbody > tr > td {
+  text-align: left;
+}
+
+tbody > tr > td:first-child {
+  text-align: center;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+td,
+th {
+  padding: 10px 10px 10px 10px;
+}
+
+td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
+}
