@@ -42,4 +42,5 @@ run: clean
 	@echo "Building and runing docker container"
 	@echo ""
 	@docker-compose up -d postgres
-	@docker-compose up kinvo
+	@docker-compose build --no-cache --compress --force-rm
+	@docker-compose up -d kinvo
