@@ -3,7 +3,6 @@ version: "3.8"
 services:
   postgres:
     container_name: postgres
-    hostname: postgres
     image: postgres:latest
     restart: "unless-stopped"
     volumes:
@@ -23,7 +22,6 @@ services:
 
   kinvo:
     container_name: kinvo
-    hostname: kinvo
     build:
       context: .
       dockerfile: Dockerfile
