@@ -5,14 +5,11 @@
 
 ## Instruções:
 
-1. Crawlear 5 notícias sobre ações da B3. Importante salvar para ser usadas no processamento de linguagem natural(PNL) posteriormente. 
+1. Crawlear 5 notícias sobre ações da B3 usando selenium. 
 	 - https://www.spacemoney.com.br/ultimas-noticias/feed/
 	 
 
-2. Extrair as entidades das 5 notícias mineradas anteriormente(entity recognition).
-
-
-Criar uma api com dois end-points para:
+2. Criar uma api com dois end-points para:
 
 	- Crawlear e salvar as noticías;
 	- Exibir as notícias;
