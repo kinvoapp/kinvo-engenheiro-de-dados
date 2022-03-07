@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+
+{% block body %}
+{% for link_element in lnk %}
+
+ <a href="{{ link_element }}">{{ link_element }}</a>
+ <br>
+
+{% endfor %}
+{% endblock %}
