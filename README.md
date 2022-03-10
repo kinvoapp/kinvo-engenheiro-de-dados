@@ -6,7 +6,7 @@
 ## Instruções:
 
 1. Crawlear 5 notícias sobre ações da B3 usando selenium. 
-	 - https://www.spacemoney.com.br/ultimas-noticias/feed/
+	 - https://www.spacemoney.com.br/ultimas-noticias
 	 
 
 2. Criar uma api com dois end-points para:
