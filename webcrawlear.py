@@ -41,12 +41,12 @@ class WebCrawlear():
         self.driver.quit()
         return self.data_frame_news
 
-    def main(self):
+    def get_list_news(self):
         self.make_driver()
         dataframe_news = self.make_data_frame_news()
         return dataframe_news.values.tolist()
 
 if __name__ == "__main__":
     webscralear = WebCrawlear(url='https://www.spacemoney.com.br/ultimas-noticias')
-    teste = webscralear.main()
+    teste = webscralear.get_list_news()
     print(teste)
