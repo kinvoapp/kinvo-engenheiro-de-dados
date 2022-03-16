@@ -1,5 +1,10 @@
 > ![Logo Kinvo](https://github.com/kinvoapp/kinvo-mobile-test/blob/master/logo.svg)
 
+# Para carregar o ambiente recomendo utilizar o conda:
+1. $conda create --name <env_name> --file requeriments.txt
+
+# Se preferir pode utilizar o pip:
+1. pip install -r pip_requirements.txt
 # Teste para candidatos à vaga de Engenheiro de Dados (Python)  
 
 
