@@ -19,7 +19,7 @@ def news():
 @app.route('/savenews')
 def savenews():
     webscrawlear = WebCrawlear()
-    dicionario['lista_news'] = webscrawlear.main()
+    dicionario['lista_news'] = webscrawlear.get_list_news()
     return render_template('savenews.html');
 
 app.run()
