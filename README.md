@@ -2,9 +2,11 @@
 
 # Para carregar o ambiente recomendo utilizar o conda:
 1. $conda create --name <env_name> --file requeriments.txt
+## Se preferir pode utilizar o pip:
+1. $pip install -r pip_requirements.txt
 
-# Se preferir pode utilizar o pip:
-1. pip install -r pip_requirements.txt
+# Para rodar a aplicação
+2. $python3 topnews_appflask.py
 # Teste para candidatos à vaga de Engenheiro de Dados (Python)  
 
 
